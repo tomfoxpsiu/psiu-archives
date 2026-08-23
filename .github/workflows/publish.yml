@@ -1,0 +1,46 @@
+# Publishes the contents of the "site" folder to GitHub Pages.
+#
+# It does not rebuild anything: the site folder in this repository is what goes
+# live, exactly as it is. Rebuild locally with ./build/build.sh, commit the
+# result, and this workflow puts it online.
+#
+# One-time setup, in the repository on github.com:
+#   Settings -> Pages -> Build and deployment -> Source: "GitHub Actions"
+
+name: Publish the archive
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:        # also lets you run it by hand from the Actions tab
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Pages
+        uses: actions/configure-pages@v5
+
+      - name: Package the site folder
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Publish
+        id: deployment
+        uses: actions/deploy-pages@v5

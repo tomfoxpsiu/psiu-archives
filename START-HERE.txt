@@ -1,0 +1,47 @@
+PSI UPSILON DIGITAL ARCHIVES - replacement site
+================================================
+
+Everything is in this folder. The part you publish is the "site" sub-folder.
+
+READ FIRST
+----------
+  Publishing-the-Archive-on-GitHub.docx
+        Step by step, no programming: how to put this online at an address you
+        can share. About an hour, most of it waiting for the upload.
+
+  Psi-Upsilon-Digital-Archives-Recommendations-and-Instructions.docx
+        The bigger document: what has been built, what to do next in what
+        order, and instructions for every job - adding a scan, a person, a
+        recording, an exhibit; fixing the broken links on psiu.org; re-reading
+        the scans with better OCR; starting the oral histories.
+
+WHY IT HAS TO BE PUBLISHED SOMEWHERE
+------------------------------------
+The search index is loaded over the network like any other file, so the site
+has to be served over the web. Double-clicking site\index.html in Explorer
+shows the design but the search box will not return anything.
+
+Two ways, either is fine:
+  * GitHub  - see the document above. Keeps the history, free, public.
+  * Netlify - make a free account, choose "Add new site" then "Deploy
+              manually", and drag the "site" folder onto the drop area. An
+              address in about a minute. Can be password-protected.
+
+WHAT'S IN HERE
+--------------
+  site\         The website. 647 pages: 460 scanned volumes, 93 people,
+                50 chapters, 10 song recordings, the heraldry exhibit.
+  data\         The metadata and the extracted text of every volume.
+  build\        The scripts that regenerate the site.
+  .github\      The instruction that tells GitHub to publish the site folder.
+  RIGHTS.md     Who owns what in here.
+
+The PDFs themselves were NOT moved. They stay on psiu.org at their existing
+addresses; this site links to them and streams them a page at a time.
+
+WHAT TO DELETE
+--------------
+  ..\_to_delete\        transfer files and stale indexes, no longer needed
+  build\index_html\     ~40 MB of input for the search indexer. Rebuilt
+                        whenever content changes; safe to delete. Already
+                        excluded from GitHub.

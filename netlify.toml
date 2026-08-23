@@ -1,0 +1,14 @@
+# Deploying to Netlify or Cloudflare Pages: point at this repo and it just works.
+[build]
+  command = "bash build/build.sh"
+  publish = "site"
+
+[[headers]]
+  for = "/pagefind/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"

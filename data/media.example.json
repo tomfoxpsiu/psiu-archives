@@ -1,0 +1,35 @@
+[
+  {
+    "id": "the-fraternity-hymn-1948",
+    "type": "audio",
+    "title": "The Fraternity Hymn",
+    "year": 1948,
+    "performer": "Beta Beta Chapter Glee Club",
+    "description": "Recorded at the 1948 Convention in Cleveland and issued on a 78 rpm disc sent to every chapter.",
+    "audio": "assets/audio/fraternity-hymn-1948.mp3",
+    "credit": "Gift of the Beta Beta Chapter, 2019.",
+    "related": ["songs-of-the-psi-upsilon-fraternity-1945-12th-ed"],
+    "transcript": "Optional lyrics or spoken-word transcript. Anything here becomes searchable."
+  },
+  {
+    "id": "160th-convention-highlights",
+    "type": "video",
+    "title": "Highlights of the 160th Convention",
+    "year": 2003,
+    "youtube": "dQw4w9WgXcQ",
+    "description": "One paragraph on what the film shows and who made it.",
+    "credit": "Psi Upsilon International Office."
+  },
+  {
+    "id": "founders-gavel",
+    "type": "object",
+    "title": "The Founders' Gavel",
+    "year": 1833,
+    "description": "Turned from a beam of the Union College chapel, carried at every Convention since 1858.",
+    "images": ["assets/objects/founders-gavel-1.jpg", "assets/objects/founders-gavel-2.jpg"],
+    "dimensions": "31 cm long, maple with a silver band",
+    "location": "International Office, Indianapolis",
+    "credit": "Fraternity collection.",
+    "related": ["1884-the-epitome-of-psi-upsilon-1833-1884"]
+  }
+]

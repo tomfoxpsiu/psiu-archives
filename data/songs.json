@@ -1,0 +1,62 @@
+[
+ {
+  "id": "welcome-brothers-old-and-young",
+  "type": "audio",
+  "title": "Welcome, Brothers, Old & Young",
+  "audio": "https://psiu.org/wp-content/uploads/2020/03/welcome_brother.mp3"
+ },
+ {
+  "id": "the-college-chorus",
+  "type": "audio",
+  "title": "The College Chorus",
+  "audio": "https://psiu.org/wp-content/uploads/2020/03/college_chorus.mp3"
+ },
+ {
+  "id": "psi-u-joys",
+  "type": "audio",
+  "title": "Psi U Joys",
+  "audio": "https://psiu.org/wp-content/uploads/2020/03/psiu_joys.mp3"
+ },
+ {
+  "id": "after-the-battle",
+  "type": "audio",
+  "title": "After the Battle",
+  "audio": "https://psiu.org/wp-content/uploads/2020/03/after_battle.mp3"
+ },
+ {
+  "id": "the-ever-lovely-maiden",
+  "type": "audio",
+  "title": "The Ever Lovely Maiden",
+  "audio": "https://psiu.org/wp-content/uploads/2020/03/lovely_maiden.mp3"
+ },
+ {
+  "id": "psi-upsilon-smoking-song",
+  "type": "audio",
+  "title": "Psi Upsilon Smoking Song",
+  "audio": "https://psiu.org/wp-content/uploads/2020/03/smoking_song.mp3"
+ },
+ {
+  "id": "psi-u-fellowship",
+  "type": "audio",
+  "title": "Psi U Fellowship",
+  "audio": "https://psiu.org/wp-content/uploads/2020/03/psiu_fellow.mp3"
+ },
+ {
+  "id": "psi-u-doxology",
+  "type": "audio",
+  "title": "Psi U Doxology",
+  "audio": "https://psiu.org/wp-content/uploads/2020/03/doxology.mp3"
+ },
+ {
+  "id": "dear-old-shrine",
+  "type": "audio",
+  "title": "Dear Old Shrine",
+  "audio": "https://psiu.org/wp-content/uploads/2020/03/old_shrine.mp3"
+ },
+ {
+  "id": "evensong",
+  "type": "audio",
+  "title": "Evensong",
+  "audio": "https://psiu.org/wp-content/uploads/2020/03/evensong.mp3"
+ }
+]
