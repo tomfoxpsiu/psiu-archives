@@ -1,8 +1,8 @@
 # Psi Upsilon Digital Museum
 
 **Full-text search across 460 scanned volumes of Psi Upsilon publications — 21,332 pages,
-1872 to 2022 — plus an interactive timeline, pages for the seven founders, 93 notable alumni,
-all 50 chapters, the songs and the heraldry.**
+1872 to 2022 — plus an interactive timeline of 184 events, a written and sourced biography of
+each of the seven founders, 93 notable alumni, all 50 chapters, the songs and the heraldry.**
 
 <!-- Once GitHub Pages is switched on, replace the line below with the real address. -->
 Live site: _not published yet — see_ [`GITHUB-SETUP`](#publishing-this-on-github-pages)
@@ -46,11 +46,18 @@ crawl/       ← raw copies of the current psiu.org pages, used to read the doc 
   prefill that volume's own search box so every other mention is one click away.
 - The two History & Archives Convention presentations (PowerPoint) are indexed too, with
   their slide text searchable alongside the scans.
-- An **interactive timeline**, 1833 to today, filterable by category, drawing on
-  hand-written sourced events plus every chapter's chartering and closing.
-- A **page for each of the seven founders**, with birthplace, family, burial and
-  Find a Grave link, profession, achievements and a full biography — each one
-  cross-linked to every page of the archive that names them.
+- An **interactive timeline**, 1833 to today, filterable by category: 107
+  hand-written events each cited to a volume and page, plus every chapter's
+  chartering and closing. Twelve carry a *not settled* note where the sources
+  disagree.
+- A **page for each of the seven founders** — a biography of 400 to 600 words
+  written out of the archive itself, with birth and death dates and places,
+  family where the sources name it, professions and achievements, the volumes
+  each life was read from as links into the scans, and every page of the archive
+  that names them. Where the founders' own recollections contradict each other
+  the page sets the versions side by side rather than choosing: **84 open
+  questions** are listed across the seven, each with a note on where a
+  researcher could settle it.
 - Sections for **song recordings**, **objects & artefacts** and **video** that
   are built and wired up, waiting only for content (see below).
 
@@ -148,6 +155,8 @@ sudo apt install poppler-utils nodejs npm python3-pil
 | `build/build_stories.py` | Pulls the *From the Archives* articles and their images. |
 | `build/extract.py` | For each PDF: downloads it, extracts per-page text with `pdftotext`, saves a cover thumbnail, **deletes the PDF**. Resumable — skips anything already done. |
 | `build/build_timeline.py` | Merges `data/timeline-core.json` with the chapter charterings and closures into `data/timeline.json`. |
+| `build/fix_ocr.py` | Repairs the systematic letter confusions in the 2020 text layer (`ll`→`U`, `il`→`k`, `rn`→`m` and friends). Used when reading the scans for research; see the note below. |
+| `build/read_pages.py` | Prints any page of any volume with those confusions repaired — `python3 build/read_pages.py <volume-id> 55-60`. This is how the founders' biographies were researched. |
 | `build/import_sheets.py` | Reads `data/founders.xlsx` and `data/timeline.xlsx` back into JSON. Runs automatically when a spreadsheet is newer than its JSON. |
 | `build/make_sheets.py` | Re-writes those two spreadsheets from the JSON. Only needed if a spreadsheet is lost. |
 | `build/gen_site.py` | Writes every page in `site/`, plus the indexer's input in `build/index_html/`. |
@@ -268,7 +277,20 @@ Worth fixing there whether or not this replacement goes live:
 
 ## Things worth knowing
 
-- **The OCR itself is fine — re-running it is not worth it.** The garbled search
+- **The 2020 text layer has a systematic ligature fault.** Tight ligatures in the
+  Fraternity's printing types were read as the wrong letters, consistently:
+  `ll`→`U` (*coUege*, *AngeU*), `il`→`k` (*Bakey* for Bailey), `ti`→`k`
+  (*beautkul*), `ir`→`k` (*kon* for iron), `rn`→`m` (*Bamard* for Barnard),
+  `li`→`h` (*Carohna*), `tl`→`ti` (*Butier* for Butler). Measured: **38,520
+  instances** of a short list of confirmed cases across 10.1 million words, and
+  the true figure is higher. It matters far more for reading names out of the
+  text than for search, because it lands on proper nouns.
+  `build/fix_ocr.py` repairs them against a dictionary plus our own name lists
+  and, measured against a full fresh OCR of one volume, **recovers 57% of the
+  benefit** — it eliminates the `ll`→`U` class entirely — in milliseconds and
+  with no downloads. It is used when reading the scans for research; it does not
+  yet rewrite `data/text`, so the search index still has the raw text.
+- **Re-running the OCR is not worth it for search.** The garbled search
   excerpts on the first build were not an OCR problem. They were a *text
   extraction* problem: `pdftotext -layout` reads a multi-column page — a roster,
   a chapter letter, an In Memoriam list — straight across, interleaving the

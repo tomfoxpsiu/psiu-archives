@@ -5,32 +5,168 @@
   "honorific": "The Hon.",
   "sort": 1,
   "class_year": 1836,
-  "role": "Signed the Pledge in his own room \u2014 No. 11, Old College",
+  "role": "Chosen the Fraternity's first President, 10 January 1834",
   "profession": "Lawyer, legislator, judge and surrogate",
   "born": {
    "year": 1812,
+   "date": "26 August 1812",
    "place": "Goshen, Litchfield County, Connecticut"
   },
   "died": {
    "year": 1901,
-   "place": ""
+   "date": "1 September 1901",
+   "place": "Waterloo, New York"
   },
   "buried": {
    "place": "",
    "findagrave": ""
   },
-  "family": "",
-  "bio": "",
+  "family": "The only source that names his parents is a sketch of the Theta's history printed in The Diamond in 1965, which makes him the son of Stephen and Laura (Goodale) Hadley of Goshen, Connecticut. His mother's maiden name accounts for his own middle name and for his kinship with a fellow founder: the 1884 Epitome states flatly that \u201cMr. Goodale is uncle of Judge Hadley,\u201d and founder Edward Martindale spoke in 1898 of \u201cSamuel Goodale ... and his relative and chum, Sterling G. Hadley.\u201d How Laura Goodale stood to Samuel Goodale's father Chester is nowhere stated. No source read for this record names a wife or a child, and none names any other Psi Upsilon relation.",
+  "bio": "Sterling Goodale Hadley was born on 26 August 1812 at Goshen, in Litchfield County, Connecticut \u2014 the son, according to the one source that names his parents, of Stephen and Laura (Goodale) Hadley. He prepared for college at the South Egremont Academy in Berkshire County, Massachusetts, and that schooling appears to have confused his contemporaries: The Diamond in February 1878 called him \"like his relative Goodale, a native of Massachusetts.\" Samuel Goodale, his fellow founder, was in fact his uncle, though the younger of the two by two years. Hadley graduated with the Union College class of 1836, was elected to Phi Beta Kappa, and took his master's degree in 1839.\n\nHe was twenty-one in November 1833, and he wrote about the founding more than any of the other six \u2014 which has made his part in it at once the best documented and the most argued over. At the organising meeting of 10 January 1834, when a constitution was presented and unanimously adopted, he was chosen President: the first President of Psi Upsilon and the Theta's first presiding officer. A handwriting comparison made in 1939 assigned the recovered Founders' Constitution to his hand. Hadley himself claimed more. Writing to the Theta on 24 June 1843 he was \"much startled to be thus forcibly reminded that ten years has passed since five sophomores met at my room No. 11 Old College and conceived the idea of establishing the Society,\" and claimed for himself the title of Father of the Society. That does not agree with Charles W. Harvey, in whose room the 1884 Epitome places the pledge meeting, and The Diamond's editor, printing Hadley's recollections in 1878, warned readers of the \"slight inacuracies into which the venerable author of these statements has been led by lapses of memory.\" On the motive he was unambiguous: the seven, \"then young and ambitious, and not much disposed to be made tools of\" by seniors who ran college affairs \"pretty much as some political parties in the nation are now run,\" organised \"really almost in self-defense.\"\n\nHe was principal of the Avon Spa Academy until 1 April 1837, then read law at Waterloo, New York, with the Hon. Samuel Birdsall, and was admitted to practice in October 1839. Waterloo was his home for the rest of his life. He sat in the New York Legislature in 1853, was Judge and Surrogate of Seneca County from 1856 to 1860, and was a member of the state Constitutional Convention of 1867; he was a register in bankruptcy, a state assessor of New York, and an unsuccessful candidate for Congress, and served as a trustee of the Willard Asylum for the Insane, latterly as president of its board, and of Hobart College.\n\nFor four decades the Fraternity and its first President lost sight of one another. Introduced to the Convention at Rochester in May 1878, he told the delegates that although he had met members on the cars and elsewhere, he had not been inside a Psi Upsilon lodge room in over forty years. He presided over that convention, presided again in 1884 at the Chi \u2014 where he laid a copper box in the cornerstone of the new chapter house at Cornell \u2014 and in the autumn of 1891 attended the initiation of the Pi at Syracuse. Misfortune of some kind overtook him at the end: the 1905 history of the Phi calls it financial reverses, the Fraternity's own memorial says only \"misfortune,\" and members raised money for his relief. He died at Waterloo on 1 September 1901, the fifth of the seven founders to die.",
   "achievements": [
+   "Chosen the first President of Psi Upsilon at the organising meeting of 10 January 1834, and the Theta's first presiding officer",
    "Elected to Phi Beta Kappa; A.B. Union College 1836, A.M. 1839",
-   "Admitted to the practice of law in 1839 and had a long career at the bar",
-   "Member of the Legislature of New York and of a Constitutional Convention",
-   "Judge and surrogate, register in bankruptcy, and state assessor",
-   "Writing to the Theta in 1843 he called himself the Father of the Society"
+   "Principal of the Avon Spa Academy until 1 April 1837; read law at Waterloo with the Hon. Samuel Birdsall and was admitted to practice in October 1839",
+   "Member of the New York Legislature in 1853 and of the state Constitutional Convention of 1867",
+   "Judge and Surrogate of Seneca County, 1856\u20131860",
+   "Register in bankruptcy, 1865\u20131883, and State Assessor of New York, 1873\u20131880",
+   "Trustee of the Willard Asylum for the Insane from 1865 and president of its board from 1872",
+   "Trustee of Hobart College, 1883\u20131893",
+   "Presided over the General Convention of 1878 at Rochester and again over that of 1884 at the Chi, laying a copper box in the cornerstone of the new Cornell chapter house",
+   "Wrote two first-hand accounts of the founding, dated 1874 and 1876, printed in The Diamond as part of \u201cThe Origin of Psi Upsilon\u201d"
   ],
   "annals": "The Hon. Sterling G. Hadley was born at Goshen, Litchfield County, Connecticut, in 1812. Elected to Phi Beta Kappa, he received his bachelor's degree in 1836 and his master's degree in 1839. Admitted to the practice of law in the latter year, he had a long and notable career at the bar. A member of the Legislature of New York, and of a Constitutional Convention, judge and surrogate, a register in bankruptcy, state assessor, his distinguished career came to an end in 1901.",
   "portrait": null,
-  "links": []
+  "links": [],
+  "sources": [
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 132,
+    "label": "The Psi Upsilon Epitome, 1833\u20131884 (1884)"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
+    "page": 10,
+    "label": "Annals of Psi Upsilon, 1833\u20131941: The Chapters (1941)"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+    "page": 140,
+    "label": "Annals of Psi Upsilon, 1833\u20131941: A Century of Annual Conventions (1941)"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-11-the-reprints",
+    "page": 10,
+    "label": "Annals of Psi Upsilon, 1833\u20131941: The Reprints (1941)"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-01-intro-and-foreward",
+    "page": 15,
+    "label": "Annals of Psi Upsilon: Introduction and Foreword (1941)"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1965-3-vol051-num4-sum",
+    "page": 47,
+    "label": "The Diamond of Psi Upsilon, Summer 1965 \u2014 History of the Theta"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1878-7-vol002-num1",
+    "page": 1,
+    "label": "The Diamond of Psi Upsilon, October 1878 \u2014 \u201cThe Origin of Psi Upsilon, II\u201d"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1878-2-vol001-num2",
+    "page": 4,
+    "label": "The Diamond of Psi Upsilon, February 1878"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1983-1-vol069-num2-win",
+    "page": 7,
+    "label": "The Diamond of Psi Upsilon, Winter 1983 \u2014 Sesquicentennial article"
+   },
+   {
+    "doc": "1905-history-of-the-phi-of-psi-upsilon-1865-1905",
+    "page": 6,
+    "label": "History of the Phi of Psi Upsilon, 1865\u20131905"
+   },
+   {
+    "doc": "1895-the-story-of-psi-upsilon",
+    "page": 16,
+    "label": "Willard Fiske, The Story of Psi Upsilon (1895)"
+   },
+   {
+    "doc": "college-tablet-1st-edition-1995",
+    "page": 38,
+    "label": "The College Tablet, 1st edition (1995)"
+   }
+  ],
+  "uncertainties": [
+   {
+    "claim": "Where the founding meeting was held, and whose room it was",
+    "detail": "Hadley's letter of 24 June 1843 says \u201cfive sophomores met at my room No. 11 Old College and conceived the idea\u201d (Annals, The Chapters, p. 11; also quoted in The Diamond, Winter 1983, p. 7). The 1884 Epitome (p. 22) instead calls Harvey the man \u201cin whose room was held the \u2018pledge\u2019 meeting.\u201d Clarkson Nott Potter's tradition, retold in The Psi Upsilon Review of 1895 (p. 8) and the 1905 Phi history (p. 5), puts the first conversation at an upper window of the South College, while Fiske's Story (p. 16) says \u201cthe inceptive meetings were held in West College.\u201d The 1941 Annals lays out the disagreement without resolving it. The statements may describe different occasions \u2014 a first conversation, then a wider group, then the formal signing \u2014 rather than one moment.",
+    "how_to_resolve": "The manuscript Records of the Theta and the earliest minute book; Union College's room assignments, steward's books or bursar's records for the academic year 1833\u201334, which would show who occupied No. 11 Old College."
+   },
+   {
+    "claim": "Whether Hadley was a Connecticut man or a Massachusetts man",
+    "detail": "The 1884 Epitome (p. 132) and the 1965 Diamond sketch (p. 47) both give Goshen, Litchfield County, Connecticut, 26 August 1812. But The Diamond of February 1878 (p. 3) calls him \u201clike his relative Goodale, a native of Massachusetts,\u201d Elisha Taylor in 1878 remembered him and Goodale as \u201cthen of Egremont, Mass.,\u201d and Fiske's Story (Reprints p. 24) says two of the seven \u201cwere from Massachusetts.\u201d The likely explanation is that Massachusetts was where he lived and went to school \u2014 South Egremont Academy, Berkshire County \u2014 rather than where he was born, but no source says so.",
+    "how_to_resolve": "Goshen, Connecticut, town vital records; the 1820 and 1830 federal censuses for a Stephen Hadley household; Union College's matriculation register, which normally records the student's residence."
+   },
+   {
+    "claim": "His parents' names",
+    "detail": "Stephen and Laura (Goodale) Hadley are named only in the 1965 Diamond sketch of the Theta's history (p. 47), a source written more than 120 years after the fact. No nineteenth-century source read for this record names a parent of any of the seven founders \u2014 the 1884 Epitome discusses fraternity kinships at length (pp. 131\u2013132) and still gives the founders only birth dates and birthplaces.",
+    "how_to_resolve": "Goshen and Litchfield County, Connecticut, vital and probate records; the Hadley and Goodale family genealogies; Union College's matriculation records."
+   },
+   {
+    "claim": "Exactly how Hadley and Samuel Goodale were related",
+    "detail": "The 1884 Epitome (p. 131) says Goodale was Hadley's uncle; the Annals (Conventions, p. 129) and the February 1878 Diamond say only \u201chis relative.\u201d If Hadley's mother was Laura Goodale and Samuel Goodale's father was Chester Goodale, the two were connected through her, but whether Laura was Chester's sister, half-sister or cousin is stated nowhere.",
+    "how_to_resolve": "A Goodale family genealogy; Egremont and Berkshire County, Massachusetts, vital records; probate files naming siblings."
+   },
+   {
+    "claim": "Whether Hadley's account of his own part in the founding can be trusted",
+    "detail": "In 1843 he claimed the title of Father of the Society; in his statements of 4 February 1874 and 4 April 1876 he named \u201cWilliam H. Backus, Merwin H. Stewart and myself\u201d as those most active (The Diamond, October 1878, p. 1). Fiske instead names \u201cMartindale, Harvey, Hadley, and Stewart\u201d as especially active (Story, p. 16), the 1965 Theta history says \u201cCharles W. Harvey is said to have been the one who made the first suggestion\u201d (p. 6), and Martindale's own 1876 statement puts the first informal meeting in Harvey's room. The Diamond's editor printed Hadley's recollections with a warning about \u201cslight inacuracies ... led by lapses of memory,\u201d and Fiske declined to apportion credit at all: \u201cit is hardly possible, at this remote day, to distinguish the precise part which each played.\u201d",
+    "how_to_resolve": "The manuscript Records of the Theta and the society's earliest minute book, which the 1878 editor himself urged Hadley to consult; the full texts of the four founders' statements printed in The Diamond for April, October and December 1878, and Hadley's 1878 convention address as reported in the Rochester Democrat and Chronicle of 4 May 1878."
+   },
+   {
+    "claim": "Whether Hadley wrote out the Founders' Constitution",
+    "detail": "The Annals (The Chapters, p. 13) reports LeRoy J. Weed's 1939 judgment, made by comparing handwriting, that the newly recovered original was written by Hadley while the long-held Theta copy was written by Merwin H. Stewart. Hadley himself wrote in April 1876 that \u201cthe original Constitution will be found to be in the hand-writing of Stewart, as will also the earliest records.\u201d The two statements cannot both be about the same document.",
+    "how_to_resolve": "An independent palaeographic examination of both documents in the Fraternity archives against signed letters of Hadley and of Stewart."
+   },
+   {
+    "claim": "How many men were present when the society was conceived, and in what classes",
+    "detail": "Hadley says \u201cfive sophomores\u201d (1843 letter). The standard roll is four sophomores of 1836 and three freshmen of 1837, corroborated by the signatures on the 1834 constitution (Annals, Conventions, pp. 275, 319). Martindale in 1898 gave two sophomores and five freshmen (same volume, p. 129); the Potter tradition gives four men at a window; the College Tablet gives five sophomores and two freshmen. Hadley's figure matches none of them.",
+    "how_to_resolve": "The Pledge itself, the 1834 constitution signatures, and Union College class lists for 1833\u201334."
+   },
+   {
+    "claim": "Whether there were seven founders or eight, and where Hadley's friend William H. Backus fits",
+    "detail": "Hadley named Backus among the most active organisers in both of his statements, and Goodale's list of names also began with Backus. The February 1878 Diamond reproduced the Pledge \u201comitting the name of one of the signers, who left college before the organization of the Psi Upsilon,\u201d and then presented the remaining names as the Seven Founders; Harvey wrote in 1876 that the paper \u201cwas signed, I think, by eight of us.\u201d A line reading \u201cOne of the Eight Founders of Psi Upsilon\u201d on Backus's page in the Records of the Theta was later struck out in different ink.",
+    "how_to_resolve": "The original Pledge document and the manuscript Records of the Theta; Union College records for William Henry Backus, and enquiry at Catskill and Newark, New Jersey, where earlier searches for him failed."
+   },
+   {
+    "claim": "Whether he stood for Congress",
+    "detail": "The candidacy appears in one source only \u2014 The Diamond of February 1878 (pp. 3\u20134), which says he \u201chas been a Judge, a candidate for Congress, and a member of the New York Constitutional Convention.\u201d Neither the 1884 Epitome, the 1941 Annals nor the detailed 1965 office-by-office list mentions it.",
+    "how_to_resolve": "New York State election returns and Congressional district canvass records for the 1850s and 1860s; Seneca County newspapers."
+   },
+   {
+    "claim": "The nature of the misfortune of his last years",
+    "detail": "The 1905 history of the Phi (p. 6) says he \u201csuffered financial reverses in later life, but was relieved by the grateful offerings of his brothers in Psi Upsilon.\u201d The Convention memorial of 1901 (Annals, Conventions, p. 140) says only that he was \u201cundaunted and hopeful amid misfortune in his later years\u201d and that the Fraternity \u201cwelcomed the opportunity to respond to his need.\u201d Neither says what happened.",
+    "how_to_resolve": "Seneca County court, judgment and probate records; Waterloo and Seneca Falls newspapers for the 1890s; the Executive Council minutes and issues of The Diamond from 1895 to 1902."
+   },
+   {
+    "claim": "Where he is buried",
+    "detail": "No source read for this record gives a burial place for Hadley, or indeed for any of the seven founders. Searches of the Annals volumes for \u201cburied,\u201d \u201cburial,\u201d \u201ccemetery,\u201d \u201cinterred\u201d and \u201cgrave\u201d turned up only figurative uses. He died at Waterloo, New York, on 1 September 1901.",
+    "how_to_resolve": "Cemetery records at Waterloo, New York (Maple Grove and other Seneca County burying grounds), county death records for September 1901, and Find a Grave or local historical society indexes."
+   },
+   {
+    "claim": "How many of the founders were Phi Beta Kappa, and which",
+    "detail": "Hadley's own election is stated in the Annals (The Chapters, p. 10), the 1965 Diamond and the College Tablet, so it is not in doubt. The count is: the 1884 Epitome (p. 22) says \u201cthree of the four original members in the class of '36 received Phi Beta Kappa keys\u201d without naming them; The Diamond of 1928 and the 1934 Centennial address say three of the seven; The Diamond of 1979 says four; the 1965 individual biographies mark Goodale, Hadley, Martindale and Stewart.",
+    "how_to_resolve": "The membership records of the Union College chapter of Phi Beta Kappa for 1835\u20131837."
+   },
+   {
+    "claim": "A stray class year in the 1884 telegram Hadley co-signed",
+    "detail": "The telegram sent from Buffalo to the Rochester alumni banquet in November 1884 is printed in the Annals (The Chapters, p. 161) signed \u201cS. G. Hadley, Theta '36; C. W. Harvey, Theta '36.\u201d Every other source, including the Annals two pages earlier, places Harvey in the class of 1837. This is probably a printing or transcription slip rather than evidence about Harvey.",
+    "how_to_resolve": "The original telegram or the banquet menu card in the Fraternity archives, or the Rochester newspapers' report of the banquet."
+   }
+  ]
  },
  {
   "id": "samuel-goodale",
@@ -38,33 +174,168 @@
   "honorific": "The Rev. Dr.",
   "sort": 2,
   "class_year": 1836,
-  "role": "Founder; later an Episcopal missionary on the frontier",
-  "profession": "Episcopal clergyman and missionary",
+  "role": "Took the chair on 10 January 1834; elected the first Treasurer",
+  "profession": "Episcopal clergyman and frontier missionary",
   "born": {
    "year": 1814,
-   "place": "Berkshire County, Massachusetts"
+   "date": "20 December 1814",
+   "place": "South Egremont, Berkshire County, Massachusetts"
   },
   "died": {
    "year": 1898,
-   "place": ""
+   "date": "8 December 1898",
+   "place": "Columbus, Nebraska"
   },
   "buried": {
    "place": "",
    "findagrave": ""
   },
-  "family": "",
-  "bio": "",
+  "family": "The only source that names his parents is a sketch of the Theta's history printed in The Diamond in 1965, which makes him the son of Chester and Asenath Goodale. He was the uncle of his fellow founder Sterling Goodale Hadley \u2014 \u201cMr. Goodale is uncle of Judge Hadley,\u201d says the 1884 Epitome \u2014 although the younger of the two by two years; Hadley's mother is separately named as Laura (Goodale) Hadley, which would account for the connection, but how she stood to Chester Goodale is not recorded. The College Tablet notes that the Fraternity archives hold the badge of \u201cL. J. Goodale, blood brother of Samuel,\u201d giving initials but no full name. No source read for this record names a wife or a child.",
+  "bio": "Samuel Goodale was born on 20 December 1814 at South Egremont, in Berkshire County, Massachusetts, the son \u2014 by the single source that names them \u2014 of Chester and Asenath Goodale. He was the uncle of his fellow founder Sterling Goodale Hadley, although the younger of the two by two years. Both graduated with the class of 1836, both took the Phi Beta Kappa key and master's degrees in 1839. Goodale then taught for two years in a classical school at Wheeling, in what was then Virginia, studied theology from 1838 to 1841, and took a bachelor of divinity from the General Theological Seminary.\n\nAt the meeting of 10 January 1834 at which the Fraternity's first constitution was presented and unanimously adopted, Goodale was in the chair, and he was elected the society's first Treasurer. Of the reasons for founding it he was the least political of the seven: where Harvey traced the idea to a college contest and Hadley to self-defence, Goodale held that the motive was companionship. \"The Order had its birth in social needs,\" he said. He was also the least confident of them about the details. Writing from Fremont, Nebraska, in April 1876 he could not name all the signers with certainty, put the organisation in October rather than November 1833 \u2014 \"but am not quite sure\" \u2014 and reported himself \"now sixty-two years of age, and probably about the youngest of the Founders.\" He was neither. At the semi-centennial in 1883 he called the material out of which Psi Upsilon was made \"rather crude, coarse and common, a half dozen young men in some of the lower classes, mostly from the country places, diffident, unpolished, unattractive.\"\n\nHis working life was spent in the church and mostly on its outer edge. He was a missionary in central New York from 1841 to 1848, then rector of a succession of churches in New York, Michigan, Illinois and Iowa over the following eighteen years. In 1866 he was appointed missionary along the newly built Pacific Railroad, moved to Nebraska, and became rector of the Episcopal church at Columbus. He was chaplain of the Nebraska Senate in 1871 and 1872, and an honorary canon of the cathedral at Omaha, which the Annals dates from 1868 until his death \u2014 an odd figure, since he did not retire from active service until 1886. In 1883 Nebraska College made him a Doctor of Divinity honoris causa. A later sketch of the Theta's history calls him \"a Republican and a man of great devoutness and energy in his work.\"\n\nHe kept the badge made for him in 1833, flat-backed and lettered in small capitals \"SAML. GOODALE / U. College / -1833-\", and wore it for fifty years; it was the centrepiece of the archives exhibit at the Centennial of 1933. In old age he became the Fraternity's travelling founder, visiting chapters from Rochester and Schenectady to New Haven and Hartford, and finding Psi U men as far off as California, Florida and southern Texas. He was chaplain of the Convention of 1886 and a vice-president of that of 1896; on 24 November 1897, the Fraternity's sixty-fourth anniversary to the day, he travelled from Columbus to Chicago for the re-establishment of the Omega. Urging The Psi Upsilon Review in 1895 to sustain a general magazine, he asked whether prosperity and \"all the comforts of our splendid chapter houses and halls\" might not leave the chapters \"so isolated and individualized ... as to lose, in a degree, that spirit of fraternity.\" He died of heart failure at Columbus on 8 December 1898.",
   "achievements": [
-   "A.B. Union College 1836 and the Phi Beta Kappa key; A.M. 1839",
-   "Bachelor of Divinity, General Theological Seminary, 1841",
-   "Missionary in central New York, 1841\u20131848; then rector of churches in New York, Michigan, Illinois and Iowa for eighteen years",
-   "Appointed missionary along the newly built Pacific Railroad in 1866, settling at Columbus, Nebraska, as rector of the Episcopal church there",
-   "Honorary canon of the Cathedral in Omaha from 1868 until his death",
-   "Made Doctor of Divinity honoris causa by Nebraska College fifty years after the founding"
+   "Took the chair at the meeting of 10 January 1834 at which the Fraternity's first constitution was adopted, and was elected its first Treasurer",
+   "A.B. Union College 1836 with election to Phi Beta Kappa; A.M. 1839",
+   "Bachelor of Divinity, General Theological Seminary, 1841; Doctor of Divinity honoris causa, Nebraska College, 1883",
+   "Missionary in central New York, 1841\u20131848, then rector of churches in New York, Michigan, Illinois and Iowa for eighteen years",
+   "Appointed missionary along the newly built Pacific Railroad in 1866, settling in Nebraska as rector of the Episcopal church at Columbus",
+   "Honorary canon of the cathedral at Omaha, and chaplain of the Senate of Nebraska in 1871\u201372",
+   "Kept and wore his original 1833 badge for fifty years; it was the centrepiece of the archives exhibit at the Centennial of 1933",
+   "Chaplain of the Convention of 1886 and a vice-president of the Convention of 1896",
+   "Travelled from Columbus, Nebraska, to Chicago for the re-establishment of the Omega on 24 November 1897, the Fraternity's sixty-fourth anniversary",
+   "Argued in print, in 1895, that the Fraternity needed a general magazine to hold its scattered graduates together"
   ],
   "annals": "The Rev. Dr. Samuel Goodale was born in 1814 in Berkshire County, Massachusetts. He received his bachelor's degree in 1836, gained the coveted Phi Beta Kappa Key, received his master's degree in 1839, and in 1841 earned the degree of bachelor of divinity from the General Theological Seminary. Fifty years after he had aided in founding our Fraternity, Nebraska College, in recognition of his long and useful life, conferred upon him the degree of doctor of divinity honoris causa. From 1841 to 1848 he was engaged in missionary work in central New York. During the next eighteen years he was the rector of various churches in New York, Michigan, Illinois and Iowa. In 1866, appointed missionary along the recently constructed Pacific Railroad, he took up his residence at Columbus, Nebraska, and became the rector of the Episcopal Church there. Dr. Goodale retired from active service in 1886. From 1868 until his death in 1898 he was an honorary canon of the Cathedral in Omaha.",
   "portrait": null,
-  "links": []
+  "links": [],
+  "sources": [
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 132,
+    "label": "The Psi Upsilon Epitome, 1833\u20131884 (1884)"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
+    "page": 10,
+    "label": "Annals of Psi Upsilon, 1833\u20131941: The Chapters (1941)"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+    "page": 132,
+    "label": "Annals of Psi Upsilon, 1833\u20131941: A Century of Annual Conventions (1941)"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-11-the-reprints",
+    "page": 10,
+    "label": "Annals of Psi Upsilon, 1833\u20131941: The Reprints (1941)"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-01-intro-and-foreward",
+    "page": 15,
+    "label": "Annals of Psi Upsilon: Introduction and Foreword (1941)"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1965-3-vol051-num4-sum",
+    "page": 6,
+    "label": "The Diamond of Psi Upsilon, Summer 1965 \u2014 History of the Theta"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1878-7-vol002-num1",
+    "page": 1,
+    "label": "The Diamond of Psi Upsilon, October 1878 \u2014 Goodale's statement of 14 April 1876"
+   },
+   {
+    "doc": "the-psi-upsilon-review-vol-1-num-1-1895",
+    "page": 24,
+    "label": "The Psi Upsilon Review, vol. 1 no. 1, May 1895"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1934-1-vol020-num2-3-jan-mar",
+    "page": 152,
+    "label": "The Diamond of Psi Upsilon, January\u2013March 1934 \u2014 Centennial number"
+   },
+   {
+    "doc": "1905-history-of-the-phi-of-psi-upsilon-1865-1905",
+    "page": 6,
+    "label": "History of the Phi of Psi Upsilon, 1865\u20131905"
+   },
+   {
+    "doc": "1895-the-story-of-psi-upsilon",
+    "page": 15,
+    "label": "Willard Fiske, The Story of Psi Upsilon (1895)"
+   },
+   {
+    "doc": "college-tablet-1st-edition-1995",
+    "page": 57,
+    "label": "The College Tablet, 1st edition (1995)"
+   }
+  ],
+  "uncertainties": [
+   {
+    "claim": "His date of birth, and his age at death",
+    "detail": "The 1884 Epitome (p. 132) gives 20 December 1814, repeated in the 1941 reprint; the 1965 Diamond sketch (p. 6) gives the same day but only \u201cBerkshire Co., Mass.\u201d Goodale himself, writing on 14 April 1876, said \u201cI am now sixty-two years of age,\u201d which implies a birth before April 1814. The 1905 Phi history (p. 6) says he \u201cwas eighty-four years old at the time of his decease in 1898\u201d \u2014 but a birth on 20 December 1814 makes him eighty-three when he died on 8 December 1898, twelve days short of eighty-four. Either his own arithmetic and the Phi history are loose, or the December 1814 date is wrong.",
+    "how_to_resolve": "Egremont and Berkshire County, Massachusetts, town vital records and church baptismal registers; Union College's matriculation register; a death certificate or burial record from Platte County, Nebraska."
+   },
+   {
+    "claim": "Whether he was the youngest of the seven founders, as he believed",
+    "detail": "In April 1876 he wrote that he was \u201cprobably about the youngest of the Founders.\u201d On the dates the sources give he was not: the 1965 biographies put George Washington Tuttle's birth at 24 March 1817, and record Robert Barnard entering Union at sixteen in September 1833.",
+    "how_to_resolve": "Birth records for Tuttle (Windham, Greene County, New York) and Barnard (Poughkeepsie), neither of whose birth dates is fully established in the archive."
+   },
+   {
+    "claim": "His birthplace, to the level of the town",
+    "detail": "\u201cSouth Egremont, Berkshire County, Mass.\u201d rests on the 1884 Epitome alone (p. 132). The 1941 Annals gives only \u201cBerkshire County, Massachusetts,\u201d and the 1965 Diamond only \u201cBerkshire Co., Mass.\u201d Elisha Taylor in 1878 remembered him and Hadley as \u201cthen of Egremont, Mass.,\u201d which is a statement about residence rather than birth.",
+    "how_to_resolve": "Egremont, Massachusetts, town vital records; the 1820 and 1830 federal censuses for a Chester Goodale household in Berkshire County."
+   },
+   {
+    "claim": "His parents' names",
+    "detail": "Chester and Asenath Goodale are named only in the 1965 Diamond sketch (p. 6), written more than a century after the fact. No nineteenth-century source read for this record names a parent of any of the seven founders.",
+    "how_to_resolve": "Egremont and Berkshire County vital and probate records; a Goodale family genealogy; Union College matriculation records."
+   },
+   {
+    "claim": "The dates of his honorary canonry at Omaha",
+    "detail": "Both the Annals (The Chapters, p. 10) and the 1965 Diamond give the canonry as 1868\u20131898, and the date reads 1868 in the raw text as well as the corrected, so it is the printed figure and not a scanning error. It sits oddly against his arrival in Nebraska in 1866 and his retirement from active service in 1886, and may be a misprint for 1888.",
+    "how_to_resolve": "Records of the Episcopal Diocese of Nebraska and the chapter of Trinity Cathedral, Omaha; the diocesan journals and clergy lists for 1866\u20131898."
+   },
+   {
+    "claim": "Where in Nebraska he lived",
+    "detail": "He wrote to The Diamond from Fremont, Nebraska, on 14 April 1876, and the Annals' account of the 1886 Convention names him \u201cSamuel Goodale, of Fremont, Neb.\u201d (Conventions, p. 83). The 1884 Epitome, the 1890s convention records and his death notice all place him at Columbus, Nebraska. He may simply have moved, but no source narrates the move.",
+    "how_to_resolve": "Diocesan clergy lists for Nebraska; the federal censuses of 1870, 1880 and 1885; Columbus and Fremont newspapers."
+   },
+   {
+    "claim": "When the society was actually organised, on his own recollection",
+    "detail": "Every later account follows the Pledge, dated 24 November 1833. Goodale in April 1876 wrote: \u201cI should say that the organization must have been completed in the month of October, 1833, but am not quite sure,\u201d and remembered a gathering at a hotel in Schenectady before Christmas. He also said he could not \u201cspeak positively in regard to all the names\u201d of the founders, and the list he gave began with William H. Backus and included \u201cCushman,\u201d who appears in no roll of the seven.",
+    "how_to_resolve": "The original Pledge and the earliest Theta records and minute book; Union College records for Backus and for a student named Cushman in the classes of 1836 and 1837."
+   },
+   {
+    "claim": "Whether Goodale spoke the words that became the Fraternity's farewell",
+    "detail": "The College Tablet (1st edition, p. 44) tells the story as Goodale saying to Hadley, \u201cGoodnight thine cordially.\u201d The older tradition, from Clarkson Nott Potter in 1880 and quoted in The Psi Upsilon Review of 1895 and by Earl D. Babst in 1934, has the exchange between unnamed students parting at a window \u2014 \u201c\u2018Good night, thine, cordially,\u2019 said the visitors as they departed.\u201d No contemporary source names the speakers.",
+    "how_to_resolve": "The printed text of Potter's 1880 address, and any earlier telling in The Diamond of the 1880s; the correspondence files behind the College Tablet's account."
+   },
+   {
+    "claim": "The professorship and legislative chaplaincy Fiske credits him with",
+    "detail": "Fiske's Story (p. 15) says Goodale \u201chas been professor and legislative chaplain\u201d but names neither the chair nor the legislature. The 1965 Diamond probably answers both: \u201cProfessor in a Classical School, Wheeling, Va., 1836-38\u201d and \u201cChaplain of the Senate of Nebraska, 1871-72.\u201d The identification is inference, not statement.",
+    "how_to_resolve": "Journals of the Nebraska Senate for 1871 and 1872; records of classical or academy schools at Wheeling, West Virginia, for 1836\u201338."
+   },
+   {
+    "claim": "Where he is buried",
+    "detail": "No source read for this record gives a burial place for Goodale, or for any of the seven founders. He died of heart failure at Columbus, Nebraska, on 8 December 1898.",
+    "how_to_resolve": "Cemetery records at Columbus, Platte County, Nebraska (and at Fremont, Dodge County); Nebraska death records for December 1898; Episcopal diocesan burial registers; Find a Grave and county historical society indexes."
+   },
+   {
+    "claim": "The identity of his brother L. J. Goodale",
+    "detail": "The College Tablet (1st edition, p. 57) records that the archives hold the badge of \u201cL. J. Goodale, blood brother of Samuel,\u201d which implies he was a Psi Upsilon member, but gives no full name, chapter or class.",
+    "how_to_resolve": "The Fraternity's general catalogues and the Theta's chapter roll for the 1830s and 1840s; the badge itself, which may be engraved on the back as Samuel's was."
+   },
+   {
+    "claim": "How many founders were living at the Convention of 1898",
+    "detail": "The Annals (The Chapters, p. 288) says only three founders were living at the time of the 1898 Convention, though by the Annals' own death dates \u2014 Goodale 1898, Hadley 1901, Tuttle 1903, Martindale 1904 \u2014 four were. The Centennial number of The Diamond records Goodale as present at the 1898 Convention with the Mu at Minneapolis, which makes the count look simply wrong rather than evidence about the date of his death.",
+    "how_to_resolve": "The dates of the 1898 Convention and the Executive Council's report to it; The Diamond's report of that convention."
+   },
+   {
+    "claim": "Whether there were seven founders or eight",
+    "detail": "Goodale's own list of the founders, given in 1876, began with William H. Backus, and Hadley named Backus among the most active organisers. The February 1878 Diamond printed the Pledge \u201comitting the name of one of the signers, who left college before the organization of the Psi Upsilon,\u201d then presented the remaining names as the Seven Founders, and Harvey wrote that the paper \u201cwas signed, I think, by eight of us.\u201d",
+    "how_to_resolve": "The original Pledge document and the manuscript Records of the Theta, where a line reading \u201cOne of the Eight Founders of Psi Upsilon\u201d on Backus's page was later struck out in different ink."
+   }
+  ]
  },
  {
   "id": "edward-martindale",
@@ -72,34 +343,238 @@
   "honorific": "Colonel",
   "sort": 3,
   "class_year": 1836,
-  "role": "Founder; proposed the symbolic letters",
-  "profession": "Lawyer; Union Army officer; military governor",
+  "role": "Named the Fraternity's Greek letters; sat on its badge and motto committees",
+  "profession": "Lawyer; colonel of Union volunteers",
   "born": {
-   "year": null,
-   "place": "Sandy Hill, New York"
+   "year": 1817,
+   "date": "4 February 1817",
+   "place": "Sandy Hill, Washington County, New York"
   },
   "died": {
    "year": 1904,
+   "date": "15 July 1904",
    "place": "San Diego, California"
   },
   "buried": {
    "place": "",
    "findagrave": ""
   },
-  "family": "",
-  "bio": "",
+  "family": "No source in the archive names a parent, a wife or a child. Two things point sideways at a family: between 1836 and 1838 he read law with Henry Martindale at Sandy Hill, his own village, and no account explains whether the two were related; and the Convention that received news of his death resolved that an engrossed copy of its memorial be sent to his family, so he left survivors. Unlike Tuttle and Harvey, he had no son in Psi Upsilon.",
+  "bio": "Edward Martindale was born at Sandy Hill, in Washington County, New York \u2014 the village now called Hudson Falls. The 1884 Epitome, compiled while he was still alive to correct it, gives the date as 4 February 1817; no other source gives a day, and his own arithmetic in old age does not quite square with the age recorded at his death, so the year is close but not exactly fixed. He graduated from Union College with the class of 1836, took a Phi Beta Kappa key, and read law in the ordinary way of the time: two years in his own village with Henry Martindale, and a third at Troy with Daniel S. Seymour.\n\nWhat followed was a long and mobile career at the bar, which the Annals sum up as a practice spanning New York, New Jersey and Iowa. The traces bear that out: 71 Broadway in New York in 1882, Des Moines by 1884 and still Des Moines in 1898, San Diego at the end. Fiske's history, written earlier and only lightly revised, still had him practising in New York in 1895, so the order of his moves is hard to pin down.\n\nHe served in the Civil War. The accounts agree that he enlisted as a private and finished a colonel, and the 1941 Annals and the Theta's 1965 history add that he was offered a brigadier general's commission for gallant service and refused it, and that he served a year as the first military governor of Petersburg, Virginia. No source names his regiment, and the 1905 history of the Phi calls him only \"a gallant officer in the Civil War\", so the Petersburg command and the declined promotion rest on the fraternity's own later telling.\n\nHis part in the founding is better documented than any other founder's, because he was the first to write it down. Answering a set of questions from The Diamond in April 1876, he placed the earliest informal meeting in the west attic of the old \"lower\" College, in the room across the hall from his own \u2014 the room of his classmate Charles W. Harvey. Three or four others were there, among them his chum Merwin H. Stewart and Robert Barnard. He sat on the committee that framed the motto and on the committee that solicited designs for the badge, and he was cheerfully honest about how that went: \"I well remember that I was on the committee and that my design was ignominiously rejected as too preposterously like a kite, but I was consoled by the like fate having befallen all the others.\" He is credited, in account after account, with proposing the two Greek letters, though in 1876 he said only that the name \"was somewhat matter of fancy, arising from the beauty of the two Greek letters\", and the sources disagree over whether the credit was his alone.\n\nHe kept up with the fraternity across a long life. He presided at the New York alumni reunion of 3 May 1878, and in May 1898, at eighty-one, he travelled to Minneapolis for what was by his own account the first National Convention he had ever attended: \"In all the sixty-five years since the day of our Society's organization this is the first time it has been my fortune to be present.\" From San Diego he sent congratulations to the installation of the Epsilon chapter in California. He died in 1904, the last of the seven; the Executive Council reported the date as 15 July, the Theta's history says August. Where he is buried is not recorded.",
   "achievements": [
-   "A.B. Union College 1836; elected to Phi Beta Kappa",
-   "A prominent lawyer in New York, New Jersey and Iowa",
-   "Enlisted in the Union forces as a private and rose to the rank of colonel",
-   "Offered a commission as brigadier general for gallant service, which he refused",
-   "First military governor of Petersburg, Virginia, a command he held for a year",
-   "Proposed the symbolic letters of the Fraternity",
-   "Gave the address on the founding of Psi Upsilon at the 1898 Convention"
+   "Credited with suggesting the Fraternity's symbolic Greek letters, Psi and Upsilon",
+   "Enlisted in the Union forces as a private during the Civil War and rose to the rank of colonel",
+   "The first military governor of Petersburg, Virginia, a command he held for one year",
+   "Declined a commission as brigadier general offered him for gallant service",
+   "A.B. Union College 1836, and elected to Phi Beta Kappa",
+   "A prominent lawyer in New York, New Jersey and Iowa, and for many years a member of the New York City bar",
+   "The first founder to set down a written account of the origin of Psi Upsilon, answering The Diamond's queries from New York on 29 April 1876",
+   "Named to the Fraternity's first Standing Committee on 10 January 1834, and served on one of the founding committees on the Name, Badge and Motto",
+   "Presided at the reunion of New York alumni on 3 May 1878, which drew nearly a hundred members",
+   "Addressed the Convention with the Mu at Minneapolis on 4 May 1898 - by his own account the first National Convention he had attended in sixty-five years"
   ],
   "annals": "Edward Martindale, born at Sandy Hill, New York, was the third of the founders who were members of the class of 1836 to be honored with election to Phi Beta Kappa. He was a prominent lawyer in New York, New Jersey and Iowa. Enlisting in the Union forces during the Civil War as a private, he rose to the rank of colonel. For gallant service he was offered a commission as a brigadier general which he refused. He was the first military governor of Petersburg, Virginia, a command he held for one year. Colonel Martindale died in San Diego in 1904, in his eighty-seventh year.",
   "portrait": null,
-  "links": []
+  "links": [],
+  "sources": [
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 22,
+    "label": "The Psi Upsilon Epitome, 1884"
+   },
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 23,
+    "label": "The Psi Upsilon Epitome, 1884"
+   },
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 62,
+    "label": "The Psi Upsilon Epitome, 1884"
+   },
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 99,
+    "label": "The Psi Upsilon Epitome, 1884"
+   },
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 132,
+    "label": "The Psi Upsilon Epitome, 1884"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1878-4-vol001-num4",
+    "page": 1,
+    "label": "The Diamond of Psi Upsilon, April 1878"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1932-1-vol018-num2-jan",
+    "page": 9,
+    "label": "The Diamond of Psi Upsilon, January 1932"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1932-1-vol018-num2-jan",
+    "page": 10,
+    "label": "The Diamond of Psi Upsilon, January 1932"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1965-3-vol051-num4-sum",
+    "page": 47,
+    "label": "The Diamond of Psi Upsilon, Summer 1965 (History of the Theta)"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-01-intro-and-foreward",
+    "page": 15,
+    "label": "Annals of Psi Upsilon, Part I: Introduction and Foreword, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
+    "page": 10,
+    "label": "Annals of Psi Upsilon, Part II: The Chapters, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
+    "page": 11,
+    "label": "Annals of Psi Upsilon, Part II: The Chapters, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
+    "page": 307,
+    "label": "Annals of Psi Upsilon, Part II: The Chapters, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+    "page": 4,
+    "label": "Annals of Psi Upsilon, Part III: A Century of Annual Conventions, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+    "page": 36,
+    "label": "Annals of Psi Upsilon, Part III: A Century of Annual Conventions, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+    "page": 128,
+    "label": "Annals of Psi Upsilon, Part III: A Century of Annual Conventions, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+    "page": 129,
+    "label": "Annals of Psi Upsilon, Part III: A Century of Annual Conventions, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+    "page": 132,
+    "label": "Annals of Psi Upsilon, Part III: A Century of Annual Conventions, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+    "page": 151,
+    "label": "Annals of Psi Upsilon, Part III: A Century of Annual Conventions, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+    "page": 275,
+    "label": "Annals of Psi Upsilon, Part III: A Century of Annual Conventions, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+    "page": 319,
+    "label": "Annals of Psi Upsilon, Part III: A Century of Annual Conventions, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-11-the-reprints",
+    "page": 9,
+    "label": "Annals of Psi Upsilon, Part XI: The Reprints, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-11-the-reprints",
+    "page": 10,
+    "label": "Annals of Psi Upsilon, Part XI: The Reprints, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-11-the-reprints",
+    "page": 24,
+    "label": "Annals of Psi Upsilon, Part XI: The Reprints, 1941"
+   },
+   {
+    "doc": "1895-the-story-of-psi-upsilon",
+    "page": 15,
+    "label": "Willard Fiske, The Story of Psi Upsilon, 1895"
+   },
+   {
+    "doc": "1905-history-of-the-phi-of-psi-upsilon-1865-1905",
+    "page": 6,
+    "label": "History of the Phi of Psi Upsilon, 1865-1905"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1934-1-vol020-num2-3-jan-mar",
+    "page": 56,
+    "label": "The Diamond of Psi Upsilon, January-March 1934"
+   },
+   {
+    "doc": "college-tablet-1st-edition-1995",
+    "page": 38,
+    "label": "The College Tablet, 1st edition, 1995"
+   }
+  ],
+  "uncertainties": [
+   {
+    "claim": "His date and year of birth",
+    "detail": "The 1884 Epitome (p.132) states 4 February 1817 at Sandy Hill, and repeats it in the 1941 reprint. No other source gives a date: the 1965 Theta history (p.47) gives only 'Born at Sandy Hill, N.Y.' His own remark at the 1898 Convention about 'the infirmities of my eighty-one years' implies a birth about 1816-17, while the statements that he died in 1904 'in his eighty-seventh year' (1941 Annals pt II p.10; 1965 Diamond p.47) imply about 1817-18, and the 1905 Phi history's 'aged eighty-seven years' implies earlier still.",
+    "how_to_resolve": "Washington County, New York, birth or church records for Sandy Hill (now Hudson Falls); the Union College matriculation record for the class of 1836, which usually gives an age; the 1850-1900 federal censuses."
+   },
+   {
+    "claim": "The day and month of his death",
+    "detail": "The Executive Council's annual communication reported 'the death on July 15, 1904, of Edward Martindale, Theta '36, last surviving FOUNDER' (Annals pt III p.151); the 1965 Theta history says 'He died in San Diego in August, 1904' (p.47). The 1941 Annals and the 1934 portrait caption give the year only.",
+    "how_to_resolve": "The Los Angeles Times obituary that the Council appended to its report; San Diego County death records; a Diamond obituary for 1904."
+   },
+   {
+    "claim": "His age at death",
+    "detail": "'In his eighty-seventh year' (1941 Annals pt II p.10, and the 1965 Theta history) means he had turned eighty-six; the 1905 Phi history (p.6) says he 'passed from earth in 1904, aged eighty-seven years'. With a birth on 4 February 1817 he would have turned eighty-seven in February 1904, so a death in July or August 1904 fits 'aged eighty-seven' and not 'in his eighty-seventh year'.",
+    "how_to_resolve": "Settle the birth date first; a death certificate or gravestone would give the stated age."
+   },
+   {
+    "claim": "Whether he was a freshman or a sophomore in the autumn of 1833",
+    "detail": "His own 1876 letter says 'The very first informal meeting took place, when I was a Sophomore' (Diamond, April 1878, p.1). His 1898 address, given at eighty-one, instead calls himself and Stewart and Harvey freshmen, 'soon to be reinforced by ... the Sophomore Class' (Diamond, January 1932, pp.9-10). Every roll of the founders, and the 1834 constitution signatures (Annals pt III p.319), place him among the four sophomores of the class of 1836.",
+    "how_to_resolve": "Union College class lists and room assignments for 1833-34; the manuscript Records of the Theta."
+   },
+   {
+    "claim": "Whether the Fraternity's name was his suggestion alone",
+    "detail": "The 1884 Epitome (p.23) and the 1941 Annals (pt II p.11) credit him alone; Fiske's Story (p.16) says 'Martindale and Stewart may jointly lay claim to the first suggestion'; the 1905 Phi history (p.6) says Hadley and Martindale together recalled having suggested the initials; the 1895 Psi Upsilon Review (p.9) garbles the name as 'James Martindale, an associate founder'. Martindale himself in 1876 said only that the name 'was somewhat matter of fancy, arising from the beauty of the two Greek letters', and Hadley wrote 'I am not quite certain who suggested the name; I think it was Martindale'. The later histories of 1928, 1934 and 1983 state it as settled fact.",
+    "how_to_resolve": "The Theta's manuscript minutes and committee reports of 1834, and the original Founders' Constitution, if either records the committee's recommendation on the Name."
+   },
+   {
+    "claim": "The refused brigadier general's commission and the military governorship of Petersburg",
+    "detail": "Both appear in the 1941 Annals (pt II p.10) and are repeated almost verbatim in the 1965 Theta history (p.47), which is probably drawing on the Annals rather than testifying independently. The 1905 Phi history calls him only 'a gallant officer in the Civil War'. No source read here names his regiment, his dates of service, or the year of the Petersburg command.",
+    "how_to_resolve": "Federal service and pension records at the National Archives; the Official Records of the War of the Rebellion for the occupation of Petersburg in 1865; New York state adjutant general's rosters."
+   },
+   {
+    "claim": "Where he lived and practised, and when he moved",
+    "detail": "He wrote to the 1882 Convention from 71 Broadway, New York; the 1884 Epitome (p.22) has him 'now of Des Moines, Io., formerly resided in New-York City'; Fiske's 1895 text says he is 'still a distinguished member of the legal profession in New York city' (p.15), though that text was written for 1883 and only lightly revised; the Annals record him as of Des Moines in 1898 and as residing in San Diego by the installation of the Epsilon in 1902.",
+    "how_to_resolve": "City directories for New York, Des Moines and San Diego; bar admission and court records in New York, New Jersey and Iowa; the 1880, 1900 censuses."
+   },
+   {
+    "claim": "Whether Henry Martindale, with whom he read law at Sandy Hill in 1836-38, was a relative",
+    "detail": "The 1965 Theta history names the preceptor without explaining any relationship, and no other source read here mentions him. The coincidence of surname and village is suggestive but nothing more.",
+    "how_to_resolve": "Washington County land, probate and census records for Sandy Hill; the roll of the New York bar and congressional biographies for the Martindales of Sandy Hill."
+   },
+   {
+    "claim": "His place of burial",
+    "detail": "No volume read here states one. A letter from Hugh W. Adams, Lambda '98, reported to the Council 'the large attendance of Psi Upsilons of California at the final services and ... the many floral offerings from the Fraternity' (Annals pt III p.151), which places the funeral in southern California but names no cemetery.",
+    "how_to_resolve": "San Diego cemetery records, Mount Hope in particular; the Los Angeles Times notice of 1904; Find a Grave and San Diego County interment indexes."
+   },
+   {
+    "claim": "Whether he took a Phi Beta Kappa key, and which of the class of 1836 did",
+    "detail": "The 1941 Annals (pt II p.10) and the 1965 Theta history mark him Phi Beta Kappa, as does the College Tablet. But the 1884 Epitome says only that 'Three of the four original members in the class of '36 received Phi Beta Kappa keys' without naming them, and the counts of Phi Beta Kappa founders differ between sources - three in the 1928 and 1934 accounts, four in 1979.",
+    "how_to_resolve": "The Union College chapter records of Phi Beta Kappa for 1836."
+   },
+   {
+    "claim": "Which founding committee he served on",
+    "detail": "His 1898 address says only that committees were 'appointed to report on Name, Badge and Motto, on one of which I had the honor to serve'. His fuller 1876 letter puts him on the badge committee and also on the special committee that framed the motto, with Isaac Dayton of New York. The two statements are compatible but not identical.",
+    "how_to_resolve": "The Theta's manuscript minutes for 1834."
+   }
+  ]
  },
  {
   "id": "george-washington-tuttle",
@@ -107,31 +582,191 @@
   "honorific": "",
   "sort": 4,
   "class_year": 1836,
-  "role": "Founder; entered Union College at sixteen",
-  "profession": "Lawyer, then merchant",
+  "role": "The fourth signer of the Pledge; on the first Standing Committee of 1834",
+  "profession": "Tanner and leather merchant; trained as a lawyer",
   "born": {
-   "year": null,
-   "place": "Wingate, New York"
+   "year": 1817,
+   "date": "14 March 1817",
+   "place": "Windham, Greene County, New York"
   },
   "died": {
    "year": 1903,
-   "place": ""
+   "date": "3 April 1903",
+   "place": "Bath, Steuben County, New York"
   },
   "buried": {
    "place": "",
    "findagrave": ""
   },
-  "family": "",
-  "bio": "",
+  "family": "The Theta's 1965 history calls him the son of Sidney and Clarissa (Steele) Tuttle - the only naming of a founder's parents in any of the volumes read here. His son Sidney Tuttle carried his grandfather's name and joined Psi Upsilon in the Theta class of 1863; the 1884 Epitome notes that Tuttle and Harvey were the only two founders with sons in the fraternity, without naming either son. No wife and no other child is named anywhere in these sources.",
+  "bio": "George Washington Tuttle was born at Windham, in Greene County, New York, the son of Sidney and Clarissa (Steele) Tuttle, in March 1817 \u2014 the Epitome gives the fourteenth, the Theta's 1965 history the twenty-fourth. He entered Union College from Windham at sixteen and took his degree in 1836 at nineteen, which made him, in the Epitome's careful phrase, \"perhaps the youngest of the founders\". He was sixteen when the Pledge was signed on 24 November 1833, and he signed it fourth, as \"Geo. W. Tuttle\".\n\nHe studied law and was admitted to the bar, and then did not practise. Instead he bought a tannery in Ulster County, ran it until 1848, and opened a business house in New York City, where he prospered as a dealer in leather. He retired in 1868 and spent the last thirty-five years of his life at Bath, in Steuben County, where he died at home on 3 April 1903. One early source unsettles this: William Taylor, writing in 1843, listed Tuttle among the founders then \"practising lawyers\", which no later account repeats. The likeliest reading is that he read law and left it, but nobody has reconciled the two statements.\n\nOf his part in the founding itself almost nothing survives beyond the signature. He was one of the three men named to the society's first Standing Committee in January 1834, with Martindale and Barnard. Beyond that the record is silent, and the silence is his own doing. In December 1878, closing the series of recollections it had gathered from the surviving founders, The Diamond noted that it had heard from every living founder \"with the exception of Mr. George W. Tuttle, who, so far as is known, has not yet written out his remembrances of the event.\" He never did write them out. Of the seven, he is the one who left no account of what happened in that attic.\n\nHe was not distant from the fraternity, though. He wrote to the Convention of 1882 from Bath promising to attend the semi-centennial, and he came: he was one of three founders present at Albany in May 1883, and he stood with Hadley and Harvey to answer the toast \"The Founders\". His son Sidney Tuttle joined Psi Upsilon in the Theta class of 1863, making Tuttle one of only two founders \u2014 Harvey was the other \u2014 with a son in the fraternity.\n\nWhat is remembered of him as a man comes almost wholly from the Convention's memorial minute of 1903, which drew on the recollections of his classmate: \"His sweetness of disposition and other charming qualities were noted by his comrades in college days and are now recalled to us by his classmate Brother Martindale, after a lapse of nearly seventy years, during which the two had never met.\" Two classmates helped make a fraternity together as boys in 1833 and then did not see each other again for the rest of their lives. Beyond his parents and his son, no relative of Tuttle's is named in any of these records, and no burial place is given for him anywhere.",
   "achievements": [
-   "Entered Union College from Wingate, New York, at the age of sixteen; A.B. 1836",
-   "Studied law and was admitted to the bar",
-   "A long and prosperous career as a merchant, first in Ulster County and then in New York City",
-   "Retired in 1868 and lived for many years at Bath, New York"
+   "One of the seven signers of the founding Pledge of 24 November 1833, signing fourth as 'Geo. W. Tuttle'",
+   "Entered Union College from Windham at sixteen and took his A.B. in 1836 at nineteen, probably the youngest of the seven founders",
+   "Named to the Fraternity's first Standing Committee on 10 January 1834, with Martindale and Barnard",
+   "Studied law and was admitted to the bar of New York",
+   "Bought and ran a tannery in Ulster County until 1848, then opened a business house in New York City and prospered as a dealer in leather",
+   "One of three founders present at the semi-centennial celebration at Albany in May 1883, answering the toast 'The Founders' with Hadley and Harvey",
+   "Retired from business in 1868 and lived his last thirty-five years at Bath, Steuben County, New York",
+   "His son Sidney Tuttle joined Psi Upsilon in the Theta class of 1863"
   ],
   "annals": "George Washington Tuttle, who went to Union College from Wingate, New York, at the age of sixteen, received his bachelor's degree in 1836. He then studied law and was admitted to the bar, but shortly thereafter began a long and prosperous career as a merchant, first in Ulster County and then in New York City. Retiring in 1868, he lived for many years in Bath, New York. He died in 1903.",
   "portrait": null,
-  "links": []
+  "links": [],
+  "sources": [
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 22,
+    "label": "The Psi Upsilon Epitome, 1884"
+   },
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 23,
+    "label": "The Psi Upsilon Epitome, 1884"
+   },
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 129,
+    "label": "The Psi Upsilon Epitome, 1884"
+   },
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 130,
+    "label": "The Psi Upsilon Epitome, 1884"
+   },
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 132,
+    "label": "The Psi Upsilon Epitome, 1884"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1878-2-vol001-num2",
+    "page": 4,
+    "label": "The Diamond of Psi Upsilon, February 1878"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1878-9-vol001-num9",
+    "page": 3,
+    "label": "The Diamond of Psi Upsilon, December 1878"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1934-1-vol020-num2-3-jan-mar",
+    "page": 40,
+    "label": "The Diamond of Psi Upsilon, January-March 1934"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1965-3-vol051-num4-sum",
+    "page": 47,
+    "label": "The Diamond of Psi Upsilon, Summer 1965 (History of the Theta)"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1983-1-vol069-num2-win",
+    "page": 6,
+    "label": "The Diamond of Psi Upsilon, Winter 1983"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-01-intro-and-foreward",
+    "page": 15,
+    "label": "Annals of Psi Upsilon, Part I: Introduction and Foreword, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
+    "page": 10,
+    "label": "Annals of Psi Upsilon, Part II: The Chapters, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+    "page": 48,
+    "label": "Annals of Psi Upsilon, Part III: A Century of Annual Conventions, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+    "page": 60,
+    "label": "Annals of Psi Upsilon, Part III: A Century of Annual Conventions, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+    "page": 146,
+    "label": "Annals of Psi Upsilon, Part III: A Century of Annual Conventions, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+    "page": 319,
+    "label": "Annals of Psi Upsilon, Part III: A Century of Annual Conventions, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-11-the-reprints",
+    "page": 9,
+    "label": "Annals of Psi Upsilon, Part XI: The Reprints, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-11-the-reprints",
+    "page": 10,
+    "label": "Annals of Psi Upsilon, Part XI: The Reprints, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-11-the-reprints",
+    "page": 73,
+    "label": "Annals of Psi Upsilon, Part XI: The Reprints, 1941"
+   },
+   {
+    "doc": "1905-history-of-the-phi-of-psi-upsilon-1865-1905",
+    "page": 6,
+    "label": "History of the Phi of Psi Upsilon, 1865-1905"
+   },
+   {
+    "doc": "college-tablet-1st-edition-1995",
+    "page": 38,
+    "label": "The College Tablet, 1st edition, 1995"
+   }
+  ],
+  "uncertainties": [
+   {
+    "claim": "The day of his birth in March 1817",
+    "detail": "The 1884 Epitome (p.132) says he 'first saw the light at Windham, Greene County, N.Y., March 14, 1817', and repeats it in the 1941 reprint. The 1965 Theta history (p.47) says 'Born March 24, 1817, son of Sidney and Clarissa (Steele) Tuttle', with no birthplace. The year is not in dispute.",
+    "how_to_resolve": "Town and church records at Windham, Greene County; the Tuttle family genealogies; the age recorded at his Union College matriculation in 1833."
+   },
+   {
+    "claim": "The name of the town he came from",
+    "detail": "Windham, Greene County, in the 1884 Epitome (p.132), the 1965 Theta history (p.47) and Elisha Taylor's 1878 recollection. 'Wingate, New York' in the 1941 Annals (pt II p.10) - which is what the printed page reads, not an OCR error. There is no Wingate in New York State, and Windham is a real town in Greene County, so 'Wingate' is almost certainly a corruption; but the Annals is the source most often quoted on the founders and its reading is still in circulation.",
+    "how_to_resolve": "Union College matriculation records for 1833, which record the town of residence; Greene County records for Windham."
+   },
+   {
+    "claim": "Whether he was the youngest of the seven founders",
+    "detail": "The 1884 Epitome calls him 'perhaps the youngest of the founders, - for he finished college at nineteen'. The 1903 memorial minute says he 'was but sixteen years of age when Psi Upsilon was born'. But Goodale wrote in April 1876 that he was 'probably about the youngest of the Founders', and Barnard is recorded as entering Union at sixteen in September 1833 too. Complete birth dates for all seven do not exist in these sources.",
+    "how_to_resolve": "Birth dates for Barnard and Stewart, which none of these volumes supplies; Union College matriculation ages for the classes of 1836 and 1837."
+   },
+   {
+    "claim": "Whether he practised law before going into trade",
+    "detail": "William Taylor's history of 1843 lists him among the founders then at work: 'Messrs. Barnard, Hadley, Tuttle and Martindale are at this time practising lawyers' (Annals pt XI p.9). The 1884 Epitome and Fiske both call him a merchant and say nothing of the law; the 1941 Annals and the 1965 Theta history say he studied law and was admitted to the bar but went almost at once into business. Taylor's is the contemporary statement and stands alone.",
+    "how_to_resolve": "New York bar admission rolls for the late 1830s and 1840s; Ulster County and New York City directories for the 1840s, which would show whether he was listed as an attorney or a tanner."
+   },
+   {
+    "claim": "The details of his business career",
+    "detail": "Only the 1965 Theta history gives the tannery in Ulster County held until 1848, the business house opened in New York City, and the leather trade; the February 1878 Diamond agrees he 'became a successful dealer in leathers in the city of New York'. The 1941 Annals says only 'first in Ulster County and then in New York City'. The 1868 retirement date comes from the 1965 history and is repeated by the Annals.",
+    "how_to_resolve": "Ulster County deed and assessment records; New York City business directories for 1848-1868; credit-reporting ledgers such as the R. G. Dun collection."
+   },
+   {
+    "claim": "His place of burial",
+    "detail": "No source read here names one. He died on 3 April 1903 at his home in Bath, Steuben County, 'where he passed his later years in peaceful content, with the highest esteem of his fellow townsmen' (Annals pt III p.146), which makes a local burial likely but is not a record of one.",
+    "how_to_resolve": "Cemetery records at Bath, Steuben County - Grove Cemetery and the surrounding village burial grounds; Steuben County death records for April 1903; a local newspaper obituary."
+   },
+   {
+    "claim": "Whether he was elected to Phi Beta Kappa",
+    "detail": "The 1884 Epitome says three of the four founders in the class of 1836 received keys but does not say which three. The 1965 Theta biographies mark Goodale, Hadley, Martindale and Stewart as Phi Beta Kappa and do not mark Tuttle; the 1928 and 1934 accounts say three founders in all took keys, the 1979 account says four. Tuttle is the man the counts leave out, but no source says so plainly.",
+    "how_to_resolve": "Union College Phi Beta Kappa chapter records for 1836."
+   },
+   {
+    "claim": "The identity of his Psi Upsilon son",
+    "detail": "The 1884 Epitome (p.129) records that Tuttle and Harvey each had a son in the fraternity without naming either. The February 1878 Diamond (p.4) supplies the name for Tuttle: 'His son, Sidney Tuttle, subsequently became a member of the Fraternity (Theta 1863)'. Nothing else about Sidney Tuttle appears in these volumes.",
+    "how_to_resolve": "The general catalogues of Psi Upsilon and the Theta chapter's membership roll for 1863; Union College records."
+   },
+   {
+    "claim": "His class standing in the autumn of 1833",
+    "detail": "The 1834 constitution signatures and the standard roll put him among the four sophomores of the class of 1836 (Annals pt III pp.275, 319); the 1983 Diamond calls him 'a sophomore in November 1833'. Martindale's 1898 address instead lists 'George W. Tuttle and Robert Barnard, both Freshmen', and the College Tablet's 'five sophomore and two freshman members' matches neither account.",
+    "how_to_resolve": "Union College class lists for 1833-34, against which the 1834 constitution signatures can be checked."
+   }
+  ]
  },
  {
   "id": "robert-barnard",
@@ -139,30 +774,215 @@
   "honorific": "",
   "sort": 5,
   "class_year": 1837,
-  "role": "Founder; entered college at sixteen",
-  "profession": "Lawyer",
+  "role": "Signed the Pledge second; named to the first Standing Committee, 1834",
+  "profession": "Lawyer, in practice at Poughkeepsie",
   "born": {
    "year": null,
+   "date": "",
    "place": "Poughkeepsie, New York"
   },
   "died": {
    "year": 1855,
-   "place": "California"
+   "date": "",
+   "place": "Los Angeles, California"
   },
   "buried": {
    "place": "",
    "findagrave": ""
   },
-  "family": "",
-  "bio": "",
+  "family": "No source in the archive names a parent, a wife or a child, but two brothers are on record. The Diamond of February 1878 calls him \u201ca brother of the present Judge Barnard of Poughkeepsie in this State\u201d and adds that \u201canother of his brothers afterwards entered the Fraternity (B 1848) and died in South America\u201d; the 1884 Epitome, listing kinships among the membership, notes only that \u201cMr. Barnard had a brother in Beta's class of '48.\u201d Neither brother is named. The great-niece who sent the Fraternity his badge and daguerreotype after the 1933 Centennial is not named either, which means that a line of his family was traceable in the 1930s and may be traceable still.",
+  "bio": "Robert Barnard entered Union College from Poughkeepsie, New York, on 7 September 1833, at the age of sixteen. No source read here gives his birth date; sixteen in that September points at about 1817. He was a freshman of the class of 1837 when the Pledge was drawn up that November, and his was the second name on it, written \u201cR. Barnard\u201d below Stewart's. In January 1834 the society put him on its first Standing Committee.\n\nHe took his bachelor's degree in 1837 and his master's in 1840, read law at Poughkeepsie with Stephen Cleveland, and practised in that city from 1840 to 1853. William Taylor's history of 1843 counted him among the founders then \u201cpractising lawyers\u201d, and Fiske summed up the whole of it as \u201ca brief but brilliant career as an advocate.\u201d Then his health failed and he went to California.\n\nHe died at Los Angeles. Every account agrees on the place; none agrees on the year. The 1884 Epitome, compiled while five of the seven were alive to correct it, says 1853; the 1941 Annals and a detailed 1965 sketch say 1855, the latter adding a day, 12 February, and a cause, hemorrhage of the lungs; The Diamond of February 1878 says 1856. If he was born about 1817 he was in his late thirties. He was the second of the seven to die, and no source read here says where he is buried.\n\nPresiding at a Psi Upsilon banquet in Detroit forty-five years later, his college room-mate Elisha Taylor named the seven over and came to the last of them as \u201cmy room-mate, Robert Barnard of Poughkeepsie, N. Y.\u201d\n\nHis death appears to have shown the Fraternity how little of its own beginnings it had kept. At the Yale convention of July 1855 it first raised the project of collecting portraits of the surviving founders, and the Epitome guessed at the reason: \u201cIt may be that Barnard's recent death had called the attention of the society to the matter.\u201d Eighty years on there was still no likeness of him: \u201cIt is to be regretted that we have no pictures of Robert Barnard and Merwin H. Stewart,\u201d the archivists of the 1933 Centennial wrote. A great-niece who saw the publicity then sent them his badge and a daguerreotype, and in 1934 his face was printed with the other founders' for the first time.",
   "achievements": [
-   "Entered Union College at the age of sixteen; A.B. 1837, A.M. 1840",
-   "A brilliant legal career in Poughkeepsie from 1840 to 1853",
-   "Moved to California in 1853 for reasons of health"
+   "Signed the founding Pledge of 24 November 1833 second, as \u201cR. Barnard\u201d",
+   "Named to the society's first Standing Committee on 10 January 1834, with Martindale and Tuttle",
+   "Signed the document now identified as the Founders' Constitution, his name fifth in order of signature, and the original 1834 Theta constitution as a member of the class of 1837",
+   "Entered Union College from Poughkeepsie at the age of sixteen; A.B. 1837, A.M. 1840",
+   "Read law at Poughkeepsie with Stephen Cleveland, 1837-40, and practised in that city from 1840 to 1853",
+   "One of the four founders whom William Taylor's history of 1843 described as \u201cat this time practising lawyers\u201d",
+   "His original badge and the only known likeness of him, a daguerreotype, were given to the Fraternity by a great-niece after the 1933 Centennial and are preserved in its archives"
   ],
   "annals": "Robert Barnard, a native of Poughkeepsie, N. Y., entered college at the age of sixteen. He received his bachelor's degree in 1837 and his master's degree in 1840. After a brilliant legal career in Poughkeepsie which lasted from 1840 to 1853, he was forced in the latter year to move, for reasons of health, to California, where he died in 1855.",
   "portrait": null,
-  "links": []
+  "links": [],
+  "sources": [
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 21,
+    "label": "The Psi Upsilon Epitome, 1884"
+   },
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 22,
+    "label": "The Psi Upsilon Epitome, 1884"
+   },
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 86,
+    "label": "The Psi Upsilon Epitome, 1884"
+   },
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 131,
+    "label": "The Psi Upsilon Epitome, 1884"
+   },
+   {
+    "doc": "1895-the-story-of-psi-upsilon",
+    "page": 14,
+    "label": "Willard Fiske, The Story of Psi Upsilon, 1895"
+   },
+   {
+    "doc": "1895-the-story-of-psi-upsilon",
+    "page": 15,
+    "label": "Willard Fiske, The Story of Psi Upsilon, 1895"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-01-intro-and-foreward",
+    "page": 15,
+    "label": "Annals of Psi Upsilon, Part I: Introduction and Foreword, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
+    "page": 10,
+    "label": "Annals of Psi Upsilon, Part II: The Chapters, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
+    "page": 12,
+    "label": "Annals of Psi Upsilon, Part II: The Chapters, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+    "page": 129,
+    "label": "Annals of Psi Upsilon, Part III: A Century of Annual Conventions, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+    "page": 319,
+    "label": "Annals of Psi Upsilon, Part III: A Century of Annual Conventions, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-11-the-reprints",
+    "page": 9,
+    "label": "Annals of Psi Upsilon, Part XI: The Reprints, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-11-the-reprints",
+    "page": 10,
+    "label": "Annals of Psi Upsilon, Part XI: The Reprints, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-11-the-reprints",
+    "page": 83,
+    "label": "Annals of Psi Upsilon, Part XI: The Reprints, 1941"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1878-2-vol001-num2",
+    "page": 4,
+    "label": "The Diamond of Psi Upsilon, February 1878"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1878-8-vol002-num1",
+    "page": 4,
+    "label": "The Diamond of Psi Upsilon, November 1878"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1923-2-vol009-num3-mar",
+    "page": 15,
+    "label": "The Diamond of Psi Upsilon, March 1923"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1934-1-vol020-num2-3-jan-mar",
+    "page": 152,
+    "label": "The Diamond of Psi Upsilon, January-March 1934"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1965-3-vol051-num4-sum",
+    "page": 47,
+    "label": "The Diamond of Psi Upsilon, Summer 1965 (History of the Theta)"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1983-1-vol069-num2-win",
+    "page": 6,
+    "label": "The Diamond of Psi Upsilon, Winter 1983"
+   },
+   {
+    "doc": "college-tablet-1st-edition-1995",
+    "page": 38,
+    "label": "The College Tablet, 1st edition, 1995"
+   },
+   {
+    "doc": "college-tablet-1st-edition-1995",
+    "page": 44,
+    "label": "The College Tablet, 1st edition, 1995"
+   },
+   {
+    "doc": "college-tablet-1st-edition-1995",
+    "page": 46,
+    "label": "The College Tablet, 1st edition, 1995"
+   },
+   {
+    "doc": "college-tablet-1st-edition-1995",
+    "page": 57,
+    "label": "The College Tablet, 1st edition, 1995"
+   }
+  ],
+  "uncertainties": [
+   {
+    "claim": "The year he died",
+    "detail": "1853 in the 1884 Epitome (p.22), which says he \u201cended an already brilliant career in 1853 in the city of Los Angeles\u201d, and which is reprinted unchanged in the 1941 Annals pt XI (p.55). 1855 on the 1941 Annals founders' portrait page (pt I p.15), on the 1934 portrait caption, in the 1965 Theta history (p.47) and in the College Tablet (1st ed. p.46). 1856 in the February 1878 Diamond (p.4). The 1941 Annals pt II (p.10) reconciles nothing but is internally coherent: it treats 1853 as the year he left Poughkeepsie for California and 1855 as the year he died there, which suggests the Epitome may have collapsed the removal and the death into one date.",
+    "how_to_resolve": "A Los Angeles County death or probate record for 1853-56; a Dutchess County probate file; a contemporary Poughkeepsie newspaper obituary; California burial registers for the period."
+   },
+   {
+    "claim": "The day and the cause of his death",
+    "detail": "Only the 1965 Theta history (p.47) gives either: \u201cDied at Los Angeles, Calif., of hemorrhage of the lungs, Feb. 12, 1855.\u201d Nothing published before 1965 gives a day or a cause, and that sketch's compiler does not say what he was working from. The cause is at least consistent with the earlier statements that he moved to California for his health.",
+    "how_to_resolve": "The source behind the 1965 Theta history - probably the manuscript Records of the Theta or a Union College necrology; a Los Angeles death record."
+   },
+   {
+    "claim": "His place of burial",
+    "detail": "No source read here names one, for him or for any of the seven founders. Los Angeles is agreed as the place of death but nothing follows from that about interment, and it is equally possible that a lawyer of a Poughkeepsie family was brought back east.",
+    "how_to_resolve": "Los Angeles cemetery records for the 1850s, and the records of the old city burial ground in particular; Poughkeepsie cemetery records, Poughkeepsie Rural Cemetery above all; Find a Grave; the Dutchess County historian."
+   },
+   {
+    "claim": "His date of birth, and therefore his age at death",
+    "detail": "No source read here gives a birth date or a birth year. The only handle is the 1965 Theta history's statement that he entered Union College from Poughkeepsie on 7 September 1833 \u201cat the age of sixteen\u201d, repeated in the 1941 Annals pt II (p.10) as \u201centered college at the age of sixteen\u201d, which implies a birth in about 1817. The 1884 Epitome gives full birth dates for the five founders then living and none for Barnard or Stewart.",
+    "how_to_resolve": "Union College matriculation records for 1833, which usually record an age; Poughkeepsie church baptismal registers; the 1850 federal census for Poughkeepsie."
+   },
+   {
+    "claim": "Whether Poughkeepsie was his birthplace or only the town he came to college from",
+    "detail": "The 1941 Annals pt II (p.10) states it as birth: \u201ca native of Poughkeepsie, N. Y.\u201d The earlier and closer sources say only where he came from - the 1965 sketch has him \u201centered Union College from Poughkeepsie\u201d, Elisha Taylor in 1878 calls him \u201cmy room-mate, Robert Barnard of Poughkeepsie, N. Y.\u201d, and the 1884 Epitome (p.22) says only that of the seven, all but Goodale and Hadley \u201cwere born in New York.\u201d",
+    "how_to_resolve": "Dutchess County and Poughkeepsie vital or church records; the Barnard family's own entry in a Dutchess County history."
+   },
+   {
+    "claim": "Who \u201cthe present Judge Barnard of Poughkeepsie\u201d was",
+    "detail": "The February 1878 Diamond (p.4) says Robert Barnard was his brother but gives no first name. A judge of that surname sitting at Poughkeepsie in 1878 should be identifiable, and the identification would supply the family, and probably the parents and the birth date, at a stroke.",
+    "how_to_resolve": "New York judicial rolls and Dutchess County court records for the 1870s; Poughkeepsie city directories; Dutchess County local histories."
+   },
+   {
+    "claim": "Who his brother in the Beta's class of 1848 was, and where in South America he died",
+    "detail": "The 1884 Epitome (p.131) records only that \u201cMr. Barnard had a brother in Beta's class of '48\u201d; the February 1878 Diamond adds that this brother \u201cafterwards entered the Fraternity (B 1848) and died in South America.\u201d No name is given in either place.",
+    "how_to_resolve": "The Psi Upsilon general catalogues, which list the Beta's class of 1848 by name; Yale College class records for 1848."
+   },
+   {
+    "claim": "Whether his death prompted the founders' portrait project of 1855",
+    "detail": "The 1884 Epitome (p.86) raises the connection and immediately hedges it: \u201cAt this convention, the project of securing portraits of the surviving founders was first mooted. It may be that Barnard's recent death had called the attention of the society to the matter.\u201d The convention met at Yale on 24-25 July 1855. \u201cRecent\u201d in July 1855 would fit a death in February 1855 comfortably and a death in 1853 only loosely, so this passage bears on the death-year question as well - and it is the same volume that gives 1853.",
+    "how_to_resolve": "The manuscript minutes of the 1855 Convention, if they survive in the Executive Council's records."
+   },
+   {
+    "claim": "Whether he was present at the first informal meeting or joined the group afterwards",
+    "detail": "Martindale's 1876 letter to The Diamond puts Barnard in the room at the very first informal meeting, with Harvey, Martindale and Stewart. Martindale's 1898 address instead has the society begun by three and says \u201cto these five names were soon after added George W. Tuttle and Robert Barnard, both Freshmen\u201d (Annals pt III p.129). Both accounts are Martindale's own, twenty-two years apart, and the second was given at eighty-one.",
+    "how_to_resolve": "The manuscript Records of the Theta; Union College room assignments for the autumn of 1833."
+   },
+   {
+    "claim": "Whether the 1934 daguerreotype is really Robert Barnard",
+    "detail": "It is the only likeness of him known to exist, and it rests entirely on a family attribution: the January-March 1934 Diamond (p.152) reports that \u201ca great-niece of Brother Barnard, who saw the publicity regarding our Centennial\u201d sent his original badge and a daguerreotype, which was then printed with the other founders' portraits. The correspondent is not named and the note records no examination of the picture.",
+    "how_to_resolve": "The Executive Council's 1933-34 correspondence files, which should contain the great-niece's letter and her name; the physical daguerreotype, whose case and plate would date it."
+   },
+   {
+    "claim": "The length of his practice in California",
+    "detail": "The February 1878 Diamond says he \u201cremoved to California, where he practiced his profession\u201d; the 1941 Annals pt II gives him from 1853 until his death; the 1884 Epitome leaves no interval at all. How long he lived and worked there depends entirely on the death-year question.",
+    "how_to_resolve": "California and Los Angeles County bar admission records and court dockets for 1853-56; Los Angeles city and county directories."
+   }
+  ]
  },
  {
   "id": "charles-washington-harvey",
@@ -170,32 +990,228 @@
   "honorific": "Dr.",
   "sort": 6,
   "class_year": 1837,
-  "role": "Founder; on the committee that commissioned the Diamond Badge",
-  "profession": "Physician",
+  "role": "In whose room the Pledge was signed, by his own account and the Epitome's",
+  "profession": "Physician, surgeon and dentist",
   "born": {
    "year": 1810,
+   "date": "17 March 1810",
    "place": "Albany, New York"
   },
   "died": {
    "year": 1886,
-   "place": ""
+   "date": "15 October 1886",
+   "place": "Buffalo, New York"
   },
   "buried": {
    "place": "",
    "findagrave": ""
   },
-  "family": "",
-  "bio": "",
+  "family": "Nothing in the archive records his parents or of a wife. He had a son who joined Psi Upsilon - the 1884 Epitome names Tuttle and Harvey as the only two founders with sons in the fraternity - but the passage does not name him, and no other volume read here identifies him. His medical apprenticeship was served with Dr. Jonathan Eights of Albany, a connection of training rather than of blood so far as these sources show.",
+  "bio": "Charles Washington Harvey was born at Albany on 17 March 1810, which made him the eldest of the seven by a wide margin: twenty-three in the autumn of 1833, a freshman of the class of 1837 among boys of sixteen. He was also the only one of the seven who never took a Union degree. \"I ceased to be a member of Union College in 1833,\" he wrote flatly in 1876. He had been there two years.\n\nHe made his career in medicine, and acquired the credentials for it late. He read medicine in the Albany office of Dr. Jonathan Eights and practised medicine and dentistry in that city before taking his degrees: dental surgery at Baltimore in 1847, an M.D. from the University of Buffalo in 1848, an honorary A.M. from Lafayette College in 1865. He was in Buffalo well before those dates: William Taylor's 1843 history already calls him \"a physician with fair prospects and reputation in the City of Buffalo\", and the year the Theta history prints for his move, 1836, cannot be right against those degrees. In the fraternity's first catalogue, of 1842, his was the only Theta name with the suffix \"M.D.\" He was president of the Buffalo Medical and Surgical Association in 1852, retired to private life in 1872, and died at Buffalo on 15 October 1886.\n\nHis claim on the founding is the boldest of the seven, and he made it himself. In April 1876 he described drawing up a paper obligating its signers to vote for a particular candidate for Junior orator, and then, while collecting signatures, conceiving something larger: \"While doing this I conceived the idea of originating a new 'secret' society.\" The paper, he thought, \"was signed, I think, by eight of us who voted for the Junior orator; thus out of that election grew Psi Upsilon\" \u2014 eight, not seven, a figure argued over ever since. He also objected publicly to how the catalogues recorded him: \"Instead of having been initiated I was one of the original members of Psi Upsilon.\"\n\nThe 1884 Epitome, drawing on his own words while he was alive, describes him as the man \"in whose room was held the 'pledge' meeting\" of 24 November 1833. It is the earliest and most direct answer to a question never settled. Hadley's letter of 1843 places the meeting that \"conceived the idea\" in his own room, No. 11 Old College; other traditions put the scene at an upper window of South College, or in West College down in the town. The sources conflict, and may not all describe the same evening: a first small conversation, a wider group and the formal signing are not necessarily one event.\n\nHe went to Albany to consult the jeweller Luke F. Newland about the badge, and later histories say he \"had much to do with the design\". Harvey was more modest: \"The honor of the design of the Badge belongs to Mr. Newland, the Albany jeweler, I having made a few suggestions.\" He could not remember whether he went as one of a committee or as a committee of one.\n\nHis was the first founder's portrait the fraternity obtained. He missed the Convention of 1878, being in New York City under treatment for a painful disease of the eyes, but in May 1883 he sat as an alumni delegate and a vice-president of the semi-centennial Convention at Albany \u2014 the city of his birth \u2014 and answered the toast \"The Founders\". Like Tuttle he had a son in Psi Upsilon, unnamed in these records. No burial place is recorded.",
   "achievements": [
-   "The only one of the seven not to take a degree from Union, leaving after two years",
-   "Graduated from the medical department of the University of Buffalo",
-   "Received many honorary degrees in later years",
-   "Long a physician of high repute in Buffalo; retired to private life in 1872",
-   "Sat on the committee that consulted Luke F. Newland of Albany, maker of the earliest Diamond Badges"
+   "By his own written account the originator of the plan for a new secret society, conceived while he collected signatures on a paper pledging votes for a candidate for Junior orator",
+   "The Pledge meeting of 24 November 1833 was held in his room, according to the 1884 Epitome, drawing on his own statement",
+   "Went to Albany to consult the jeweller Luke F. Newland about the Diamond Badge, contributing suggestions to the design Newland drew",
+   "Wrote two statements on the origin of Psi Upsilon for The Diamond in April 1876, the strongest first-hand claim of primacy made by any founder",
+   "M.D., University of Buffalo, 1848; D.D.S., Baltimore College of Dental Surgery, 1847; A.M., Lafayette College, 1865",
+   "Long a physician of high repute in Buffalo, and the only Theta name carrying the suffix 'M.D.' in the Fraternity's first printed catalogue of 1842",
+   "President of the Buffalo Medical and Surgical Association in 1852",
+   "Member of the Erie County Medical Society, the New York State Dental Society and the American Medical Association",
+   "An alumni delegate and a vice-president of the 1883 semi-centennial Convention at Albany, his birthplace, where he answered the toast 'The Founders'",
+   "The first of the founders whose portrait the Fraternity succeeded in obtaining, after the project was begun in 1855"
   ],
   "annals": "Charles Washington Harvey was born in Albany in 1810. Leaving college after two years, the only one of the seven founders not to receive a degree from Union, he graduated from the medical department of the University of Buffalo, and in later years was the recipient of many honorary degrees. For long a physician of high repute in Buffalo, he retired to private life in 1872, and died in 1886.",
   "portrait": null,
-  "links": []
+  "links": [],
+  "sources": [
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 22,
+    "label": "The Psi Upsilon Epitome, 1884"
+   },
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 23,
+    "label": "The Psi Upsilon Epitome, 1884"
+   },
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 62,
+    "label": "The Psi Upsilon Epitome, 1884"
+   },
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 86,
+    "label": "The Psi Upsilon Epitome, 1884"
+   },
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 129,
+    "label": "The Psi Upsilon Epitome, 1884"
+   },
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 132,
+    "label": "The Psi Upsilon Epitome, 1884"
+   },
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 187,
+    "label": "The Psi Upsilon Epitome, 1884"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1878-9-vol001-num9",
+    "page": 3,
+    "label": "The Diamond of Psi Upsilon, December 1878"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1965-3-vol051-num4-sum",
+    "page": 47,
+    "label": "The Diamond of Psi Upsilon, Summer 1965 (History of the Theta)"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-01-intro-and-foreward",
+    "page": 15,
+    "label": "Annals of Psi Upsilon, Part I: Introduction and Foreword, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
+    "page": 11,
+    "label": "Annals of Psi Upsilon, Part II: The Chapters, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
+    "page": 161,
+    "label": "Annals of Psi Upsilon, Part II: The Chapters, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+    "page": 48,
+    "label": "Annals of Psi Upsilon, Part III: A Century of Annual Conventions, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+    "page": 53,
+    "label": "Annals of Psi Upsilon, Part III: A Century of Annual Conventions, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+    "page": 60,
+    "label": "Annals of Psi Upsilon, Part III: A Century of Annual Conventions, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+    "page": 86,
+    "label": "Annals of Psi Upsilon, Part III: A Century of Annual Conventions, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+    "page": 129,
+    "label": "Annals of Psi Upsilon, Part III: A Century of Annual Conventions, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+    "page": 319,
+    "label": "Annals of Psi Upsilon, Part III: A Century of Annual Conventions, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-11-the-reprints",
+    "page": 9,
+    "label": "Annals of Psi Upsilon, Part XI: The Reprints, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-11-the-reprints",
+    "page": 24,
+    "label": "Annals of Psi Upsilon, Part XI: The Reprints, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-11-the-reprints",
+    "page": 73,
+    "label": "Annals of Psi Upsilon, Part XI: The Reprints, 1941"
+   },
+   {
+    "doc": "1895-the-story-of-psi-upsilon",
+    "page": 16,
+    "label": "Willard Fiske, The Story of Psi Upsilon, 1895"
+   },
+   {
+    "doc": "1905-history-of-the-phi-of-psi-upsilon-1865-1905",
+    "page": 6,
+    "label": "History of the Phi of Psi Upsilon, 1865-1905"
+   },
+   {
+    "doc": "college-tablet-1st-edition-1995",
+    "page": 38,
+    "label": "The College Tablet, 1st edition, 1995"
+   }
+  ],
+  "uncertainties": [
+   {
+    "claim": "Whose room the Pledge of 24 November 1833 was signed in",
+    "detail": "Four answers are on record. The 1884 Epitome (p.22), published while Harvey was alive and drawing on his own statement, calls him the man 'in whose room was held the \"pledge\" meeting', and the same volume (p.21) puts the room in the attic of the stone building down town, that is West College. Hadley's letter of 24 June 1843 says 'five sophomores met at my room No. 11 Old College and conceived the idea' (Annals pt II p.11). Clarkson Nott Potter's tradition, retold in the 1895 Psi Upsilon Review (p.8) and the 1905 Phi history (p.5), has a young man looking out of an upper window in the South College. Fiske (p.16) says only that 'the inceptive meetings were held in West College'. Hadley describes five sophomores conceiving an idea and Potter four men at a window, so these may be preliminary autumn conversations rather than the seven-man signing; Harvey's is the only statement explicitly attached to the pledge meeting, but the 1941 Annals (p.11) lays out the disagreement without resolving it.",
+    "how_to_resolve": "Union College room assignment and building records for the autumn of 1833; the manuscript Records of the Theta; the original Pledge document itself, which Harvey said he had handed to Backus or Stewart for the archives."
+   },
+   {
+    "claim": "Whether seven or eight men signed the founding paper",
+    "detail": "Harvey wrote in April 1876 that the paper 'was signed, I think, by eight of us who voted for the Junior orator'. The February 1878 Diamond printed the Pledge while stating that it omitted 'the name of one of the signers, who left college before the organization of the Psi Upsilon', and then called the remaining names those of the Seven Founders - which cannot both be true of a seven-signature document. The 1984 Diamond (pp.5-7) identifies the omitted man as William Henry Backus, Theta 1836, and notes that the line 'One of the Eight Founders of Psi Upsilon' was struck out of his page in the manuscript Records of the Theta in a different ink.",
+    "how_to_resolve": "The original Pledge in the Fraternity's archives; the manuscript Records of the Theta, and whatever can be found about Backus at Catskill and Newark."
+   },
+   {
+    "claim": "Whether he first suggested the society",
+    "detail": "Harvey claimed it plainly in 1876, and The Diamond's editor thought his testimony 'may be relied upon' because he left college before later events could confuse his memory; the 1965 Theta history says 'Charles W. Harvey is said to have been the one who made the first suggestion'. But Hadley named 'William H. Backus, Merwin H. Stewart and myself' as those most active and in 1843 called himself the Society's Father; Martindale placed the first meeting in Harvey's room but did not say the idea was Harvey's; Fiske named Martindale, Harvey, Hadley and Stewart as 'especially active' and declined to go further, writing that 'it is hardly possible, at this remote day, to distinguish the precise part which each played'.",
+    "how_to_resolve": "Probably unresolvable, but the Theta's earliest manuscript records and the original founding paper are the only documents that could bear on it."
+   },
+   {
+    "claim": "What occasion prompted the founding",
+    "detail": "Harvey attributes it to the Junior orator election - 'the idea of a new fraternity first occurred to him during a political contest', as the Epitome puts it. Fiske instead traces the resolution to 'a literary-society and class contest' in which the seven had stood together. Hadley told the Epitome that the organisation 'was formed almost in self-defence', and Goodale 'positively affirms' that the ruling motive was social. It is not clear whether these are one episode described four ways.",
+    "how_to_resolve": "Records of the Delphian Institute at Union College, and Union's records of class elections for 1833."
+   },
+   {
+    "claim": "His later degrees, and where he took them",
+    "detail": "The 1884 Epitome says the one founder who did not finish at Union 'afterwards obtained a literary degree elsewhere' (p.22); Fiske says he 'afterward attained scholastic honors'; the 1941 Annals says he 'graduated from the medical department of the University of Buffalo' and 'was the recipient of many honorary degrees'; the 1965 Theta history is the only source with particulars - D.D.S., Baltimore College of Dental Surgery, 1847; M.D., University of Buffalo, 1848; A.M., Lafayette College, 1865. 'A literary degree' sits oddly beside a medical one.",
+    "how_to_resolve": "Registrars at the University at Buffalo, Lafayette College, and the University of Maryland (successor to the Baltimore College of Dental Surgery)."
+   },
+   {
+    "claim": "When he moved from Albany to Buffalo",
+    "detail": "The 1965 Theta history says he 'practiced both medicine and dentistry in Albany until 1836, when he moved to Buffalo'. That cannot be right against degrees dated 1847 and 1848; the figure is the same in the raw OCR, so it is an error in the printed text rather than the scan, and 1856 would fit the degrees. But William Taylor's 1843 history already places him in Buffalo, which rules out 1856 as well. No source read here gives a defensible year.",
+    "how_to_resolve": "Albany and Buffalo city directories for the late 1830s and 1840s; Erie County Medical Society membership records."
+   },
+   {
+    "claim": "Whether he practised in Buffalo as a physician or as a dentist",
+    "detail": "The 1965 Theta history says that on moving to Buffalo he 'devoted himself exclusively to the latter profession', dentistry. Every earlier source calls him a physician: 'a physician with fair prospects and reputation in the City of Buffalo' in 1843, 'a physician of high repute in Buffalo' in the 1884 Epitome and again in the 1941 Annals, and his was the only Theta name carrying 'M.D.' in the 1842 catalogue. He belonged to both medical and dental societies.",
+    "how_to_resolve": "Buffalo city directories, which list practitioners by trade; Erie County Medical Society and New York State Dental Society records."
+   },
+   {
+    "claim": "The year of his death",
+    "detail": "15 October 1886 comes from the Executive Council's contemporary report to the 1887 Convention (Annals pt III p.86) and is corroborated by the 1965 Theta history and the 1934 portrait caption; four separate Annals passages show him alive and active in 1882, 1883 and 1884. Every edition of the College Tablet, from the first in 1995 to the seventh in 2013, prints 1866 instead, which appears to be a long-lived typographical slip that has been reprinted unchanged.",
+    "how_to_resolve": "Buffalo or Erie County death records for October 1886; a Diamond obituary; the 1886-87 Convention minutes in the original."
+   },
+   {
+    "claim": "His age at death",
+    "detail": "The 1905 Phi history says he 'died at the ripe age of seventy-six'. With a birth on 17 March 1810 and a death on 15 October 1886 he was seventy-six, so the two agree; but the 1905 statement gives no year and is the only source that gives an age at all.",
+    "how_to_resolve": "A death certificate or gravestone."
+   },
+   {
+    "claim": "His place of burial",
+    "detail": "No volume read here names one, for Harvey or for any of the seven. He died at Buffalo, where he had lived and worked for more than forty years.",
+    "how_to_resolve": "Buffalo cemetery records, Forest Lawn in particular; Erie County interment indexes; Find a Grave."
+   },
+   {
+    "claim": "His Union class year",
+    "detail": "Every biographical account, and his signature on the 1834 Theta constitution (Annals pt III p.319), places him in the class of 1837. But the telegram he and Hadley sent to the Rochester alumni banquet of November 1884 is printed in the Annals (pt II p.161) as signed 'C. W. Harvey, Theta '36'.",
+    "how_to_resolve": "The original telegram or the banquet menu card, if either survives in the archives; Union College class lists for 1837."
+   },
+   {
+    "claim": "How much of the Diamond Badge design was his",
+    "detail": "Fiske (p.16) and the 1941 Annals say he 'had much to do with the design of the badge' and sat on the committee that consulted Newland. Harvey himself said the reverse: 'The honor of the design of the Badge belongs to Mr. Newland, the Albany jeweler, I having made a few suggestions', and he could not remember whether he went to Albany 'as one of a committee, or a committee of one'. The Epitome's own account of the badge credits the final design to Newland as 'an expert familiar with the business', all the founders' submissions having been rejected.",
+    "how_to_resolve": "The letters relating to the badge that Harvey said he gave to Backus or Stewart for the archives; Newland's business papers, if any survive in Albany."
+   },
+   {
+    "claim": "The identity of his Psi Upsilon son",
+    "detail": "The 1884 Epitome (p.129) states that Tuttle and Harvey each had a son in the fraternity but names neither. Tuttle's son is named elsewhere; Harvey's is not named in any volume read here.",
+    "how_to_resolve": "The general catalogues of Psi Upsilon; Buffalo and Albany family records."
+   }
+  ]
  },
  {
   "id": "merwin-henry-stewart",
@@ -203,29 +1219,249 @@
   "honorific": "",
   "sort": 7,
   "class_year": 1837,
-  "role": "Founder; died in 1838, the first of the seven to be lost",
-  "profession": "Tutor; candidate for the ministry",
+  "role": "The Fraternity's first Secretary; signed the Pledge first, as \u201cM. H. Stewart\u201d",
+  "profession": "Schoolteacher and private tutor; candidate for the ministry",
   "born": {
    "year": null,
-   "place": ""
+   "date": "",
+   "place": "New York State"
   },
   "died": {
    "year": 1838,
-   "place": ""
+   "date": "",
+   "place": "Troy, New York"
   },
   "buried": {
    "place": "",
    "findagrave": ""
   },
   "family": "",
-  "bio": "",
+  "bio": "Even his name is unsettled. He signed the Pledge of 24 November 1833 first, as \u201cM. H. Stewart\u201d \u2014 the only form of his name in his own hand. The 1884 Epitome and Fiske call him Merwin; the 1941 Annals, on its page of founders' portraits, prints Mervin. Merwin is the older and commoner spelling and is used here, but nothing settles it.\n\nHe came to Union College from Troy, New York, in the class of 1837, a freshman in the autumn of the founding \u2014 Edward Martindale's room-mate, one of the three whose talk began the society. He was elected its first Secretary in January 1834 and set to frame its by-laws. Much of what survives from that first year is in his hand: the earliest records of the Theta, in what The Diamond in 1878 called \u201chis peculiarly neat and graceful handwriting,\u201d and, by a 1939 judgment of the hand, the Constitution long kept in the Theta's archives. He is thought, not certainly, to have written the Pledge as well.\n\nHe graduated in 1837 with a Phi Beta Kappa key and gave the Latin oration at commencement, then went south as a private tutor, in Virginia by the 1941 Annals. He came back north consumptive and died at twenty-six, by the single account that gives an age. When is not settled: the 1941 Annals says 1838, the 1905 history of the Phi 1839, the February 1878 Diamond 1840; and the Epitome's remark that he taught \u201cnearly two years in the South\u201d after an 1837 graduation points to 1839 by itself. A 1965 sketch gives 12 October 1838, at Troy; a modern College Tablet caption gives 22 October. Every account agrees only that he died about to enter the ministry, the first of the seven to go.\n\nWhat is left of him is other men's regard. William Taylor, writing in 1843 while memory was fresh, called him \u201ca gentleman of taste and refinement\u201d who \u201cpaid the debt of nature a short time after his graduation.\u201d No likeness of him has ever been found: the Centennial archivists of 1933 wrote, \u201cIt is to be regretted that we have no pictures of Robert Barnard and Merwin H. Stewart,\u201d and the 1941 Annals set his name below the six portraits with the bare line that \u201cThere is no photograph in the Archives.\u201d Where he is buried is not recorded.",
   "achievements": [
-   "A.B. Union College 1837; elected to Phi Beta Kappa",
-   "A private tutor in Virginia after graduation",
-   "Died in 1838, as he was about to enter the ministry \u2014 the first of the seven founders to die, only five years after the founding"
+   "Elected the society's first Secretary on 10 January 1834, and appointed to frame its by-laws",
+   "Signed the founding Pledge of 24 November 1833 first, and is believed to have written it",
+   "The Fraternity's earliest records, and the Constitution long kept in the Theta's archives, are in his handwriting",
+   "A.B. Union College 1837; elected to Phi Beta Kappa; delivered the Latin oration at his commencement",
+   "Appointed on 9 May 1834, with Hadley and Absalom Townsend, to the committee that revised the Constitution",
+   "One of the three students whose conversation in the autumn of 1833 began the society, and named by Fiske among the four founders \u201cespecially active\u201d in it",
+   "Named by Fiske, with Martindale, as a possible author of the Fraternity's Greek letters"
   ],
   "annals": "Merwin Henry Stewart, after graduation in 1837 and election to Phi Beta Kappa, was a private tutor in Virginia. Richly gifted in heart and mind, while yet the Fraternity stood at the threshold of its career, he was called away in 1838 as he was about to enter the sacred ministry.",
   "portrait": null,
-  "links": []
+  "links": [],
+  "sources": [
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 21,
+    "label": "The Psi Upsilon Epitome, 1884"
+   },
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 22,
+    "label": "The Psi Upsilon Epitome, 1884"
+   },
+   {
+    "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+    "page": 132,
+    "label": "The Psi Upsilon Epitome, 1884"
+   },
+   {
+    "doc": "1895-the-story-of-psi-upsilon",
+    "page": 14,
+    "label": "Willard Fiske, The Story of Psi Upsilon, 1895"
+   },
+   {
+    "doc": "1895-the-story-of-psi-upsilon",
+    "page": 16,
+    "label": "Willard Fiske, The Story of Psi Upsilon, 1895"
+   },
+   {
+    "doc": "1905-history-of-the-phi-of-psi-upsilon-1865-1905",
+    "page": 6,
+    "label": "History of the Phi of Psi Upsilon, 1865-1905"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-01-intro-and-foreward",
+    "page": 15,
+    "label": "Annals of Psi Upsilon, Part I: Introduction and Foreword, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
+    "page": 9,
+    "label": "Annals of Psi Upsilon, Part II: The Chapters, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
+    "page": 11,
+    "label": "Annals of Psi Upsilon, Part II: The Chapters, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
+    "page": 13,
+    "label": "Annals of Psi Upsilon, Part II: The Chapters, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+    "page": 129,
+    "label": "Annals of Psi Upsilon, Part III: A Century of Annual Conventions, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+    "page": 319,
+    "label": "Annals of Psi Upsilon, Part III: A Century of Annual Conventions, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-11-the-reprints",
+    "page": 9,
+    "label": "Annals of Psi Upsilon, Part XI: The Reprints, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-11-the-reprints",
+    "page": 10,
+    "label": "Annals of Psi Upsilon, Part XI: The Reprints, 1941"
+   },
+   {
+    "doc": "annals-of-psi-upsilon-pt-11-the-reprints",
+    "page": 24,
+    "label": "Annals of Psi Upsilon, Part XI: The Reprints, 1941"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1878-2-vol001-num2",
+    "page": 4,
+    "label": "The Diamond of Psi Upsilon, February 1878"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1878-8-vol002-num1",
+    "page": 4,
+    "label": "The Diamond of Psi Upsilon, November 1878"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1923-2-vol009-num3-mar",
+    "page": 15,
+    "label": "The Diamond of Psi Upsilon, March 1923"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1932-1-vol018-num2-jan",
+    "page": 10,
+    "label": "The Diamond of Psi Upsilon, January 1932"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1934-1-vol020-num2-3-jan-mar",
+    "page": 152,
+    "label": "The Diamond of Psi Upsilon, January-March 1934"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1965-3-vol051-num4-sum",
+    "page": 47,
+    "label": "The Diamond of Psi Upsilon, Summer 1965 (History of the Theta)"
+   },
+   {
+    "doc": "diamond-of-psi-upsilon-1983-1-vol069-num2-win",
+    "page": 6,
+    "label": "The Diamond of Psi Upsilon, Winter 1983"
+   },
+   {
+    "doc": "college-tablet-1st-edition-1995",
+    "page": 38,
+    "label": "The College Tablet, 1st edition, 1995"
+   },
+   {
+    "doc": "college-tablet-1st-edition-1995",
+    "page": 44,
+    "label": "The College Tablet, 1st edition, 1995"
+   },
+   {
+    "doc": "college-tablet-1st-edition-1995",
+    "page": 46,
+    "label": "The College Tablet, 1st edition, 1995"
+   },
+   {
+    "doc": "college-tablet-2nd-edition-1997",
+    "page": 22,
+    "label": "The College Tablet, 2nd edition, 1997"
+   },
+   {
+    "doc": "college-tablet-4th-edition-2004",
+    "page": 23,
+    "label": "The College Tablet, 4th edition, 2004"
+   },
+   {
+    "doc": "college-tablet-7th-edition-2013",
+    "page": 21,
+    "label": "The College Tablet, 7th edition, 2013"
+   }
+  ],
+  "uncertainties": [
+   {
+    "claim": "The spelling of his given name",
+    "detail": "\u201cMerwin\u201d in the 1884 Epitome (pp.21-22, 132), in Fiske's Story, in the 1878 Diamond and in the Annals pt II and pt III. \u201cMervin\u201d on the 1941 Annals founders' portrait page (pt I p.15) - checked against the raw scan, so it is the printed page and not an artefact of the digitisation. The Pledge itself, the only document in his own hand that is quoted anywhere, gives only the initials \u201cM. H. Stewart\u201d. Merwin is the older and much the more frequent form, but no source read here shows his full name signed by him.",
+    "how_to_resolve": "The manuscript Records of the Theta and the original Constitution, both said to be in his hand; the Union College class and commencement records for 1837; Troy church and family records."
+   },
+   {
+    "claim": "The year he died",
+    "detail": "1838 on the 1941 Annals founders' portrait page (pt I p.15) and in the Annals pt II (p.11), \u201che was called away in 1838\u201d; 1839 in the 1905 history of the Phi (p.6), \u201cBrother Stewart died in 1839 while studying for the sacred ministry\u201d; 1840 in the February 1878 Diamond (p.4), \u201cwas attacked by consumption and died in 1840, not long after his return to the North.\u201d The 1884 Epitome supports both ends: its mortality chapter (p.132) says David Humphreys' death in 1838 \u201cwas soon followed by that of his classmate, Merwin H. Stewart\u201d, while its narrative (p.22) says Stewart \u201ctaught nearly two years in the South\u201d after graduating in July 1837, which runs to about mid-1839. The 1965 Theta history's circumstantial entry - a day, a place and an age - is the strongest single argument for 1838. This record gives 1838 as the best-attested year, not as a settled one.",
+    "how_to_resolve": "Rensselaer County or Troy death records and newspaper notices for 1838-40; Union College necrologies and the Phi Beta Kappa chapter records; the manuscript Records of the Theta, which may carry a memorial minute."
+   },
+   {
+    "claim": "The day of the month he died",
+    "detail": "12 October per the 1965 Theta history (p.47), \u201cDied at Troy, N.Y., of consumption, October 12, 1838, at age of 26 years.\u201d 22 October per a caption in the College Tablet, \u201cDied October 22, 1838, before the invention of photography (1839)\u201d - which appears in the 4th (2004) and 7th (2013) editions, is absent from the 1st, 2nd and 6th, and is tied to Stewart only by where it sits on the page. Neither date is corroborated by a nineteenth-century source, and the College Tablet's compiler is unknown.",
+    "how_to_resolve": "The same Troy and Union College records; and, for the caption, the College Tablet's own editorial files, which should show what was added between the 2nd and 4th editions and why."
+   },
+   {
+    "claim": "Where he died",
+    "detail": "Only the 1965 Theta history (p.47) names a place, Troy, New York. That is also the town Elisha Taylor gave as Stewart's in November 1878 when he listed the seven founders and their homes, so Troy is at least where his family was. No source published before 1965 states a place of death, and the February 1878 Diamond says only that he died \u201cnot long after his return to the North.\u201d",
+    "how_to_resolve": "Rensselaer County death records; Troy newspapers for 1838-40; Troy city directories, to establish whether the Stewart family was there."
+   },
+   {
+    "claim": "His birth date, birthplace, and age at death",
+    "detail": "No source read here gives a birth date. The 1965 Theta history's \u201cat age of 26 years\u201d in October 1838 implies a birth in about 1812, but that is arithmetic on a single late statement. On birthplace the only evidence is the 1884 Epitome's group remark (p.22) that all the founders except Goodale and Hadley \u201cwere born in New York\u201d; Troy is his home town, not a stated birthplace. The Epitome gives full birth dates for the five founders then living and none for Stewart or Barnard.",
+    "how_to_resolve": "Union College matriculation records for 1833, which usually record an age; Troy and Rensselaer County church baptismal registers; the 1830 federal census."
+   },
+   {
+    "claim": "His parents and family",
+    "detail": "Nothing at all. No source read here names a parent, a sibling, a wife or a child, and unlike Tuttle and Harvey he left no son in the Fraternity. The 1884 Epitome discusses family connections among the membership at length (p.131) and does not mention him.",
+    "how_to_resolve": "Troy and Rensselaer County probate and land records; the Stewart family in Troy directories and the 1830 and 1840 censuses; Union College's file on the class of 1837, which sometimes records a father's name and occupation."
+   },
+   {
+    "claim": "His place of burial",
+    "detail": "No source read here names one, for him or for any of the seven founders. If he died at Troy, a Troy burial is likely but nothing states it.",
+    "how_to_resolve": "Oakwood Cemetery, Troy, and the older Troy burial grounds that Oakwood absorbed; Rensselaer County interment indexes; Find a Grave."
+   },
+   {
+    "claim": "Where in the South he taught, and for how long",
+    "detail": "\u201cNearly two years in the South\u201d per the 1884 Epitome (p.22); \u201ca private tutor in Virginia\u201d per the 1941 Annals pt II (p.11), which is the only source to name a state; \u201cPrivate tutor in St. George's County, Va., 1837-38\u201d per the 1965 Theta history (p.47), which both names a county that does not exist in Virginia and gives a span of about a year rather than two. The county reading is the same in the raw scan, so the error is in the printed page. The length of the engagement matters, because \u201cnearly two years\u201d from July 1837 is one of the two arguments for a death in 1839.",
+    "how_to_resolve": "Virginia county records for King George, Prince George and St. George's Parish; the papers of Virginia planter families who engaged northern tutors in 1837-38; the source behind the 1965 Theta history."
+   },
+   {
+    "claim": "Whether he wrote the Pledge",
+    "detail": "William Taylor's history of 1843 (Annals pt XI p.9) says \u201cMr. Stewart, whom we believe was the author of this pledge\u201d - the earliest statement on the point, and hedged when it was made. His signature stands first among the seven, which is suggestive but not proof, and the Fraternity's early records are agreed to be in his handwriting.",
+    "how_to_resolve": "The original Pledge document, if it survives; comparison of its hand with the Theta records that are attributed to him."
+   },
+   {
+    "claim": "Whether he shares the credit for the Fraternity's name",
+    "detail": "Fiske's Story (p.16) says \u201cMartindale and Stewart may jointly lay claim to the first suggestion of the Fraternity's name\u201d, and prefaces the whole subject with the remark that it is \u201chardly possible, at this remote day, to distinguish the precise part which each played.\u201d The 1884 Epitome (p.23) and the 1941 Annals pt II (p.11) credit Martindale alone; the 1905 history of the Phi (p.6) credits Hadley and Martindale. Martindale's own 1876 account claims no more than that the name arose \u201cfrom the beauty of the two Greek letters\u201d, and Hadley wrote that he was \u201cnot quite certain who suggested the name.\u201d",
+    "how_to_resolve": "The Theta's manuscript minutes and committee reports for 1834, if any record the committee on the Name."
+   },
+   {
+    "claim": "Whether the Constitution long held in the Theta's archives is in his hand",
+    "detail": "The attribution is a handwriting judgment made by LeRoy J. Weed in 1939 and quoted in the 1941 Annals pt II (p.13): the recovered original \u201cwas written by Sterling G. Hadley, while the Constitution which has been in the archives of the Theta Chapter for more than a century was written by Merwin H. Stewart, as indicated by its chirography.\u201d Two nineteenth-century statements support the broader claim about the records - the February 1878 Diamond's \u201cthe earliest records of the Theta are in his peculiarly neat and graceful handwriting\u201d, and Hadley's own remark that the original Constitution and the earliest records are both in Stewart's hand - but Hadley and Weed do not agree about which document is which.",
+    "how_to_resolve": "A documentary examination of both manuscripts against a securely identified specimen of Stewart's writing; the Executive Council's 1939 committee report on the authentication of the Founders' Constitution."
+   },
+   {
+    "claim": "Whether he was in fact the first Secretary",
+    "detail": "The minutes of 10 January 1834, as reprinted in the Annals pt XI (p.10), record \u201cSecretary, Stewart\u201d, and Fiske states it flatly, \u201cStewart was the first secretary.\u201d Martindale, recalling the same election in 1898, said only \u201cStewart, I think, Secretary\u201d (Annals pt III p.129). The documentary record is good and Martindale's hedge is sixty-five years after the fact, but the hedge is on the record.",
+    "how_to_resolve": "The manuscript Records of the Theta for January 1834."
+   },
+   {
+    "claim": "Whether any likeness of him ever existed, and which founder the College Tablet's photography caption refers to",
+    "detail": "None was known at the 1933 Centennial - \u201cIt is to be regretted that we have no pictures of Robert Barnard and Merwin H. Stewart\u201d (Diamond, January-March 1934, p.152) - and none had been found by 1941, when the Annals printed six portraits and, in place of the seventh, the line \u201cThere is no photograph in the Archives of Mervin Henry Stewart.\u201d In the 1934 pictorial section the page where his portrait would fall in sequence carries no readable caption at all. The College Tablet's caption \u201cDied before advent of photography\u201d (2nd ed. p.22) sits in the founders panel and cannot be tied by the text alone to a named founder; the expanded version in the 4th and 7th editions sits immediately before Stewart's entry.",
+    "how_to_resolve": "The original scan images of the 1934 pictorial section and of the College Tablet founders panel; Troy and Union College collections, and any surviving Stewart family papers, for a silhouette, miniature or drawing, the only forms a likeness of him could take."
+   },
+   {
+    "claim": "Which ministry he was preparing to enter",
+    "detail": "Every account says he died as he was about to enter the ministry - the Epitome's \u201cthe sacred ministry\u201d, the 1905 Phi history's \u201cwhile studying for the sacred ministry\u201d - and not one of them names a denomination, a seminary or a presbytery. Nor does any source say whether he had begun formal study.",
+    "how_to_resolve": "Matriculation records of the seminaries a Union graduate of 1837 would have gone to, Princeton, Auburn, Union Theological and the General Theological Seminary among them; presbytery and diocesan records for Troy in 1838-40."
+   }
+  ]
  }
 ]

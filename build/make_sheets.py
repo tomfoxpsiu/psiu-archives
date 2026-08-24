@@ -68,8 +68,10 @@ def founders_sheet():
         ("role", 30, "One short line shown as a badge under the name."),
         ("profession", 26, "How he made his living."),
         ("born_year", 10, "A four-digit year, or leave blank."),
+        ("born_date", 20, "The full date if it is known, written out: 26 August 1812."),
         ("born_place", 30, "Town, county, state."),
         ("died_year", 10, "A four-digit year."),
+        ("died_date", 20, "The full date if it is known, written out: 1 September 1901."),
         ("died_place", 26, "Where he died."),
         ("buried_place", 30, "Cemetery, town, state."),
         ("findagrave", 40, "Paste the whole address of his Find a Grave memorial page."),
@@ -81,6 +83,12 @@ def founders_sheet():
         ("portrait", 34, "A file name you have put in site/assets/people, e.g. "
                          "assets/people/edward-martindale.jpg"),
         ("links", 46, "One per line as: Label | https://address"),
+        ("uncertainties", 90, "The open questions shown at the foot of his page. One per line, "
+                              "written as:  claim ~ what the sources say ~ how to settle it   "
+                              "(three parts separated by a tilde). Delete a line once it is "
+                              "settled, and move the answer into the right column above."),
+        ("sources", 72, "The volumes his biography was written from, shown as links that open "
+                        "the scan at the page. One per line as:  volume-id | page | label"),
     ]
     rows = []
     for f in sorted(founders, key=lambda x: x.get("sort", 99)):
@@ -88,8 +96,10 @@ def founders_sheet():
             "id": f["id"], "name": f["name"], "honorific": f.get("honorific", ""),
             "class_year": f["class_year"], "role": f.get("role", ""),
             "profession": f.get("profession", ""),
-            "born_year": f["born"].get("year") or "", "born_place": f["born"].get("place", ""),
-            "died_year": f["died"].get("year") or "", "died_place": f["died"].get("place", ""),
+            "born_year": f["born"].get("year") or "",
+            "born_date": f["born"].get("date", ""), "born_place": f["born"].get("place", ""),
+            "died_year": f["died"].get("year") or "",
+            "died_date": f["died"].get("date", ""), "died_place": f["died"].get("place", ""),
             "buried_place": f["buried"].get("place", ""),
             "findagrave": f["buried"].get("findagrave", ""),
             "family": f.get("family", ""), "bio": f.get("bio", ""),
@@ -97,6 +107,13 @@ def founders_sheet():
             "annals": f.get("annals", ""), "portrait": f.get("portrait") or "",
             "links": "\n".join("%s | %s" % (l.get("label", "Read more"), l["url"])
                                for l in (f.get("links") or [])),
+            "uncertainties": "\n".join(
+                " ~ ".join(x for x in (u.get("claim", ""), u.get("detail", ""),
+                                       u.get("how_to_resolve", "")) if x)
+                for u in (f.get("uncertainties") or [])),
+            "sources": "\n".join(
+                "%s | %s | %s" % (sc.get("doc", ""), sc.get("page", ""), sc.get("label", ""))
+                for sc in (f.get("sources") or [])),
         })
     wb = Workbook()
     ws = wb.active
@@ -128,6 +145,9 @@ def timeline_sheet():
                            "web address."),
         ("source_page", 12, "The page number in that volume."),
         ("source_label", 30, "How to name the source, e.g. “Annals of Psi Upsilon, Part 2”."),
+        ("uncertain", 70, "One sentence, only if the sources genuinely disagree about this "
+                          "event. It shows on the timeline as “Not settled”. Clear the cell once "
+                          "it is settled."),
     ]
     rows = []
     for e in core:
@@ -138,7 +158,7 @@ def timeline_sheet():
             "feature": "yes" if e.get("feature") else "",
             "link": e.get("link", ""), "link_label": e.get("link_label", ""),
             "source_doc": src.get("doc", ""), "source_page": src.get("page", ""),
-            "source_label": src.get("label", ""),
+            "source_label": src.get("label", ""), "uncertain": e.get("uncertain", ""),
         })
     wb = Workbook()
     ws = wb.active

@@ -3,7 +3,7 @@
   "year": 1833,
   "category": "founding",
   "title": "Seven students sign the Pledge",
-  "text": "In an attic room of a stone building in downtown Schenectady \u2014 West College, at Union and College streets \u2014 seven Union College undergraduates sign a formal pledge to organise a secret society. The Pledge, long kept as a piece of tawny paper in the archives of the Theta, bears the date 24 November 1833.",
+  "text": "In an attic room of West College, the stone building in downtown Schenectady that housed the two lower Union College classes, seven undergraduates signed a short handwritten agreement. They pledged their sacred honour to keep what had been said and done a profound secret, and to form a secret society at or before the beginning of the next term. The paper, afterwards called the Pledge, is dated 24 November 1833, and that date has always been kept as the birthday of Psi Upsilon.",
   "date": "24 November 1833",
   "feature": true,
   "link": "founders.html",
@@ -12,14 +12,54 @@
    "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
    "page": 9,
    "label": "Annals of Psi Upsilon, Part 2"
+  },
+  "uncertain": "The founders' own later accounts disagree about the room and even the month: Harvey said the pledge meeting was held in his room, Hadley remembered five sophomores in his own room, No. 11 Old College, and Goodale wrote in 1876 that the organisation \"must have been completed in the month of October, 1833\"."
+ },
+ {
+  "year": 1833,
+  "category": "members",
+  "title": "The first initiations",
+  "text": "Within weeks of the Pledge, three members of the class of 1836 were initiated at a meeting held in a Schenectady hotel: Jeremiah S. Lord, William H. Backus and Absalom Townsend. Five more from 1836 and one from 1837 followed before the year was out. Psi Upsilon was the first Greek-letter society to take members from every class rather than only the upper ones.",
+  "date": "December 1833",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 275,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1833,
+  "category": "founding",
+  "title": "Why the seven acted",
+  "text": "All seven founders belonged to the Delphian Institute, one of Union's literary societies, and had stood together against the three older Greek-letter societies at the college \u2014 Kappa Alpha, Sigma Phi and Delta Phi \u2014 which controlled college politics and the distribution of literary honours. Four of the seven were of the class of 1836 and three of the class of 1837. Two came from Massachusetts and the rest from New York.",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 275,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1834,
+  "category": "insignia",
+  "title": "The Diamond badge is first worn in public",
+  "text": "For its first six or seven months the society kept itself hidden, and a joke badge for a sham organisation called the Eta Pi was circulated to mislead rivals. The diamond-shaped badge was designed and made by Luke F. Newland, a noted Albany jeweller, consulted by a committee that included the founder Charles Washington Harvey after the students' own designs were rejected. Ten pins were made in the first order, at ten dollars apiece, and they were worn openly for the first time in June 1834.",
+  "date": "June 1834",
+  "feature": true,
+  "link": "heraldry.html",
+  "link_label": "The heraldry exhibit",
+  "source": {
+   "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+   "page": 62,
+   "label": "The Psi Upsilon Epitome, 1884"
   }
  },
  {
   "year": 1834,
   "category": "founding",
   "title": "The first Constitution is adopted",
-  "text": "The Minute Book of the Theta records the adoption of the Fraternity's first Constitution. The signed document was lost for a century and rediscovered in 1936 in the shop of a dealer in old and rare manuscripts; it is now in the archives of the Executive Council.",
+  "text": "At a meeting held on the first Friday of the new term, with Samuel Goodale in the chair, a constitution was presented and unanimously adopted, and the first officers were chosen: Hadley president, Stewart secretary, Goodale treasurer. The by-laws Stewart was appointed to frame were adopted ten days later. The signed document carries the seven founders' names and thirteen more; it was lost for a century and is now called the Founders' Constitution.",
   "date": "10 January 1834",
+  "feature": true,
   "source": {
    "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
    "page": 12,
@@ -29,8 +69,19 @@
  {
   "year": 1834,
   "category": "founding",
-  "title": "The first initiate",
-  "text": "John H. E. Beach, class of 1838, becomes the first man initiated after the adoption of the Constitution.",
+  "title": "President Nott forces open Phi Beta Kappa",
+  "text": "The three older Union societies formed a coalition to keep Psi Upsilon men out of Phi Beta Kappa whatever their standing. Eliphalet Nott, the college's president, broke the boycott by telling the members: \"Gentlemen, I want you to elect two members of the Psi Upsilon society, and if you do not do it in term time, why, you see, we can and will do it in vacation.\" The present system of faculty nomination to the honour society is traced to the episode.",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
+   "page": 13,
+   "label": "Annals of Psi Upsilon, Part 2"
+  }
+ },
+ {
+  "year": 1834,
+  "category": "members",
+  "title": "The first initiate under the Constitution",
+  "text": "John H. E. Beach, class of 1838, was the first man initiated after the Constitution was adopted. A run of initiations followed through January and February, and by the end of September the society numbered about twenty.",
   "date": "16 January 1834",
   "source": {
    "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
@@ -40,12 +91,62 @@
  },
  {
   "year": 1834,
+  "category": "members",
+  "title": "William Taylor, the first freshman",
+  "text": "William Taylor, class of 1838, was the first freshman taken into Psi Upsilon, initiated on the same night as Joseph W. Gott. His election was kept quiet for a time so that he could work among his own classmates. Taylor left a vivid account of the ceremony in a room above an oyster house in Schenectady's Frog Alley, became the Fraternity's first historian, and did more than any other early member to extend it.",
+  "source": {
+   "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+   "page": 13,
+   "label": "The Psi Upsilon Epitome, 1884"
+  },
+  "uncertain": "The 1884 Epitome dates the initiation to September 1834; the 1941 Annals give 17 November 1834."
+ },
+ {
+  "year": 1835,
   "category": "insignia",
-  "title": "The Diamond Badge is first worn in public",
-  "text": "The badge was designed by Luke F. Newland, a noted Albany jeweller, who had been consulted by a committee including the founder Dr. Charles Washington Harvey.",
-  "date": "June 1834",
-  "link": "heraldry.html",
-  "link_label": "The heraldry exhibit",
+  "title": "The name Psi Upsilon and the grip are adopted",
+  "text": "The society settled its symbolic Greek name and its mode of greeting on 17 March 1835. Until then it had operated without either. The initials were adopted at Edward Martindale's suggestion.",
+  "date": "17 March 1835",
+  "feature": true,
+  "source": {
+   "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+   "page": 13,
+   "label": "The Psi Upsilon Epitome, 1884"
+  },
+  "uncertain": "Martindale's share in the name is in every account, but the 1895 Story credits him jointly with Stewart, the 1905 history of the Phi with Hadley, and Martindale himself said in 1876 only that the name arose \"from the beauty of the two Greek letters\"."
+ },
+ {
+  "year": 1836,
+  "category": "expansion",
+  "title": "The first expansion beyond Union",
+  "text": "Isaac Dayton and William Taylor, home in New York for the vacation, called a meeting that adjourned to John L. Graham's house at 26 St Marks Place, and the body organised there called itself \"the Embryo Branch of the Psi Upsilon Society\". Three years had passed since the Pledge; the founders had been in no hurry to extend the society. The society at Union granted the petition on 24 January 1837 and the papers reached New York the following month, and Psi Upsilon ceased to be a single college club.",
+  "date": "6 December 1836",
+  "link": "stories/the-founding-of-the-delta-chapter-at-nyu.html",
+  "link_label": "The founding of the Delta",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
+   "page": 25,
+   "label": "Annals of Psi Upsilon, Part 2"
+  },
+  "uncertain": "The Fraternity's official date for the second chapter is 11 February 1837; its own founders dated it from this meeting of 6 December 1836."
+ },
+ {
+  "year": 1838,
+  "category": "members",
+  "title": "The first member dies",
+  "text": "David Humphreys, Theta 1837, died at Velasco, Texas, far from home \u2014 the first member of Psi Upsilon to die. His classmate Joseph W. Gott delivered a memorial oration on him at the gathering of the chapters the following year.",
+  "source": {
+   "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+   "page": 13,
+   "label": "The Psi Upsilon Epitome, 1884"
+  },
+  "uncertain": "The founder Merwin Henry Stewart is said to have died soon after Humphreys, but no early source gives a date; the death date of 22 October 1838 appears only in modern editions of the College Tablet."
+ },
+ {
+  "year": 1838,
+  "category": "founding",
+  "title": "The mother chapter takes the name Theta",
+  "text": "Once a second chapter existed the parent body needed a name of its own. The letter Theta was adopted in 1838, at the instance of Maunsell Van Rensselaer, class of 1838, later President of Hobart College. By then Psi Upsilon had embarked on what the Annals call its policy of conservative expansion.",
   "source": {
    "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
    "page": 12,
@@ -53,118 +154,1198 @@
   }
  },
  {
-  "year": 1838,
-  "category": "founding",
-  "title": "The mother chapter takes the name Theta",
-  "text": "The original chapter adopts the name Theta, at the instance of Maunsell Van Rensselaer, class of 1838, later President of Hobart College. The same year Merwin Henry Stewart becomes the first of the seven founders to die.",
+  "year": 1839,
+  "category": "publications",
+  "title": "The first Psi Upsilon publication",
+  "text": "Gott's oration on David Humphreys was printed in August 1839, the earliest issue of the Psi Upsilon press. It began a printing tradition \u2014 catalogues, songbooks, convention records, magazines and histories \u2014 that Willard Fiske catalogued forty years later.",
+  "date": "August 1839",
   "source": {
-   "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
-   "page": 12,
-   "label": "Annals of Psi Upsilon, Part 2"
+   "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+   "page": 13,
+   "label": "The Psi Upsilon Epitome, 1884"
+  }
+ },
+ {
+  "year": 1839,
+  "category": "conventions",
+  "title": "The founders' constitution is superseded",
+  "text": "The fundamental law of 1833 became inoperative in 1839, when a second constitution replaced it. Its outline was drawn up by Maunsell Van Rensselaer while he was still a senior at Union, and the chapters ratified it with very few changes.",
+  "source": {
+   "doc": "1895-the-story-of-psi-upsilon",
+   "page": 43,
+   "label": "Fiske, The Story of Psi Upsilon, 1895"
+  }
+ },
+ {
+  "year": 1839,
+  "category": "conventions",
+  "title": "The two chapters convene at Union",
+  "text": "The Theta and the Delta met together at Union College, the first time delegates of more than one branch had assembled. Gott's memorial oration on David Humphreys was delivered at the same gathering.",
+  "date": "24 July 1839",
+  "source": {
+   "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+   "page": 13,
+   "label": "The Psi Upsilon Epitome, 1884"
   }
  },
  {
   "year": 1841,
   "category": "conventions",
   "title": "The first Convention",
-  "text": "Psi Upsilon holds the first convention of any American fraternity.",
+  "text": "On a call published in the New York Tribune, delegates from the several branches met in the chapel of the University of the City of New York, about fifty members attending with Joseph W. Gott in the chair. They resolved to prepare a full catalogue of members, to plant branches at other reputable colleges, to keep the chapters corresponding, and to hold conventions annually thereafter \u2014 the programme that shaped the Fraternity. It was the first convention of delegates held by any American college fraternity.",
+  "date": "22 October 1841",
   "feature": true,
-  "link": "collections/convention.html",
-  "link_label": "The Convention Records"
+  "link": "stories/psi-upsilons-first-convention-in-1841.html",
+  "link_label": "The first Convention",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 6,
+   "label": "Annals of Psi Upsilon, Part 3"
+  },
+  "uncertain": "The Psi Upsilon Review argued in 1895 that the reunion at Schenectady in July 1834 was \"as real a Convention as ever was held\" and that the numbering should run from it; the Epitome counts the meeting of the two chapters in July 1839 as a convention as well."
  },
  {
   "year": 1842,
   "category": "publications",
   "title": "The first membership catalogue",
-  "text": "Psi Upsilon issues the first fraternity membership catalogue."
+  "text": "William E. Robinson compiled the Fraternity's first general catalogue while studying at the Yale Law School: 243 names across five chapters, with a frontispiece of Minerva and Mercury he drew himself and a Greek motto chosen by Professor Woolsey of Yale. It was the first membership catalogue issued by any American fraternity, and eight more editions followed before 1880.",
+  "date": "January 1842",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 7,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1843,
+  "category": "conventions",
+  "title": "The Decennial Convention",
+  "text": "The Convention met with the Theta at Union to close the Fraternity's first decade, seven chapters attending, with a supper at Tapping's Hotel. Three new chapters were authorised in the same year, bringing the roll to ten chapters and about 470 members \u2014 one chapter for each year of the society's age. The Convention then resolved that no further chapter be formed except on very urgent grounds.",
+  "date": "26 July 1843",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 7,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1843,
+  "category": "publications",
+  "title": "The first history of Psi Upsilon",
+  "text": "William Taylor, Theta 1838, wrote a manuscript History of the Psi Upsilon Fraternity containing a copy of the Pledge and accounts of the first Convention, the chapter letters, the catalogue and the introduction of the grip. The manuscript reached the Fraternity's archivist shortly before the Centennial, and Earl D. Babst quoted it at length in 1933.",
+  "source": {
+   "doc": "diamond-of-psi-upsilon-1934-1-vol020-num2-3-jan-mar",
+   "page": 55,
+   "label": "The Diamond of Psi Upsilon, Centennial issue, 1934"
+  }
+ },
+ {
+  "year": 1844,
+  "category": "conventions",
+  "title": "A third Constitution, and a book for the records",
+  "text": "The Convention with the Gamma at Amherst, ten chapters present, adopted the Fraternity's third constitution and issued the second general catalogue, of 497 names. It also instructed the Gamma to procure a book in which the records of this and all future Conventions should be inscribed.",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 8,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1846,
+  "category": "members",
+  "title": "Chester Alan Arthur is initiated",
+  "text": "Arthur, Theta 1848, joined the Fraternity in May 1846 as an undergraduate at Union. Thirty-five years later he became President of the United States.",
+  "date": "May 1846",
+  "link": "people/chester-a-arthur.html",
+  "link_label": "Chester A. Arthur",
+  "source": {
+   "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+   "page": 14,
+   "label": "The Psi Upsilon Epitome, 1884"
+  }
+ },
+ {
+  "year": 1847,
+  "category": "members",
+  "title": "Francis Miles Finch is initiated",
+  "text": "Finch, Beta 1849, wrote the earliest Psi Upsilon songs and later sat on New York's highest court. Fiske called his smoking song \"possibly the most pleasing lay, in any literature, inspired by Virginia's care-soothing weed\", and said it had passed beyond the Fraternity into common student use across America.",
+  "date": "June 1847",
+  "link": "recordings.html",
+  "link_label": "The song recordings",
+  "source": {
+   "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+   "page": 14,
+   "label": "The Psi Upsilon Epitome, 1884"
+  }
  },
  {
   "year": 1849,
   "category": "publications",
   "title": "The first songbook",
-  "text": "The Fraternity prints the first of its songbooks. Every printed songbook since has carried two epigraphs \u2014 one from The Merchant of Venice, and one by Francis M. Finch, Beta 1849, who wrote many of the earliest Psi U songs.",
-  "link": "recordings.html",
-  "link_label": "The song recordings"
+  "text": "At the Convention with the Lambda at Columbia the Fraternity issued its first song book, containing eight songs, alongside the fourth general catalogue of 995 names. Francis M. Finch read \"The Mystical Bower\" and four Beta brothers sang it to the assembly. It is the earliest printed collection of American student lyrics, and eleven further editions followed, the sixth of them in 1871 the first to be printed with music.",
+  "feature": true,
+  "link": "stories/psi-upsilons-first-songbook.html",
+  "link_label": "The first songbook",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 11,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
  },
  {
   "year": 1850,
   "category": "publications",
-  "title": "The first fraternity magazine",
-  "text": "Psi Upsilon founds the first fraternity magazine."
+  "title": "The College Tablet, the first Psi Upsilon periodical",
+  "text": "The Delta chapter published a paper called The College Tablet, edited by F. N. Zabriskie and E. C. Darlington of the class of 1850, of which six numbers of eight pages appeared. It is believed to be the earliest printed periodical of Psi Upsilon. It also began a struggle for a magazine of the whole Fraternity that ran for another seventy years.",
+  "date": "15 January 1850",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-06-the-diamond-of-psi-upsilon",
+   "page": 1,
+   "label": "Annals of Psi Upsilon, Part 6: The Diamond"
+  }
+ },
+ {
+  "year": 1851,
+  "category": "expansion",
+  "title": "The Convention looks west",
+  "text": "Meeting with the Psi at Hamilton, the Convention recognised the eleventh chapter and resolved, for the first time, that \"this Convention recommends the establishment of chapters in the West\". Nine years passed before the first chapter west of the Alleghenies was founded.",
+  "date": "22 July 1851",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 13,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1851,
+  "category": "members",
+  "title": "The first alumni gathering",
+  "text": "Psi Upsilon men resident in Wisconsin met at Madison, the earliest gathering of the Fraternity's graduates. It was the first of the alumni reunions and associations that later spread across the country, and the Wisconsin men used their meetings to petition for a chapter of their own for the next forty-five years.",
+  "date": "23 January 1851",
+  "source": {
+   "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+   "page": 14,
+   "label": "The Psi Upsilon Epitome, 1884"
+  }
+ },
+ {
+  "year": 1852,
+  "category": "publications",
+  "title": "A Fraternity magazine judged impracticable",
+  "text": "Meeting with the Theta, the Convention considered a proposal for a periodical organ of the whole Fraternity, declared the publication of a magazine impracticable, and appointed a committee to prepare an annual instead. The fifth general catalogue, of 1,323 names, appeared the same year.",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 13,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1854,
+  "category": "expansion",
+  "title": "The first petition from Michigan",
+  "text": "A petition for a chapter at the University of Michigan came before the Convention at New York University. It was the first application from a state university, and eleven years passed before it succeeded.",
+  "date": "29 June 1854",
+  "source": {
+   "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+   "page": 15,
+   "label": "The Psi Upsilon Epitome, 1884"
+  }
+ },
+ {
+  "year": 1855,
+  "category": "members",
+  "title": "The Fraternity begins to collect the founders' portraits",
+  "text": "At the Convention at Yale the project of securing portraits of the surviving founders was first proposed; the following year's Convention considered having steel engravings made from them. Harvey's picture was the first obtained. The Epitome suggests the prompt was the recent death of Robert Barnard, the first of the seven to die of whom any record survives.",
+  "date": "24-25 July 1855",
+  "link": "founders/robert-barnard.html",
+  "link_label": "Robert Barnard",
+  "source": {
+   "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+   "page": 86,
+   "label": "The Psi Upsilon Epitome, 1884"
+  },
+  "uncertain": "The Epitome puts Barnard's death in 1853, at Los Angeles; the 1941 Annals' portrait page gives 1855."
+ },
+ {
+  "year": 1857,
+  "category": "conventions",
+  "title": "An Executive Committee of three",
+  "text": "As the chapter roll grew, an annual Convention alone proved too slow a government. The Convention with the Gamma at Amherst created the Fraternity's first standing body between Conventions, an Executive Committee of three drawn from graduates living in or near New York City: Morgan Dix, Henry R. Stiles and William H. L. Barnes.",
+  "date": "11 July 1857",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 17,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1858,
+  "category": "conventions",
+  "title": "Conventions are numbered from the founding",
+  "text": "The Zeta at Dartmouth found itself suddenly unable to host, so the new Executive Committee summoned the Convention to New York City instead \u2014 a procedure that aroused some opposition. The gathering was officially styled the Twenty-fifth Annual Convention, and from that year the Conventions took their number from the year of the Fraternity, counting from 1833.",
+  "date": "24-25 June 1858",
+  "link": "collections/convention.html",
+  "link_label": "The Convention Records",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 2,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1862,
+  "category": "conventions",
+  "title": "No quorum, in the middle of the Civil War",
+  "text": "The Twenty-ninth Annual Convention met with the Kappa at Bowdoin, but only four chapters answered the roll and there was no quorum. The public literary exercises went ahead in the Congregational church.",
+  "date": "5 July 1862",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 21,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1863,
+  "category": "expansion",
+  "title": "The mother chapter falls dormant and is rescued",
+  "text": "The Civil War hollowed out Union College and the Theta suspended initiations in the autumn of 1863, reaching its low ebb in 1864. The Convention of 1863 asked the chapters to send members to Schenectady; the 1864 Convention entrusted the revival to the Xi, which passed the task to the Psi; and in the spring of 1865 the Psi initiated five Union undergraduates and restored the parent chapter.",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
+   "page": 15,
+   "label": "Annals of Psi Upsilon, Part 2"
+  }
+ },
+ {
+  "year": 1865,
+  "category": "insignia",
+  "title": "A uniform badge is adopted",
+  "text": "The Thirty-second Annual Convention with the Xi at Wesleyan, thirteen chapters present, resolved that a badge uniform in size and shape was \"not only eminently proper but absolutely necessary\", and adopted the badge worn by the Beta at Yale as the standard. Until then the pins had varied from chapter to chapter.",
+  "date": "18-19 July 1865",
+  "link": "heraldry.html",
+  "link_label": "The heraldry exhibit",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 22,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1865,
+  "category": "publications",
+  "title": "The Diamond Song is written",
+  "text": "Professor Calvin S. Harrington, Xi 1852, wrote the Diamond Song, which the Epitome ranked with his \"Dear old Shrine\" among the most inspiring in the Fraternity's hymnology. Its music was original rather than borrowed from a popular air, as most early Psi Upsilon songs were.",
+  "link": "recordings.html",
+  "link_label": "The song recordings",
+  "source": {
+   "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+   "page": 16,
+   "label": "The Psi Upsilon Epitome, 1884"
+  }
+ },
+ {
+  "year": 1869,
+  "category": "conventions",
+  "title": "The Executive Council is founded",
+  "text": "The Thirty-sixth Annual Convention, meeting with the Theta at Union with fourteen chapters present, adopted the Fraternity's fourth constitution and replaced the Executive Committee of three with an Executive Council of five. The Council has governed Psi Upsilon between Conventions ever since.",
+  "date": "19-20 May 1869",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 25,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1870,
+  "category": "expansion",
+  "title": "The first fraternity house",
+  "text": "The Beta at Yale completed in 1870 the first building anywhere put up for the purposes of a fraternity. It set off a building fever among the other chapters: by 1878 at least half a dozen were raising money for houses of their own, and in time every chapter held property.",
+  "source": {
+   "doc": "1905-history-of-the-phi-of-psi-upsilon-1865-1905",
+   "page": 11,
+   "label": "History of the Phi of Psi Upsilon, 1905"
+  }
+ },
+ {
+  "year": 1872,
+  "category": "members",
+  "title": "The Alumni of Psi Upsilon is organised",
+  "text": "The Executive Council organised the graduates as an association of the whole Fraternity, called the Alumni of Psi Upsilon. Its first dinner was held at Delmonico's in New York in February 1872, and its second there in May 1873.",
+  "date": "February 1872",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 2,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
  },
  {
   "year": 1872,
   "category": "conventions",
-  "title": "The Convention Records begin",
-  "text": "The earliest Convention Records held in this museum are those of the thirty-ninth annual Convention, held with the Gamma at Amherst College.",
-  "link": "documents/1872-convention-records.html",
-  "link_label": "Read the 1872 Records"
+  "title": "The printed Convention Records begin",
+  "text": "The minutes of the Thirty-ninth Annual Convention, held with the Gamma at Amherst, were printed for the first time. Every Convention since has issued a printed Record identical in form and size, which together make the longest continuous series of documents the Fraternity possesses.",
+  "date": "5-6 June 1872",
+  "link": "collections/convention.html",
+  "link_label": "The Convention Records",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 2,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1876,
+  "category": "publications",
+  "title": "Fiske reads The Story of Psi Upsilon",
+  "text": "Willard Fiske read his history of the Fraternity to the Convention at Utica, under the auspices of his own chapter, the Psi. He re-read it with revisions at the semi-centennial in 1883, and finally printed it in 1895 in an edition of a hundred and fifty copies, dating the preface from Florence on the anniversary of the Pledge.",
+  "date": "4 May 1876",
+  "link": "documents/1895-the-story-of-psi-upsilon.html",
+  "link_label": "The Story of Psi Upsilon",
+  "source": {
+   "doc": "1884-the-epitome-of-psi-upsilon-1833-1884",
+   "page": 17,
+   "label": "The Psi Upsilon Epitome, 1884"
+  }
+ },
+ {
+  "year": 1876,
+  "category": "conventions",
+  "title": "Graduates are given a vote",
+  "text": "The Forty-third Annual Convention resolved that every fifteen members present other than active undergraduates should be allowed one vote. It was the first formal share in Convention government given to the alumni, who by then far outnumbered the undergraduates.",
+  "date": "3-4 May 1876",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 30,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
  },
  {
   "year": 1878,
   "category": "publications",
   "title": "The Diamond begins",
-  "text": "The first number of The Diamond of Psi Upsilon appears. It runs until 1887, is revived in 1920, and continues in print until 2015.",
+  "text": "The Chi chapter at Ithaca issued the first number of The Diamond of Psi Upsilon in January 1878, opening with Francis Miles Finch's \"The Halls of Psi Upsilon\" and the first instalment of a history of the Beta. The 1941 Annals call it the first college fraternity magazine. It ran at Ithaca only until December, but after two revivals it continued in print until 2015.",
+  "date": "January 1878",
   "feature": true,
   "link": "collections/diamond.html",
-  "link_label": "The Diamond"
+  "link_label": "The Diamond",
+  "source": {
+   "doc": "diamond-of-psi-upsilon-1878-1-vol001-num1",
+   "page": 1,
+   "label": "The Diamond of Psi Upsilon, January 1878"
+  }
  },
  {
   "year": 1878,
   "category": "insignia",
   "title": "Garnet and gold",
-  "text": "The Fraternity colours are chosen at the Convention of 1878.",
+  "text": "The Forty-fifth Annual Convention, meeting with the Upsilon at Rochester, adopted garnet and gold as the colours of the Fraternity on the Council's recommendation. Garnet honoured Union, the colour of the parent college, and gold the badge. Sterling G. Hadley, one of the five surviving founders, presided \u2014 his first time in a Psi Upsilon lodge room in over forty years.",
+  "date": "2-3 May 1878",
   "link": "heraldry.html",
-  "link_label": "The heraldry exhibit"
+  "link_label": "The heraldry exhibit",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 37,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1878,
+  "category": "members",
+  "title": "Psi Upsilons meet in Leyden",
+  "text": "At the Hotel du Lion d'Or in Leyden, members from several chapters held what was probably the largest Psi Upsilon gathering ever assembled in Europe. Sixty Leyden undergraduates had entertained them the night before in the Student Corps building. The meeting resolved to send the General Catalogue and the Songs to the Corps library and to try to organise similar meetings in London, Leipzig, Berlin and Paris.",
+  "date": "1 July 1878",
+  "source": {
+   "doc": "diamond-of-psi-upsilon-1878-8-vol002-num1",
+   "page": 1,
+   "label": "The Diamond of Psi Upsilon, 1878"
+  }
+ },
+ {
+  "year": 1878,
+  "category": "publications",
+  "title": "The Pledge is printed for the first time",
+  "text": "The second number of The Diamond printed the text of the 1833 Pledge, arguing that as an antiquarian document predating the Fraternity's constitutional establishment it belonged to no single chapter's archives. The same issue gave short lives of all seven founders, noted that five were still living, and proposed that 24 November \"may be fairly regarded as the natal day of Psi Upsilon\".",
+  "date": "February 1878",
+  "source": {
+   "doc": "diamond-of-psi-upsilon-1878-2-vol001-num2",
+   "page": 5,
+   "label": "The Diamond of Psi Upsilon, February 1878"
+  }
+ },
+ {
+  "year": 1878,
+  "category": "publications",
+  "title": "The founders write down what they remember",
+  "text": "Through 1878 The Diamond ran a series called The Origin of Psi Upsilon, printing letters written between 1874 and 1876 by four of the surviving founders: Martindale in April, Hadley and Goodale in October, Harvey in December. Their recollections disagree with each other about who was present, who suggested the name, and even whether the society was organised in October or November 1833. Tuttle, the fifth survivor, never wrote his account.",
+  "source": {
+   "doc": "diamond-of-psi-upsilon-1878-4-vol001-num4",
+   "page": 1,
+   "label": "The Diamond of Psi Upsilon, April 1878"
+  }
+ },
+ {
+  "year": 1879,
+  "category": "publications",
+  "title": "The ninth general catalogue",
+  "text": "Charles Wesley Smiley, secretary of the Executive Council, compiled the ninth catalogue of members. A contemporary reviewer called it \"that monumental work, which no fraternity since that time has been able to do more than copy\".",
+  "date": "March 1879",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-11-the-reprints",
+   "page": 53,
+   "label": "Annals of Psi Upsilon, Part 11: The Reprints"
+  }
+ },
+ {
+  "year": 1880,
+  "category": "publications",
+  "title": "The Diamond is revived for the first time",
+  "text": "Seventeen months after the Ithaca numbers ceased, the Executive Council caused a sixteen-page issue of The Diamond to be published through its secretary, C. W. Smiley. The Theta took the magazine on in 1881, and it survived in this form until 1887.",
+  "date": "May 1880",
+  "link": "collections/diamond.html",
+  "link_label": "The Diamond",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-06-the-diamond-of-psi-upsilon",
+   "page": 5,
+   "label": "Annals of Psi Upsilon, Part 6: The Diamond"
+  }
  },
  {
   "year": 1881,
   "category": "members",
   "title": "A brother becomes President of the United States",
-  "text": "Chester A. Arthur, Theta 1848, elected Vice President in 1880, becomes President on the assassination of James Garfield. He serves until 1885.",
+  "text": "Chester Alan Arthur, Theta 1848, elected Vice President in 1880, succeeded to the presidency on the death of James Garfield and served until 1885. He gave a dinner at the White House for the Psi Upsilon members of Congress in 1883 and telegraphed his greeting to the semi-centennial Convention that May.",
+  "date": "19 September 1881",
   "feature": true,
   "link": "people/chester-a-arthur.html",
-  "link_label": "Chester A. Arthur"
+  "link_label": "Chester A. Arthur",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-11-the-reprints",
+   "page": 53,
+   "label": "Annals of Psi Upsilon, Part 11: The Reprints"
+  }
+ },
+ {
+  "year": 1881,
+  "category": "conventions",
+  "title": "Bridgman takes the chair",
+  "text": "The Forty-eighth Annual Convention met with the Omega at Chicago, sixteen chapters and three graduate delegates attending. Herbert L. Bridgman of the Executive Council presided for the first time; he went on to lead the Fraternity for more than forty years, longer than anyone before or since.",
+  "date": "18-19 May 1881",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 43,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1882,
+  "category": "publications",
+  "title": "The Bibliographia Psi-Upsilonica",
+  "text": "Willard Fiske published a bibliography enumerating the issues of the Psi Upsilon press. It was the first attempt to record what the Fraternity had printed in its first fifty years, and remains the starting point for anyone tracing the early publications.",
+  "date": "August 1882",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-11-the-reprints",
+   "page": 53,
+   "label": "Annals of Psi Upsilon, Part 11: The Reprints"
+  }
+ },
+ {
+  "year": 1883,
+  "category": "members",
+  "title": "President Arthur dines the Psi Upsilon congressmen",
+  "text": "Arthur gave a dinner party at the White House in honour of his college fraternity, several of whose members sat in the Congress then sitting. Guests were received in the Blue Parlor by the President and his sisters, and the New York Times carried an account of it the next day.",
+  "date": "28 February 1883",
+  "link": "people/chester-a-arthur.html",
+  "link_label": "Chester A. Arthur",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-11-the-reprints",
+   "page": 53,
+   "label": "Annals of Psi Upsilon, Part 11: The Reprints"
+  }
+ },
+ {
+  "year": 1883,
+  "category": "conventions",
+  "title": "The Semi-Centennial at Albany",
+  "text": "The Fiftieth Annual Convention met in the Court of Appeals Chamber of the old State Capitol at Albany, seventeen chapters and five graduate delegates attending, with nearly six thousand names then on the rolls. Fiske delivered The Story of The Psi Upsilon at the historical meeting and the Psi Upsilon Historical Society was organised. Three of the seven founders were there in person \u2014 Hadley, Tuttle and Harvey \u2014 and answered the toast to \"The Founders\" at the banquet.",
+  "date": "23-25 May 1883",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 50,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1884,
+  "category": "conventions",
+  "title": "The Convention orders its own records preserved",
+  "text": "The Fifty-first Annual Convention, meeting with the Chi at Cornell, ended a four-year argument about an epitome of the Convention Records by authorising the Executive Council to procure a volume for the full records of succeeding Conventions and to assemble a complete set for the archives. During the same Convention the founder Sterling G. Hadley laid the cornerstone of the Chi's chapter house and deposited a copper box in it.",
+  "date": "7-8 May 1884",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 3,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1884,
+  "category": "publications",
+  "title": "The Psi Upsilon Epitome",
+  "text": "Albert Poole Jacobs, Phi 1873, published his semi-centennial record at Boston in garnet and gilt: 264 pages, twenty illustrations, by private subscription. The Hartford Courant called it the first attempt by a Greek letter society to give a thorough public account of itself. Known throughout the Fraternity simply as the Epitome, it served the chapters as a handbook for decades.",
+  "link": "documents/1884-the-epitome-of-psi-upsilon-1833-1884.html",
+  "link_label": "The Epitome",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-11-the-reprints",
+   "page": 47,
+   "label": "Annals of Psi Upsilon, Part 11: The Reprints"
+  }
+ },
+ {
+  "year": 1886,
+  "category": "members",
+  "title": "The death of Charles Washington Harvey",
+  "text": "The Executive Council reported to the following Convention that the founder Charles Washington Harvey had died at Buffalo. The same report announced the deaths of William Taylor, the Fraternity's first historian, and of Chester Alan Arthur, lately President of the United States.",
+  "date": "15 October 1886",
+  "link": "founders/charles-washington-harvey.html",
+  "link_label": "Charles Washington Harvey",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 86,
+   "label": "Annals of Psi Upsilon, Part 3"
+  },
+  "uncertain": "Every edition of the modern College Tablet gives Harvey's death as 1866, which cannot be right: he sat as a vice-president of the Semi-Centennial Convention in 1883."
+ },
+ {
+  "year": 1887,
+  "category": "publications",
+  "title": "The Diamond lapses",
+  "text": "The magazine passed out of existence in 1887 after nine years and two revivals. Seventeen Conventions in succession then passed resolutions about restoring it before anything came of them.",
+  "link": "collections/diamond.html",
+  "link_label": "The Diamond",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-06-the-diamond-of-psi-upsilon",
+   "page": 14,
+   "label": "Annals of Psi Upsilon, Part 6: The Diamond"
+  }
+ },
+ {
+  "year": 1893,
+  "category": "members",
+  "title": "The first Founders Day",
+  "text": "On the suggestion of the Psi Upsilon Club of New York, chapters and alumni groups across the country kept 24 November 1893, the Fraternity's sixtieth anniversary, as Founders Day. The Executive Council reported the observance to the 1894 Convention together with a letter from the founder Samuel Goodale on the origins of the society. The day has been kept ever since.",
+  "date": "24 November 1893",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 109,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
  },
  {
   "year": 1894,
   "category": "insignia",
-  "title": "The system of heraldry is adopted",
-  "text": "A committee of Albert P. Jacobs, Phi 1873; Karl P. Harrington, Xi 1882; and George B. Penny, Chi 1885, reported in 1892 on a system of arms for the Fraternity and its chapters. It is adopted at the Convention of 1894. Before this the badge and the colours were the only uniform symbolism Psi Upsilon had.",
+  "title": "A system of heraldry is adopted",
+  "text": "The Sixty-first Annual Convention, meeting with the Kappa at Bowdoin, received the report of Albert P. Jacobs's committee and adopted a complete system of heraldry: a coat of arms for the Fraternity, a flag, a seal for the Executive Council, and arms for each chapter combining the Fraternity's emblems with its own. George B. Penny explained that the ancient symbols of the badge had supplied the material for the whole set. Before this the badge and the colours were the only uniform symbolism Psi Upsilon had.",
+  "date": "17-18 May 1894",
+  "feature": true,
   "link": "heraldry.html",
-  "link_label": "All fifty chapter shields"
+  "link_label": "All fifty chapter shields",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 109,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1895,
+  "category": "publications",
+  "title": "The Psi Upsilon Review begins",
+  "text": "A bi-monthly published at Detroit, The Psi Upsilon Review grew out of the alumni associations rather than from any official appointment. Its opening number carried a letter from the founder Samuel Goodale welcoming the venture and complaining that the Fraternity had been letting its light shine under a bushel. Six numbers appeared before it stopped.",
+  "date": "May 1895",
+  "link": "collections/review.html",
+  "link_label": "The Review",
+  "source": {
+   "doc": "the-psi-upsilon-review-vol-1-num-1-1895",
+   "page": 25,
+   "label": "The Psi Upsilon Review, May 1895"
+  }
+ },
+ {
+  "year": 1895,
+  "category": "insignia",
+  "title": "The heraldry is published and the pin standardised",
+  "text": "The Sixty-second Annual Convention authorised publication of the system of heraldry and empowered the Council to select a uniform pin. The official drawings were reproduced in that year's printed Record. The Convention also directed the Council to issue an annual bulletin and to visit the chapters every year.",
+  "date": "9-10 May 1895",
+  "link": "heraldry.html",
+  "link_label": "The heraldry exhibit",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 111,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1898,
+  "category": "members",
+  "title": "Martindale addresses the Convention",
+  "text": "At the Convention with the Mu at Minneapolis the founder Edward Martindale, then eighty-one and living at Des Moines, gave the opening address: \"In all the sixty-five years since the day of our Society's organization this is the first time it has been my fortune to be present at one of its National Conventions.\" He described the first meeting in the attic room and the committees on Name, Badge and Motto, and gave the membership as ten thousand. His fellow founder Samuel Goodale was in the room.",
+  "date": "4 May 1898",
+  "link": "stories/martindales-1898-address-on-the-founding-of-psi-upsilon.html",
+  "link_label": "Martindale's 1898 address",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 129,
+   "label": "Annals of Psi Upsilon, Part 3"
+  },
+  "uncertain": "Martindale's account puts three freshmen at the first meeting and himself among them; the signatures on the 1834 Constitution place him and three others in the class of 1836, and every roll of the founders makes him a sophomore."
+ },
+ {
+  "year": 1898,
+  "category": "members",
+  "title": "The death of Samuel Goodale",
+  "text": "The founder Samuel Goodale died at Columbus, Nebraska. He had travelled to Chicago the year before, at eighty-three, to attend the installation of a chapter on the anniversary of the founding. The following Convention entered a memorial minute recording the Fraternity's obligation to him.",
+  "date": "8 December 1898",
+  "link": "founders/samuel-goodale.html",
+  "link_label": "Samuel Goodale",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 132,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1901,
+  "category": "members",
+  "title": "The death of Sterling Goodale Hadley",
+  "text": "The founder Sterling Goodale Hadley died at Waterloo, New York, the sixth of the seven to die. He had presided over the Convention of 1878 that chose the Fraternity's colours and laid the cornerstone of the Chi's house in 1884. The 1902 Convention entered a memorial minute noting his long service in legal practice and judicial office.",
+  "date": "1 September 1901",
+  "link": "founders/sterling-goodale-hadley.html",
+  "link_label": "Sterling Goodale Hadley",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 140,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1904,
+  "category": "members",
+  "title": "The last founder dies",
+  "text": "Edward Martindale, the last of the seven, died on 15 July 1904. George Washington Tuttle had died the year before at Bath, New York, leaving Martindale the sole survivor. The Executive Council appended the Los Angeles Times account of his career to its annual communication, and the Convention resolved that his work would be honoured in the Fraternity's annals and his name in its heart.",
+  "date": "15 July 1904",
+  "link": "founders/edward-martindale.html",
+  "link_label": "Edward Martindale",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 151,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1907,
+  "category": "conventions",
+  "title": "The Executive Council is enlarged to ten",
+  "text": "The Seventy-fourth Annual Convention met with the Delta in the Astor Gallery of the Waldorf-Astoria, twenty-two chapters present. It legislated that from 1908 the Executive Council should be increased to ten members, and that the Council should visit the chapters at regular periods and report only to itself and to the chapter visited.",
+  "date": "11-12 April 1907",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 154,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1908,
+  "category": "insignia",
+  "title": "The Founders Memorial Tablet goes out to the chapters",
+  "text": "A memorial tablet to the seven founders, designed by the sculptor William Ordway Partridge, was cast in bronze and replicas were sent to every chapter in June 1908. The plaque carries the founders' names beneath a replica of the badge. The Council reported that year that tablets had been installed in all the chapters.",
+  "date": "June 1908",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-01-intro-and-foreward",
+   "page": 16,
+   "label": "Annals of Psi Upsilon, Part 1"
+  },
+  "uncertain": "The Annals twice give Partridge as Lambda 1885; every edition of the modern College Tablet gives Lambda 1883."
  },
  {
   "year": 1909,
   "category": "members",
   "title": "A second brother in the White House",
-  "text": "William Howard Taft, Beta 1878, becomes President of the United States. He is later Chief Justice of the Supreme Court \u2014 the only man to hold both offices \u2014 and it was largely at his urging that Psi Upsilon chartered its first chapter outside the United States.",
+  "text": "William Howard Taft, Beta 1878, became President of the United States. He was later Chief Justice of the Supreme Court, the only man to hold both offices, and it was largely at his urging that Psi Upsilon chartered its first chapter outside the United States, at the University of Toronto in 1920.",
   "feature": true,
   "link": "people/william-howard-taft.html",
-  "link_label": "William Howard Taft"
+  "link_label": "William Howard Taft",
+  "source": {
+   "doc": "college-tablet-7th-edition-2013",
+   "page": 51,
+   "label": "The College Tablet, 7th edition"
+  }
+ },
+ {
+  "year": 1911,
+  "category": "conventions",
+  "title": "The Convention salutes a brother in the White House",
+  "text": "The Convention meeting with the Kappa at Portland, Maine, wired its respectful salutations to President Taft and received his reply. The Council also reported the gift of a silver salver in the name of the Fraternity to the President and Mrs Taft on their twenty-fifth wedding anniversary, celebrated at the White House that June.",
+  "date": "25 May 1911",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 164,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1915,
+  "category": "members",
+  "title": "The eightieth anniversary at the Waldorf-Astoria",
+  "text": "Four hundred and fifty members marked the eightieth anniversary at a dinner in New York given by the Fraternity and the Psi Upsilon Club, with Herbert L. Bridgman presiding and William Howard Taft among the speakers. Taft told the company: \"The more I go about the colleges the more I rejoice that I am a Psi U.\"",
+  "date": "24 November 1915",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 172,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1917,
+  "category": "conventions",
+  "title": "No Convention: the Great War",
+  "text": "Arrangements for the 1917 Convention with the Mu had been completed and formal notice issued when the United States entered the war. Dormitories became barracks and members went to the colours, and the Council judged it inadvisable to hold the annual meeting. With 1842 it is one of only two years in the Fraternity's first century without a Convention of chapter delegates.",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 190,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1918,
+  "category": "conventions",
+  "title": "A special Convention in wartime",
+  "text": "On the written request of the chapters the Executive Council called a special Convention, the Eighty-fifth, at the Waldorf-Astoria in New York, to consider the conditions created by the war and to provide for the maintenance of chapter organisation and property. Sixteen chapters answered the roll; the Armistice came less than a month later.",
+  "date": "18 October 1918",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 187,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1920,
+  "category": "publications",
+  "title": "The Diamond is revived for good",
+  "text": "Challenged at a Psi U Club of Chicago meeting to stop asking for a magazine and produce one, Emmett Murphy answered \"We will\", and the club took on the work. The 1920 Convention passed the resolutions to make it official, and the revived Diamond appeared on schedule as Volume VII Number One, with Charles F. Grunes as editor and a greeting from Herbert L. Bridgman. It ran without another break for ninety-five years.",
+  "date": "November 1920",
+  "link": "collections/diamond.html",
+  "link_label": "The Diamond",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-06-the-diamond-of-psi-upsilon",
+   "page": 15,
+   "label": "Annals of Psi Upsilon, Part 6: The Diamond"
+  }
+ },
+ {
+  "year": 1924,
+  "category": "conventions",
+  "title": "Undergraduates vote to fund a founders' memorial",
+  "text": "A Convention of undergraduate members voted to set aside a sum each year towards a memorial to the seven founders. The monument was thus paid for entirely by successive delegations of college students, and was presented to Union College nine years later.",
+  "date": "May 1924",
+  "source": {
+   "doc": "diamond-of-psi-upsilon-1934-1-vol020-num2-3-jan-mar",
+   "page": 81,
+   "label": "The Diamond of Psi Upsilon, Centennial issue, 1934"
+  }
+ },
+ {
+  "year": 1930,
+  "category": "conventions",
+  "title": "The first central office",
+  "text": "The Executive Council rented the Fraternity's first office space, at 420 Lexington Avenue in New York, moving into Room 510 of the same building in 1934. Until then the Council had met and worked out of rooms borrowed from the Psi Upsilon Club of New York. The one room also housed the Alumni Association from 1932 and, for a time, the Fraternity's archives.",
+  "source": {
+   "doc": "diamond-of-psi-upsilon-1952-3-vol038-num4-june",
+   "page": 8,
+   "label": "The Diamond of Psi Upsilon, June 1952"
+  }
+ },
+ {
+  "year": 1932,
+  "category": "members",
+  "title": "The Alumni Association of Psi Upsilon",
+  "text": "A national alumni association was formed with Edwin L. Garvin, Delta 1897, as its first president, replacing an earlier body that had lapsed. It took on the compiling of the directory of living members printed in the 1941 Annals.",
+  "date": "9 April 1932",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-01-intro-and-foreward",
+   "page": 52,
+   "label": "Annals of Psi Upsilon, Part 1"
+  }
+ },
+ {
+  "year": 1932,
+  "category": "conventions",
+  "title": "The Council enlarged from ten to fifteen",
+  "text": "The Ninety-ninth Annual Convention met with the Delta in New York with twenty-seven chapters present. It resolved that each Convention should elect one additional member to the Executive Council until the membership reached fifteen, and three members a year thereafter.",
+  "date": "7-9 April 1932",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 258,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1933,
+  "category": "conventions",
+  "title": "The Centennial at Union College",
+  "text": "The Centennial Convention met with the Theta at Union College, twenty-seven chapters attending and over a thousand members and guests present; thirteen of them had also been at the semi-centennial fifty years before. On the anniversary itself, after exercises in Memorial Chapel broadcast nationwide, the members walked in procession by chapters to a memorial in the centre of the campus \u2014 a stone seat about the flagpole inscribed with the founders' names \u2014 which the Council's president presented to the college.",
+  "date": "22-24 November 1933",
+  "feature": true,
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 263,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
+ },
+ {
+  "year": 1933,
+  "category": "publications",
+  "title": "The Centennial archives exhibit",
+  "text": "In a room of the Theta chapter house the Executive Council displayed Samuel Goodale's original badge, portraits of five founders, letters in their hands, the song books and catalogues, and the original Constitution, which the founders had bought for five dollars and which holds their minutes for the first ten years and the initiates' signatures from 1833 to 1845. Members queued in the college gymnasium for the privilege of signing it themselves, on a specially illuminated page, exactly a century after the founding.",
+  "date": "24 November 1933",
+  "source": {
+   "doc": "diamond-of-psi-upsilon-1934-1-vol020-num2-3-jan-mar",
+   "page": 153,
+   "label": "The Diamond of Psi Upsilon, Centennial issue, 1934"
+  }
+ },
+ {
+  "year": 1934,
+  "category": "publications",
+  "title": "Portraits of six founders published",
+  "text": "The Centennial issue of The Diamond printed a captioned portrait of each founder it could find with his year of death. Only five likenesses were known at the Centennial itself; a daguerreotype of Robert Barnard, sent in by his great-niece after she read of the anniversary, made the sixth. No likeness of Merwin Henry Stewart has ever been found.",
+  "link": "founders.html",
+  "link_label": "The seven founders",
+  "source": {
+   "doc": "diamond-of-psi-upsilon-1934-1-vol020-num2-3-jan-mar",
+   "page": 41,
+   "label": "The Diamond of Psi Upsilon, Centennial issue, 1934"
+  }
  },
  {
   "year": 1936,
   "category": "members",
   "title": "The first Heisman Trophy",
-  "text": "Jay Berwanger, Omega 1936, wins the first Heisman Trophy and becomes the first player selected in the first NFL draft.",
+  "text": "John \"Jay\" Berwanger, Omega 1936, was the first man to receive the Heisman Trophy, an award the College Tablet says he made \"the most prestigious in all of college football\". On graduating he became the first player ever selected in the National Football League draft, although he chose not to play professionally.",
   "link": "people/john-jay-berwanger.html",
-  "link_label": "Jay Berwanger"
+  "link_label": "Jay Berwanger",
+  "source": {
+   "doc": "college-tablet-7th-edition-2013",
+   "page": 54,
+   "label": "The College Tablet, 7th edition"
+  }
+ },
+ {
+  "year": 1939,
+  "category": "publications",
+  "title": "The Founders' Constitution is identified",
+  "text": "An old document recovered under unusual circumstances \u2014 from the shop of a dealer in old and rare manuscripts \u2014 was examined by a Council committee under LeRoy J. Weed and found to be the original constitution of 1834, signed by the seven founders and thirteen other early members. The Council named it the Founders' Constitution, gave every chapter a framed copy, and placed the original in the archives.",
+  "date": "21-23 June 1939",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 336,
+   "label": "Annals of Psi Upsilon, Part 3"
+  },
+  "uncertain": "The College Tablet dates the discovery flatly to 1936; Annals Part 3 treats the recovery as recent news in 1939, and the two may simply be the finding and the authentication."
+ },
+ {
+  "year": 1939,
+  "category": "publications",
+  "title": "The archives are made usable",
+  "text": "Many of the Fraternity's documents were still held by chapters or individuals, and those that had reached New York were stored in an inconvenient place, unclassified and hard to consult. In 1939 the Archivist, working under the authority of the Executive Council, assembled the records and memorabilia and installed them in a room specially equipped for the purpose at headquarters. Everything written about the Fraternity's history since has depended on that work.",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-01-intro-and-foreward",
+   "page": 54,
+   "label": "Annals of Psi Upsilon, Part 1"
+  }
+ },
+ {
+  "year": 1940,
+  "category": "conventions",
+  "title": "Twenty-eight chapters at Brown",
+  "text": "The One Hundred and Seventh Annual Convention met with the Sigma at Brown with twenty-eight chapters present, the largest roll recorded in the first century of Conventions. President Henry Merritt Wriston of Brown welcomed the delegates at Faunce House.",
+  "date": "20-22 June 1940",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-03-a-century-of-annual-conventions",
+   "page": 344,
+   "label": "Annals of Psi Upsilon, Part 3"
+  }
  },
  {
   "year": 1941,
   "category": "publications",
   "title": "The Annals of Psi Upsilon",
-  "text": "The Fraternity's centennial history is published in twelve parts. Much of what is known about the founders comes from it.",
+  "text": "A committee appointed on 3 October 1939 with full authority from the Executive Council produced the Fraternity's centennial history, published in twelve parts. It reprinted Taylor's 1843 history, Fiske's Story and Jacobs's Epitome in full, and added chapter histories, a century of Convention records and a directory of the living membership. Much of what is known about the founders comes from it.",
   "link": "collections/annals.html",
-  "link_label": "The Annals"
+  "link_label": "The Annals",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-01-intro-and-foreward",
+   "page": 55,
+   "label": "Annals of Psi Upsilon, Part 1"
+  }
+ },
+ {
+  "year": 1945,
+  "category": "conventions",
+  "title": "The Conventions continue through the Second World War",
+  "text": "The One Hundred and Twelfth Convention, the fourth held in wartime, met at the Garden City Hotel on Long Island with representatives of twenty-four chapters. Unlike 1917, the Fraternity kept its annual meeting going through the whole of this war.",
+  "date": "1 June 1945",
+  "source": {
+   "doc": "diamond-of-psi-upsilon-1945-4-vol032-num1-nov",
+   "page": 4,
+   "label": "The Diamond of Psi Upsilon, November 1945"
+  }
+ },
+ {
+  "year": 1945,
+  "category": "publications",
+  "title": "The twelfth and last songbook",
+  "text": "The twelfth edition of the Songs of the Psi Upsilon Fraternity appeared in 1945, gathering more than two hundred songs written expressly for Psi Upsilon. No further edition has been printed since.",
+  "link": "collections/songbooks.html",
+  "link_label": "The songbooks",
+  "source": {
+   "doc": "college-tablet-7th-edition-2013",
+   "page": 122,
+   "label": "The College Tablet, 7th edition"
+  }
+ },
+ {
+  "year": 1958,
+  "category": "members",
+  "title": "The 125th anniversary",
+  "text": "The Fraternity's hundred and twenty-fifth year was kept with Founders' Day dinners in New York, Chicago, Boston and the other regional associations, the dates arranged so that the gatherings fell close together. The New York dinner ended, as such evenings did, with the Shrine Song.",
+  "source": {
+   "doc": "diamond-of-psi-upsilon-1958-4-vol045-num1-fall",
+   "page": 12,
+   "label": "The Diamond of Psi Upsilon, Fall 1958"
+  }
+ },
+ {
+  "year": 1958,
+  "category": "conventions",
+  "title": "The Psi Upsilon Foundation is incorporated",
+  "text": "The Executive Council and the Board of Governors of the Alumni Association together incorporated the Psi Upsilon Foundation to provide scholarships and to support the Fraternity's educational work. The Council's report called it \"perhaps the most outstanding accomplishment of this past year\" and \"an outstanding example of what can't be done can be done\". Its endowment has funded scholarships and chapter programmes ever since.",
+  "source": {
+   "doc": "diamond-of-psi-upsilon-1958-3-vol044-num4-sum",
+   "page": 10,
+   "label": "The Diamond of Psi Upsilon, Summer 1958"
+  }
+ },
+ {
+  "year": 1963,
+  "category": "conventions",
+  "title": "The first full-time officer",
+  "text": "Alfred H. \"Doc\" Morton, Omicron 1919, took office as the Fraternity's first full-time executive, under a resolution passed by that year's Convention. For 130 years Psi Upsilon had been run entirely by volunteers between Conventions. Morton had already directed the preparation of the first Standards for Psi Upsilon Chapters.",
+  "date": "1 July 1963",
+  "link": "people/alfred-doc-morton.html",
+  "link_label": "Alfred H. Morton",
+  "source": {
+   "doc": "diamond-of-psi-upsilon-1963-3-vol049-num4-sum",
+   "page": 4,
+   "label": "The Diamond of Psi Upsilon, Summer 1963"
+  }
+ },
+ {
+  "year": 1964,
+  "category": "conventions",
+  "title": "A modernised Constitution",
+  "text": "The 1964 Convention adopted a rewritten constitution, which for the first time gave a duly accredited representative of each chapter's alumni organisation a vote in the Convention. The undergraduate delegates at the same meeting voted a fifty per cent increase in their own taxes to help pay for the central office.",
+  "source": {
+   "doc": "diamond-of-psi-upsilon-1965-2-vol051-num3-spr",
+   "page": 61,
+   "label": "The Diamond of Psi Upsilon, Spring 1965"
+  }
+ },
+ {
+  "year": 1969,
+  "category": "conventions",
+  "title": "The headquarters leaves New York",
+  "text": "A century after the Executive Council was founded in New York, the Fraternity's headquarters moved to Ann Arbor, Michigan. It moved again to Paoli, Pennsylvania in 1974 under Executive Vice President Henry B. Poor, beginning what the College Tablet calls the office's nomadic history.",
+  "source": {
+   "doc": "college-tablet-7th-edition-2013",
+   "page": 37,
+   "label": "The College Tablet, 7th edition"
+  }
+ },
+ {
+  "year": 1974,
+  "category": "members",
+  "title": "A brother becomes Vice President of the United States",
+  "text": "Nelson A. Rockefeller, Zeta 1930, was nominated for the vice-presidency by President Gerald Ford after Richard Nixon's resignation, and confirmed by the House and Senate on 19 December 1974. He had been Governor of New York for fifteen years and had sought the presidency three times.",
+  "date": "19 December 1974",
+  "link": "people/nelson-a-rockefeller.html",
+  "link_label": "Nelson A. Rockefeller",
+  "source": {
+   "doc": "2022historyarchives-presentation",
+   "page": 32,
+   "label": "History and Archives Committee, 2022"
+  }
+ },
+ {
+  "year": 1975,
+  "category": "conventions",
+  "title": "The first field director",
+  "text": "The Fraternity hired its first travelling field officer, then called the Psi Upsilon Fellow, to visit and advise the chapters. A director of publications and services followed in 1981, a second field director in 1983 and a director of alumni services in 1992, building the professional staff that now supports the chapters.",
+  "source": {
+   "doc": "college-tablet-7th-edition-2013",
+   "page": 37,
+   "label": "The College Tablet, 7th edition"
+  }
+ },
+ {
+  "year": 1980,
+  "category": "members",
+  "title": "The first chapter admits women",
+  "text": "Early in the second semester the Gamma at Amherst voted to admit women, after a debate in the autumn in which a majority favoured the change but fell short of the two thirds needed to alter the by-laws. The college's trustees then required all its fraternities to stop excluding women. Psi Upsilon's constitution had never carried a discriminatory restriction, and The Diamond wrote in 2015 that it was \"the women at the first coed chapter who honored Psi Upsilon's heritage as a customarily all-male fraternity by insisting that all members be called brothers regardless of gender\".",
+  "feature": true,
+  "source": {
+   "doc": "diamond-of-psi-upsilon-1980-3-vol066-num4-sum",
+   "page": 11,
+   "label": "The Diamond of Psi Upsilon, Summer 1980"
+  }
+ },
+ {
+  "year": 1983,
+  "category": "conventions",
+  "title": "The Sesquicentennial",
+  "text": "Psi Upsilon marked its 150th birthday with a Convention hosted by the Theta at Union and Founders' Day dinners across the United States and Canada. The winter Diamond reprinted the founding narrative from the Annals, including the full text of the Pledge with its seven signatures.",
+  "date": "24 November 1983",
+  "source": {
+   "doc": "diamond-of-psi-upsilon-1983-1-vol069-num2-win",
+   "page": 5,
+   "label": "The Diamond of Psi Upsilon, Winter 1983"
+  }
+ },
+ {
+  "year": 1984,
+  "category": "publications",
+  "title": "An eighth founder is proposed",
+  "text": "Reviewing the archives after the Sesquicentennial, James H. Bresson argued that Psi Upsilon had eight founders, not seven. He identified the signer whose name the February 1878 Diamond had deliberately suppressed as William Henry Backus, Theta 1836, and showed that Backus appears in the Theta Minute Book with no record of initiation, that his is one of the eight undated signatures on the Founders' Constitution, that four of the seven recognised founders named him in their letters, and that a manuscript Records of the Theta calls him \"One of the Eight Founders\" \u2014 a line later struck through in different ink.",
+  "source": {
+   "doc": "diamond-of-psi-upsilon-1984-3-vol070-num4-sum",
+   "page": 5,
+   "label": "The Diamond of Psi Upsilon, Summer 1984"
+  },
+  "uncertain": "The roll of seven, printed from 1878 onwards, remains the official one; Harvey wrote in 1876 that the Pledge \"was signed, I think, by eight of us\"."
+ },
+ {
+  "year": 1987,
+  "category": "conventions",
+  "title": "A woman leads the Fraternity's staff",
+  "text": "Kathleen M. McGlone, an honorary member of the Lambda, served as executive director of Psi Upsilon from 1987 to 1989, the only woman among the seven who have held the office. She had addressed alumni on the evolution of coeducation within the Fraternity three years earlier.",
+  "source": {
+   "doc": "diamond-of-psi-upsilon-2012-1-vol094-num1-2-fall",
+   "page": 12,
+   "label": "The Diamond of Psi Upsilon, Fall 2012"
+  }
+ },
+ {
+  "year": 1991,
+  "category": "conventions",
+  "title": "The Leadership Institute begins",
+  "text": "The Fraternity established the Leadership Institute, an educational conference held each year alongside the Convention, where undergraduates and alumni work on the problems of running a chapter. The Archons' Academy for chapter presidents followed in 1994, and the two together became the Chapter Leadership Program.",
+  "source": {
+   "doc": "diamond-of-psi-upsilon-2012-1-vol094-num1-2-fall",
+   "page": 12,
+   "label": "The Diamond of Psi Upsilon, Fall 2012"
+  }
+ },
+ {
+  "year": 1993,
+  "category": "conventions",
+  "title": "The International Office moves to Indianapolis",
+  "text": "The Executive Council relocated the headquarters to Indianapolis for its central location and lower costs, ending twenty-four years of moves. The Fraternity bought its first permanent headquarters building in 1995 and dedicated it, with the Heritage Square garden outside, on 27 July 1996. The building holds a classroom, a board room, a library and the Fraternity's archives.",
+  "date": "July 1993",
+  "source": {
+   "doc": "college-tablet-7th-edition-2013",
+   "page": 37,
+   "label": "The College Tablet, 7th edition"
+  }
+ },
+ {
+  "year": 1995,
+  "category": "publications",
+  "title": "The College Tablet",
+  "text": "The Fraternity published the first edition of The College Tablet, its member education guide, taking the name of the Delta's periodical of 1850. Six further editions appeared between 1997 and 2013, correcting each other as they went; the run is a good record of what Psi Upsilon believed about its own history at the end of the twentieth century.",
+  "link": "collections/membered.html",
+  "link_label": "Member education",
+  "source": {
+   "doc": "diamond-of-psi-upsilon-2012-1-vol094-num1-2-fall",
+   "page": 12,
+   "label": "The Diamond of Psi Upsilon, Fall 2012"
+  }
+ },
+ {
+  "year": 1997,
+  "category": "publications",
+  "title": "Psi Upsilon goes online",
+  "text": "The Fraternity launched its first website in 1997, and an edition of the Songs of Psi Upsilon followed in 1998. The Psi Upsilon Today newsletter came in 2003, an interactive site for the 175th anniversary in 2008, and Facebook, Twitter and YouTube accounts in 2009.",
+  "source": {
+   "doc": "diamond-of-psi-upsilon-2012-1-vol094-num1-2-fall",
+   "page": 12,
+   "label": "The Diamond of Psi Upsilon, Fall 2012"
+  }
+ },
+ {
+  "year": 2003,
+  "category": "members",
+  "title": "A brother becomes Prime Minister of Canada",
+  "text": "Paul Martin, Nu 1961, took office as Canada's twenty-first Prime Minister in December 2003, having served as finance minister since 1993. He was initiated at the University of Toronto, the first chapter Psi Upsilon chartered outside the United States.",
+  "date": "December 2003",
+  "link": "people/paul-martin.html",
+  "link_label": "Paul Martin",
+  "source": {
+   "doc": "college-tablet-7th-edition-2013",
+   "page": 51,
+   "label": "The College Tablet, 7th edition"
+  }
+ },
+ {
+  "year": 2008,
+  "category": "conventions",
+  "title": "The 175th anniversary",
+  "text": "The 165th Convention, held at the International Office in Indianapolis in June, celebrated 175 years of Psi Upsilon. The Fraternity invited members worldwide to mark the anniversary itself on 24 November and to record their own Psi U stories on a website built for it.",
+  "date": "24 November 2008",
+  "source": {
+   "doc": "diamond-of-psi-upsilon-2008-1-vol093-num1-2-fall",
+   "page": 8,
+   "label": "The Diamond of Psi Upsilon, Fall 2008"
+  }
+ },
+ {
+  "year": 2012,
+  "category": "conventions",
+  "title": "A change of hands at the International Office",
+  "text": "Mark A. Williams, Phi 1976, stepped down after twenty-two years as chief executive of both the Fraternity and the Foundation, having organised twenty-three Conventions and served with seven Council presidents. The Executive Council named Thomas J. Fox, Omicron 2000, the Fraternity's seventh executive director.",
+  "date": "1 August 2012",
+  "source": {
+   "doc": "diamond-of-psi-upsilon-2012-1-vol094-num1-2-fall",
+   "page": 12,
+   "label": "The Diamond of Psi Upsilon, Fall 2012"
+  }
  },
  {
   "year": 2015,
   "category": "publications",
   "title": "The last printed Diamond",
-  "text": "The final printed issue of The Diamond appears, closing a run that began in 1878.",
+  "text": "The final printed issue of The Diamond appeared in 2015, closing a run that began at Ithaca in 1878. Its pages record the 171st Convention, a day of service at a Lehigh elementary school, and a memorial to Henry B. Poor, who had led the Fraternity's staff for fourteen years.",
   "link": "documents/diamond-of-psi-upsilon-2015-1-vol096-num1-4-spr-1.html",
-  "link_label": "The last issue"
+  "link_label": "The last issue",
+  "source": {
+   "doc": "diamond-of-psi-upsilon-2015-1-vol096-num1-4-spr-1",
+   "page": 4,
+   "label": "The Diamond of Psi Upsilon, 2015"
+  }
+ },
+ {
+  "year": 2021,
+  "category": "publications",
+  "title": "The History and Archives Committee",
+  "text": "The Foundation's History and Archives Committee works to organise and preserve the Fraternity's archives at the International Office in Indianapolis and to share its history with the membership. It holds archives management weekends, publishes Reflections: A Journal of Psi Upsilon History, and presents research on the chapters and the founders at each Convention.",
+  "source": {
+   "doc": "postconvention-2021historyarchives-presentation",
+   "page": 3,
+   "label": "History and Archives Committee, 2021"
+  }
  }
 ]

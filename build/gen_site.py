@@ -49,6 +49,7 @@ TL_CATS  = [("founding", "Founding"), ("expansion", "Chapters"),
             ("publications", "Publications"), ("members", "Members"),
             ("conventions", "Conventions"), ("insignia", "Insignia")]
 
+ITEMS_BY_ID    = {i["id"]: i for i in ITEMS}
 PEOPLE_BY_ID   = {p["id"]: p for p in PEOPLE}
 CHAPTERS_BY_ID = {c["id"]: c for c in CHAPTERS}
 CHAPTER_BY_NAME = {c["name"].lower(): c for c in CHAPTERS}
@@ -1124,7 +1125,7 @@ def founder_card(f, base):
     portrait = ('<div class="fface"><img src="%s%s" alt="%s" loading="lazy"></div>'
                 % (base, E(f["portrait"]), E(f["name"])) if f.get("portrait")
                 else '<div class="fface fnum"><span>%d</span></div>' % f.get("sort", 0))
-    life = "%s&ndash;%s" % (f["born"]["year"] or "?", f["died"]["year"] or "?")
+    life = "%s\u2013%s" % (f["born"]["year"] or "?", f["died"]["year"] or "?")
     return ('<a class="fcard" href="%sfounders/%s.html">%s<div class="fmeta">'
             '<b>%s</b><span>%s &middot; Class of %d</span><span>%s</span>%s</div></a>'
             % (base, f["id"], portrait, E(f["name"]), E(life), f["class_year"],
@@ -1140,17 +1141,23 @@ def build_founders():
             '<p class="muted" style="max-width:66ch">Seven Union College undergraduates &mdash; four '
             'in the class of 1836, three in the class of 1837 &mdash; met in an attic room in '
             'downtown Schenectady and signed a formal pledge to found a society of their own. '
-            'What is known of their lives comes chiefly from the Fraternity\'s own centennial '
-            'history, the <em>Annals of Psi Upsilon</em> of 1941, and is quoted on each page '
-            'below with a link to the scanned original.</p></div></div>'
+            'They were between sixteen and twenty-three years old. Six of them lived long enough '
+            'to be asked what had happened, and their answers do not agree.</p></div></div>'
             '<section class="band"><div class="wrap"><div class="grid g-founders">%s</div>'
             '<div class="notice" style="margin-top:34px;max-width:72ch">'
-            '<b>These pages are deliberately unfinished.</b> Birthplaces, burial places, family, '
-            'portraits and the Fraternity\'s own fuller biographies are still to be recorded. Each '
-            'page shows what is missing, and <em>data/founders.xlsx</em> is where it goes &mdash; '
-            'open it in Excel, type into the yellow cells, save, and rebuild. See '
-            '<em>Filling in the Founders and the Timeline</em> for the fields.</div>'
-            '</div></section>' % cards)
+            '<b>These seven biographies were written from the archive itself</b> &mdash; from the '
+            '1884 <em>Epitome</em>, the 1941 <em>Annals</em>, Fiske\'s 1895 history and the '
+            'earliest numbers of <em>The Diamond</em>, in which the founders were still writing '
+            'about themselves. Every claim carries the volume and page it came from, and where the '
+            'sources disagree &mdash; and on the founding they disagree a great deal &mdash; the '
+            'page says so rather than choosing. <b>%d open questions</b> are listed across the '
+            'seven, each with a note on where a researcher could settle it. What is still missing '
+            'is the physical record: not one burial place appears anywhere in the archive, and six '
+            'of the seven have no portrait. Corrections and additions go in '
+            '<em>data/founders.xlsx</em> &mdash; see <em>Filling in the Founders and the '
+            'Timeline</em>.</div>'
+            '</div></section>'
+            % (cards, sum(len(f.get("uncertainties") or []) for f in FOUNDERS)))
     write("founders.html", shell("", "The seven founders — " + SITE_NAME,
           "The seven Union College students who founded Psi Upsilon on 24 November 1833.",
           body, current="founders.html", page_url="founders.html", og_image=SOCIAL_IMAGE))
@@ -1163,8 +1170,10 @@ def build_founders():
 
         def fact(label, value, empty="not yet recorded"):
             return (label, value if value else '<span class="todo">%s</span>' % empty)
-        born = ", ".join(x for x in [str(f["born"]["year"] or ""), f["born"]["place"]] if x)
-        died = ", ".join(x for x in [str(f["died"]["year"] or ""), f["died"]["place"]] if x)
+        def when(d):
+            head = d.get("date") or (str(d["year"]) if d.get("year") else "")
+            return ", ".join(x for x in [head, d.get("place") or ""] if x)
+        born, died = when(f["born"]), when(f["died"])
         grave = f["buried"].get("findagrave")
         buried = f["buried"].get("place") or ""
         if grave:
@@ -1212,6 +1221,42 @@ def build_founders():
         if f.get("quote"):
             blocks.append('<blockquote class="pull"><p>%s</p><footer>%s</footer></blockquote>'
                           % (E(f["quote"]["text"]), E(f["quote"]["attribution"])))
+        if f.get("uncertainties"):
+            rows = []
+            for u in f["uncertainties"]:
+                rows.append('<details class="unc"><summary>%s</summary><p>%s</p>%s</details>'
+                            % (E(u.get("claim") or ""), E(u.get("detail") or ""),
+                               ('<p class="muted sans" style="font-size:13.5px"><b>How to settle '
+                                'it:</b> %s</p>' % E(u["how_to_resolve"]))
+                               if u.get("how_to_resolve") else ""))
+            blocks.append('<div class="unc-box" style="margin-top:34px">'
+                          '<h2 style="font-size:21px;margin-bottom:2px">What is still in doubt</h2>'
+                          '<p class="muted sans" style="font-size:13.5px;margin:0 0 14px">'
+                          '%d open questions about this life, drawn from disagreements between the '
+                          'sources. Each says what the sources claim and where a researcher could '
+                          'settle it.</p>%s</div>'
+                          % (len(f["uncertainties"]), "".join(rows)))
+        if f.get("sources"):
+            seen, rows = set(), []
+            for sc in f["sources"]:
+                doc = sc.get("doc") or ""
+                if doc in seen:
+                    continue
+                seen.add(doc)
+                label = sc.get("label") or doc
+                page = sc.get("page")
+                if doc in ITEMS_BY_ID:
+                    href = "../documents/%s.html%s" % (doc, ("#page-%d" % page) if page else "")
+                    rows.append('<li><a href="%s">%s</a>%s</li>'
+                                % (href, E(label),
+                                   (' <span class="muted">page %d</span>' % page) if page else ""))
+                else:
+                    rows.append("<li>%s</li>" % E(label))
+            blocks.append('<div style="margin-top:34px"><h2 style="font-size:21px;margin-bottom:2px">'
+                          'Where this comes from</h2><p class="muted sans" '
+                          'style="font-size:13.5px;margin:0 0 12px">The volumes this biography was '
+                          'written from. Each link opens the scan at the page.</p>'
+                          '<ul class="plain srcs">%s</ul></div>' % "".join(rows))
         st = founder_stories(f)
         if st:
             blocks.append('<div style="margin-top:34px"><h2 style="font-size:21px">Written about him'
@@ -1291,15 +1336,17 @@ def build_timeline():
             sc = e["source"]
             src = ('<a class="tl-src" href="documents/%s.html#page-%d">%s, page %d &#8599;</a>'
                    % (E(sc["doc"]), sc["page"], E(sc.get("label") or "Source"), sc["page"]))
+        unc = ('<p class="tl-unc"><b>Not settled:</b> %s</p>' % E(e["uncertain"])) \
+              if e.get("uncertain") else ""
         rows.append(
             '<article class="tl-item%s%s" data-cat="%s" data-year="%d">'
             '<div class="tl-when"><b>%s</b>%s</div>'
-            '<div class="tl-what">%s<h3>%s</h3><p>%s</p><div class="tl-foot">%s%s</div></div>'
+            '<div class="tl-what">%s<h3>%s</h3><p>%s</p>%s<div class="tl-foot">%s%s</div></div>'
             '</article>'
             % (" feature" if e.get("feature") else "", " quiet" if e.get("quiet") else "",
                e["category"], e["year"],
                e["year"], ('<span>%s</span>' % E(e["date"])) if e.get("date") else "",
-               thumb, E(e["title"]), E(e.get("text") or ""), link, src))
+               thumb, E(e["title"]), E(e.get("text") or ""), unc, link, src))
     body = ('<div class="wrap"><div class="crumb"><a href="index.html">Museum</a> / Timeline</div>'
             '<div class="doc-head"><p class="eyebrow">1833 to today</p><h1>Timeline</h1>'
             '<p class="muted" style="max-width:64ch">The founding, the chapters as they were '

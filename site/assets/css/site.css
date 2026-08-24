@@ -562,3 +562,25 @@ blockquote.pull footer{margin-top:10px;font-family:var(--sans);font-size:12.5px;
   font-variant-numeric:lining-nums;line-height:1}
 @media (prefers-color-scheme:dark){.tlp b{color:var(--gold-lt)}}
 .tlp span{font-size:15px;line-height:1.4;color:var(--ink-2)}
+
+/* ---- founder pages: sources and open questions ---------------------- */
+.unc-box{border-top:1px solid var(--line);padding-top:24px}
+details.unc{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:0 0 8px;
+  background:var(--card)}
+details.unc+details.unc{margin-top:0}
+details.unc>summary{cursor:pointer;font-family:var(--sans);font-size:14.5px;font-weight:600;
+  color:var(--ink);list-style:none;display:flex;gap:10px;align-items:flex-start}
+details.unc>summary::-webkit-details-marker{display:none}
+details.unc>summary::before{content:"?";flex:0 0 auto;width:19px;height:19px;margin-top:1px;
+  border-radius:50%;background:var(--gold);color:#fff;font-size:12px;font-weight:700;
+  display:grid;place-items:center}
+details.unc[open]>summary{margin-bottom:9px}
+details.unc>p{margin:0 0 8px 29px;font-size:15.5px;line-height:1.62;color:var(--ink-2)}
+details.unc>p:last-child{margin-bottom:0}
+ul.srcs li{font-size:15px;line-height:1.7}
+ul.srcs .muted{font-family:var(--sans);font-size:13px}
+.tl-unc{margin:8px 0 0;padding:9px 12px;border-left:3px solid var(--gold);
+  background:var(--paper-2);font-size:14.5px;line-height:1.55;color:var(--ink-2)}
+.tl-unc b{font-family:var(--sans);font-size:12.5px;text-transform:uppercase;
+  letter-spacing:.055em;color:var(--gold-dp);display:block;margin-bottom:2px}
+@media (prefers-color-scheme:dark){.tl-unc b{color:var(--gold)}}
