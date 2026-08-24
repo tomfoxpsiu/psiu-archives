@@ -39,6 +39,7 @@ items    = load("items.json", {"items": []})["items"]
 people   = load("people.json", [])
 chapters = load("chapters.json", [])
 songs    = load("songs.json", [])
+founders = load("founders.json", [])
 
 STOP = {"de", "la", "van", "von", "der", "jr", "sr", "ii", "iii", "iv"}
 WORD = re.compile(r"[a-z][a-z']+")
@@ -75,7 +76,7 @@ def person_pattern(first_names, last):
         return None
     return re.compile(r"(?<!\w)(?:%s)(?!\w)" % "|".join(alts), re.I)
 
-by_surname = defaultdict(list)       # surname -> [(id, compiled verifier)]
+by_surname = defaultdict(list)       # surname -> [(id, verifier, year floor, kind)]
 for p in people:
     last, first = surname_of(p["name"])
     if not last:
@@ -83,7 +84,14 @@ for p in people:
     rx = person_pattern(first, last)
     if rx is not None:
         floor = (p["year"] - 6) if p.get("year") else None
-        by_surname[last.lower()].append((p["id"], rx, floor))
+        by_surname[last.lower()].append((p["id"], rx, floor, "person"))
+
+# the seven founders are matched the same way, but filed separately
+for f in founders:
+    last, first = surname_of(f["name"])
+    rx = person_pattern(first, last) if last else None
+    if rx is not None:
+        by_surname[last.lower()].append((f["id"], rx, None, "founder"))
 SURNAMES = set(by_surname)
 
 # How many volumes contain each surname at all? A rare surname ("Berwanger",
@@ -134,7 +142,7 @@ for s_ in songs:
     if key:
         song_by_token[key].append((s_["id"], sorted(variants)))
 
-print(f"  {len(people)} people, {len(chapters)} chapters, {len(songs)} songs")
+print(f"  {len(founders)} founders, {len(people)} people, {len(chapters)} chapters, {len(songs)} songs")
 
 def snippet(text, idx, term_len, width=150):
     s = max(0, idx - width // 2)
@@ -161,18 +169,18 @@ for it in items:
         # --- people
         for sur in SURNAMES & words:
             bare = sur in rare
-            for pid, rx, floor in by_surname[sur]:
+            for pid, rx, floor, kind in by_surname[sur]:
                 if floor and (it["year"] or 0) < floor:
                     continue
                 m = rx.search(raw)
                 if m is None and bare and len(by_surname[sur]) == 1:
                     i = low.find(sur)
                     if i >= 0:
-                        hits[("person", pid)][doc_id].append(
+                        hits[(kind, pid)][doc_id].append(
                             (pno, snippet(raw, i, len(sur))))
                     continue
                 if m:
-                    hits[("person", pid)][doc_id].append(
+                    hits[(kind, pid)][doc_id].append(
                         (pno, snippet(raw, m.start(), len(m.group(0)))))
 
         # --- chapters, by "<Name> Chapter"
@@ -225,7 +233,7 @@ for (kind, eid), docs in hits.items():
         total=sum(r["count"] for r in recs), volumes=len(recs), docs=recs[:200])
 
 json.dump(out, open(os.path.join(DATA, "mentions.json"), "w"))
-for kind in ("person", "chapter", "song"):
+for kind in ("founder", "person", "chapter", "song"):
     d = out.get(kind, {})
     if not d:
         continue

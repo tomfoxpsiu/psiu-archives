@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://tomfoxpsiu.github.io/psiu-archives/sitemap.xml

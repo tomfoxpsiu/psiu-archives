@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate the static Psi Upsilon Digital Archives site from data/.
+Generate the static Psi Upsilon Digital Museum site from data/.
 
   site/                 <- everything you deploy
   build/index_html/     <- throwaway input for the Pagefind indexer
@@ -15,7 +15,7 @@ DATA   = os.path.join(ROOT, "data")
 SITE   = os.path.join(ROOT, "site")
 IDXDIR = os.path.join(ROOT, "build", "index_html")
 
-SITE_NAME = "Psi Upsilon Digital Archives"
+SITE_NAME = "Psi Upsilon Digital Museum"
 # Set this once you know the public address (e.g. "https://archives.psiu.org/" or
 # "https://psiu.org/archives/"). It only affects canonical links, social previews
 # and sitemap.xml — the site itself works from anywhere without it.
@@ -43,6 +43,11 @@ CHAPTERS = _load("chapters.json", [])
 SONGS    = _load("songs.json", [])
 MENTIONS = _load("mentions.json", {})
 HERALDRY = _load("heraldry.json", {"blocks": [], "images": []})
+FOUNDERS = sorted(_load("founders.json", []), key=lambda f: f.get("sort", 99))
+TIMELINE = _load("timeline.json", [])
+TL_CATS  = [("founding", "Founding"), ("expansion", "Chapters"),
+            ("publications", "Publications"), ("members", "Members"),
+            ("conventions", "Conventions"), ("insignia", "Insignia")]
 
 PEOPLE_BY_ID   = {p["id"]: p for p in PEOPLE}
 CHAPTERS_BY_ID = {c["id"]: c for c in CHAPTERS}
@@ -111,10 +116,13 @@ def fmt_bytes(n):
     return f"{n/1048576:.0f} MB" if n > 10485760 else f"{n/1048576:.1f} MB"
 
 # --------------------------------------------------------------- chrome
-NAV = [("", "index.html", "Search"), ("", "browse.html", "Browse"),
-       ("", "collections.html", "Collections"), ("", "people.html", "People"),
-       ("", "chapters.html", "Chapters"), ("", "stories/index.html", "Stories"),
-       ("", "about.html", "About")]
+NAV = [("", "index.html", "Search"), ("", "timeline.html", "Timeline"),
+       ("", "founders.html", "Founders"), ("", "people.html", "People"),
+       ("", "chapters.html", "Chapters"), ("", "collections.html", "Collections")]
+NAV_MORE = [("browse.html", "Browse every volume"), ("stories/index.html", "Stories"),
+            ("recordings.html", "Song recordings"), ("heraldry.html", "Heraldry"),
+            ("objects.html", "Objects &amp; artefacts"), ("video.html", "Video"),
+            ("about.html", "About the museum")]
 
 ICONS = {
  "search": '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>',
@@ -130,9 +138,16 @@ def shell(base, title, desc, body, page_js=(), current="", page_url=None, og_ima
     nav = "".join(
         '<a href="%s%s"%s>%s</a>' % (base, href, cur if href == current else "", label)
         for _, href, label in NAV)
+    more = "".join('<a href="%s%s"%s>%s</a>' % (base, href, cur if href == current else "", label)
+                   for href, label in NAV_MORE)
+    nav += ('<details class="navmore"><summary>More</summary>'
+            '<div class="navmore-panel">%s</div></details>' % more)
     scripts = "".join('<script src="%sassets/js/%s" type="module"></script>' % (base, x) for x in page_js)
-    canon = ('<link rel="canonical" href="%s/%s">' % (SITE_URL, page_url)) if (SITE_URL and page_url) else ""
-    ogurl = ('<meta property="og:url" content="%s/%s">' % (SITE_URL, page_url)) if (SITE_URL and page_url) else ""
+    # index.html at the site root is served as the bare directory URL too; point the
+    # canonical at the bare form so search engines do not treat the two as rivals.
+    canon_path = "" if page_url == "index.html" else page_url
+    canon = ('<link rel="canonical" href="%s/%s">' % (SITE_URL, canon_path)) if (SITE_URL and page_url) else ""
+    ogurl = ('<meta property="og:url" content="%s/%s">' % (SITE_URL, canon_path)) if (SITE_URL and page_url) else ""
     ogimg = ""
     if og_image:
         src = ("%s/%s" % (SITE_URL, og_image)) if SITE_URL else (base + og_image)
@@ -140,7 +155,7 @@ def shell(base, title, desc, body, page_js=(), current="", page_url=None, og_ima
     quick = "" if current == "index.html" else (
         '<form class="topsearch" action="%sindex.html" method="get" role="search">'
         '<label class="sr" for="tq">Search the archives</label>'
-        '<input id="tq" name="q" type="search" placeholder="Search the archives\u2026" autocomplete="off">'
+        '<input id="tq" name="q" type="search" placeholder="Search the museum\u2026" autocomplete="off">'
         '</form>' % base)
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -165,7 +180,7 @@ def shell(base, title, desc, body, page_js=(), current="", page_url=None, og_ima
   <div class="wrap masthead-in">
     <a class="brand" href="{base}index.html">
       <span class="mono" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M6.5 5v5.2a5.5 5.5 0 0 0 11 0V5"/><path d="M12 4.4V20M8.6 20h6.8"/></svg></span>
-      <span><b>Psi Upsilon</b><span>Digital Archives</span></span>
+      <span><b>Psi Upsilon</b><span>Digital Museum</span></span>
     </a>
     {quick}
     <button class="burger" aria-expanded="false" aria-controls="nav">Menu</button>
@@ -182,7 +197,7 @@ def shell(base, title, desc, body, page_js=(), current="", page_url=None, og_ima
     <div class="foot-grid">
       <div>
         <h4>About the archive</h4>
-        <p style="margin:0;max-width:44ch">The Psi Upsilon Digital Archives make a selection of the
+        <p style="margin:0;max-width:44ch">The Psi Upsilon Digital Museum makes a selection of the
         Fraternity's records and heritage materials freely available in support of its educational
         mission. Assembled by the History &amp; Archives Committee and the International Office.</p>
       </div>
@@ -308,6 +323,12 @@ def build_home():
         'loading="lazy"><span>%s</span></a>' % (c["id"], E(c["arms"]), E(c["name"]), E(c["name"]))
         for c in CHAPTERS if c.get("arms"))[:100000]
 
+    founder_row = "".join(founder_card(f, "") for f in FOUNDERS[:4])
+    feats = [e for e in TIMELINE if e.get("feature")][:5]
+    tl_preview = "".join(
+        '<a class="tlp" href="timeline.html#d%d"><b>%d</b><span>%s</span></a>'
+        % ((e["year"] // 10) * 10, e["year"], E(e["title"])) for e in feats)
+
     soon = f"""
   <a class="soon live" href="https://www.flickr.com/photos/psiupsilon/albums">
     <div class="ico">{ICONS['photo']}</div><h3>Photographs</h3>
@@ -335,11 +356,11 @@ def build_home():
     body = f"""
 <div class="hero">
   <div class="wrap"><div class="hero-in">
-    <p class="eyebrow">The Digital Archives of Psi Upsilon &middot; founded 1833</p>
+    <p class="eyebrow">The Digital Museum of Psi Upsilon &middot; founded 1833</p>
     <h1>Search <em>{human(TOTAL_PAGES)} pages</em> of Psi Upsilon history.</h1>
-    <p class="lede">Every scanned volume in the archive &mdash; the Diamond, the Convention Records,
-      the Annals, the printed histories &mdash; read as full text. Search once and see the exact page
-      your words appear on.</p>
+    <p class="lede">Every scanned volume &mdash; the Diamond, the Convention Records, the Annals,
+      the printed histories &mdash; read as full text, alongside the founders, the chapters, the
+      people and the songs. Search once and see the exact page your words appear on.</p>
     <div class="searchbox">
       {ICONS['search']}
       <label class="sr" for="q">Search the archives</label>
@@ -383,6 +404,30 @@ def build_home():
       <a class="more" href="browse.html">Browse everything</a>
     </div>
     <div class="tl">{tl}</div>
+  </div>
+</section>
+
+<section class="band alt" data-hide-on-search>
+  <div class="wrap">
+    <div class="sec-head">
+      <div><p class="eyebrow">24 November 1833</p><h2>The seven founders</h2>
+      <p>Seven Union College undergraduates, four in the class of 1836 and three in 1837, who met
+      in an attic room in downtown Schenectady and signed a pledge.</p></div>
+      <a class="more" href="founders.html">All seven</a>
+    </div>
+    <div class="grid g-founders">{founder_row}</div>
+  </div>
+</section>
+
+<section class="band" data-hide-on-search>
+  <div class="wrap">
+    <div class="sec-head">
+      <div><p class="eyebrow">1833 to today</p><h2>The whole story, in order</h2>
+      <p>{len(TIMELINE)} moments: the founding, every chapter as it was chartered, the
+      publications, and the brothers who turned up in the national record.</p></div>
+      <a class="more" href="timeline.html">Open the timeline</a>
+    </div>
+    <div class="tl-preview">{tl_preview}</div>
   </div>
 </section>
 
@@ -470,7 +515,7 @@ def build_collections():
 Each collection page lists its volumes oldest first, with the number of pages we hold for each.</p></div></div>
 <section class="band"><div class="wrap"><div class="grid g-coll">{"".join(cards)}</div></div></section>"""
     write("collections.html", shell("", f"Collections — {SITE_NAME}",
-        "The eight collections that make up the Psi Upsilon Digital Archives.", body,
+        "The eight collections that make up the Psi Upsilon Digital Museum.", body,
         current="collections.html"))
 
     for cid in COLL_ORDER:
@@ -516,7 +561,7 @@ type to narrow by title. To search <em>inside</em> the documents, use the
 <section class="band" style="padding-top:8px"><div class="wrap">
   <div class="grid g-doc" id="grid">{grid}</div></div></section>"""
     write("browse.html", shell("", f"Browse — {SITE_NAME}",
-        f"All {len(ITEMS)} volumes in the Psi Upsilon Digital Archives.", body,
+        f"All {len(ITEMS)} volumes in the Psi Upsilon Digital Museum.", body,
         page_js=["browse.js"], current="browse.html"))
 
 # --------------------------------------------------------------- documents
@@ -673,7 +718,7 @@ def build_documents():
 </div></div>"""
         write(f"documents/{i['id']}.html",
               shell("../", f"{i['title']} — {SITE_NAME}",
-                    f"{i['title']}. {c['name']}, Psi Upsilon Digital Archives."
+                    f"{i['title']}. {c['name']}, Psi Upsilon Digital Museum."
                     + (f" {pages} pages, full text searchable." if pages else ""),
                     body, page_js=(["reader.js"] if fmt == "pdf" else []),
                     page_url=f"documents/{i['id']}.html",
@@ -1068,6 +1113,219 @@ def build_heraldry_page():
           "The Psi Upsilon coat of arms, badge, flag and the fifty chapter shields.",
           body, page_url="heraldry.html", og_image=SOCIAL_IMAGE))
 
+# --------------------------------------------------------- the founders
+def founder_stories(f):
+    last = f["name"].split()[-1].lower()
+    return [s for s in STORIES
+            if last in (s.get("title", "") + " " + s.get("body", "")[:1500]).lower()][:3]
+
+def founder_card(f, base):
+    m = mention_data("founder", f["id"])
+    portrait = ('<div class="fface"><img src="%s%s" alt="%s" loading="lazy"></div>'
+                % (base, E(f["portrait"]), E(f["name"])) if f.get("portrait")
+                else '<div class="fface fnum"><span>%d</span></div>' % f.get("sort", 0))
+    life = "%s&ndash;%s" % (f["born"]["year"] or "?", f["died"]["year"] or "?")
+    return ('<a class="fcard" href="%sfounders/%s.html">%s<div class="fmeta">'
+            '<b>%s</b><span>%s &middot; Class of %d</span><span>%s</span>%s</div></a>'
+            % (base, f["id"], portrait, E(f["name"]), E(life), f["class_year"],
+               E(f["profession"] or ""),
+               ('<span class="pill">%d volumes</span>' % m["volumes"]) if m else ""))
+
+def build_founders():
+    if not FOUNDERS:
+        return
+    cards = "".join(founder_card(f, "") for f in FOUNDERS)
+    body = ('<div class="wrap"><div class="crumb"><a href="index.html">Museum</a> / Founders</div>'
+            '<div class="doc-head"><p class="eyebrow">24 November 1833</p><h1>The seven founders</h1>'
+            '<p class="muted" style="max-width:66ch">Seven Union College undergraduates &mdash; four '
+            'in the class of 1836, three in the class of 1837 &mdash; met in an attic room in '
+            'downtown Schenectady and signed a formal pledge to found a society of their own. '
+            'What is known of their lives comes chiefly from the Fraternity\'s own centennial '
+            'history, the <em>Annals of Psi Upsilon</em> of 1941, and is quoted on each page '
+            'below with a link to the scanned original.</p></div></div>'
+            '<section class="band"><div class="wrap"><div class="grid g-founders">%s</div>'
+            '<div class="notice" style="margin-top:34px;max-width:72ch">'
+            '<b>These pages are deliberately unfinished.</b> Birthplaces, burial places, family, '
+            'portraits and the Fraternity\'s own fuller biographies are still to be recorded. Each '
+            'page shows what is missing, and <em>data/founders.xlsx</em> is where it goes &mdash; '
+            'open it in Excel, type into the yellow cells, save, and rebuild. See '
+            '<em>Filling in the Founders and the Timeline</em> for the fields.</div>'
+            '</div></section>' % cards)
+    write("founders.html", shell("", "The seven founders — " + SITE_NAME,
+          "The seven Union College students who founded Psi Upsilon on 24 November 1833.",
+          body, current="founders.html", page_url="founders.html", og_image=SOCIAL_IMAGE))
+
+    annals = next((i for i in ITEMS if i["id"].startswith("annals-of-psi-upsilon-pt-02")), None)
+    for n, f in enumerate(FOUNDERS):
+        prev = FOUNDERS[n - 1] if n else None
+        nxt = FOUNDERS[n + 1] if n + 1 < len(FOUNDERS) else None
+        theta = CHAPTER_BY_NAME.get("theta")
+
+        def fact(label, value, empty="not yet recorded"):
+            return (label, value if value else '<span class="todo">%s</span>' % empty)
+        born = ", ".join(x for x in [str(f["born"]["year"] or ""), f["born"]["place"]] if x)
+        died = ", ".join(x for x in [str(f["died"]["year"] or ""), f["died"]["place"]] if x)
+        grave = f["buried"].get("findagrave")
+        buried = f["buried"].get("place") or ""
+        if grave:
+            buried = ('%s <a href="%s" target="_blank" rel="noopener">Find a Grave &#8599;</a>'
+                      % (E(buried), E(grave))) if buried else \
+                     ('<a href="%s" target="_blank" rel="noopener">Find a Grave &#8599;</a>' % E(grave))
+        else:
+            buried = E(buried)
+        kv = [fact("Born", E(born)), fact("Died", E(died)), fact("Buried", buried),
+              fact("Family", E(f.get("family") or "")),
+              ("Profession", E(f["profession"]) if f.get("profession")
+               else '<span class="todo">not yet recorded</span>'),
+              ("Class of", str(f["class_year"])),
+              ("Chapter", '<a href="../chapters/theta.html">Theta</a>' if theta else "Theta")]
+        for l in (f.get("links") or []):
+            kv.append(("Reference", '<a href="%s" target="_blank" rel="noopener">%s &#8599;</a>'
+                       % (E(l["url"]), E(l.get("label") or "Read more"))))
+
+        portrait = ('<img class="cover" src="../%s" alt="%s">' % (E(f["portrait"]), E(f["name"]))
+                    if f.get("portrait")
+                    else '<div class="fbig"><span>%d</span><em>of seven</em></div>' % f.get("sort", 0))
+
+        blocks = []
+        if f.get("bio"):
+            blocks.append('<div class="prose" style="max-width:66ch">%s</div>'
+                          % "".join("<p>%s</p>" % E(p) for p in f["bio"].split("\n\n") if p.strip()))
+        else:
+            blocks.append('<div class="notice"><b>The Fraternity\'s own biography of him has not '
+                          'been written yet.</b> What follows is the account in the 1941 '
+                          '<em>Annals</em>, quoted in full. A longer life, drawing on the sources '
+                          'listed further down this page, belongs in the <em>bio</em> column of '
+                          'data/founders.xlsx.</div>')
+        if f.get("annals"):
+            cite = ""
+            if annals:
+                cite = ('<footer>&mdash; <a href="../documents/%s.html#page-10&amp;q=%s">Annals of '
+                        'Psi Upsilon, Part 2, pages 60&ndash;62</a> (1941)</footer>'
+                        % (annals["id"], urllib.parse.quote(f["name"].split()[-1])))
+            blocks.append('<blockquote class="annals"><p>%s</p>%s</blockquote>'
+                          % (E(f["annals"]), cite))
+        if f.get("achievements"):
+            blocks.append('<div style="margin-top:30px"><h2 style="font-size:21px">Life and work</h2>'
+                          '<ul class="plain">%s</ul></div>'
+                          % "".join("<li>%s</li>" % E(a) for a in f["achievements"]))
+        if f.get("quote"):
+            blocks.append('<blockquote class="pull"><p>%s</p><footer>%s</footer></blockquote>'
+                          % (E(f["quote"]["text"]), E(f["quote"]["attribution"])))
+        st = founder_stories(f)
+        if st:
+            blocks.append('<div style="margin-top:34px"><h2 style="font-size:21px">Written about him'
+                          '</h2><div class="grid g-story" style="margin-top:14px">%s</div></div>'
+                          % "".join('<a class="card" href="../stories/%s.html">%s'
+                                    '<div class="card-body"><h3>%s</h3><p>%s</p></div></a>'
+                                    % (x["id"],
+                                       ('<div class="story-img"><img src="../%s" alt="" loading="lazy">'
+                                        '</div>' % E(x["cover"])) if x.get("cover") else "",
+                                       E(x["title"]), E((x.get("lead") or "")[:130])) for x in st))
+
+        missing = [lbl for lbl, val in
+                   (("birthplace", f["born"]["place"]), ("year of birth", f["born"]["year"]),
+                    ("place of death", f["died"]["place"]), ("burial place", f["buried"]["place"]),
+                    ("a Find a Grave link", f["buried"].get("findagrave")),
+                    ("family", f.get("family")), ("a portrait", f.get("portrait")),
+                    ("our own biography", f.get("bio"))) if not val]
+        if missing:
+            blocks.append('<div class="todo-box"><h3>Still to be recorded</h3><p>%s.</p>'
+                          '<p class="muted" style="font-size:14.5px">Add it to the row for %s in '
+                          '<em>data/founders.xlsx</em> and rebuild.</p></div>'
+                          % (E(", ".join(missing)), E(f["name"])))
+
+        nav = " ".join(x for x in [
+            ('<a href="%s.html">&larr; %s</a>' % (prev["id"], E(prev["name"]))) if prev else "",
+            ('<a href="%s.html" style="margin-left:auto">%s &rarr;</a>'
+             % (nxt["id"], E(nxt["name"]))) if nxt else ""] if x)
+
+        body = ('<div class="wrap"><div class="crumb"><a href="../index.html">Museum</a> / '
+                '<a href="../founders.html">Founders</a> / %s</div>'
+                '<div class="doc-head"><p class="eyebrow">Founder &middot; Class of %d</p>'
+                '<h1>%s%s</h1><div class="sub">%s</div></div>'
+                '<div class="split"><div class="aside">%s<ul class="kv">%s</ul></div>'
+                '<div>%s<div class="inpage" style="margin-top:38px">'
+                '<h2 style="font-size:22px;margin-bottom:4px">In the archive</h2>'
+                '<p class="muted sans" style="font-size:13.5px;margin:0 0 14px">Every page of the '
+                'scanned volumes that names him.</p>%s</div>'
+                '<div class="sans" style="display:flex;gap:18px;margin-top:38px;padding-top:18px;'
+                'border-top:1px solid var(--line);font-size:13.5px">%s</div></div></div></div>'
+                % (E(f["name"]), f["class_year"],
+                   ('<span class="hon">%s </span>' % E(f["honorific"])) if f.get("honorific") else "",
+                   E(f["name"]),
+                   ('<span class="pill">%s</span>' % E(f["role"])) if f.get("role") else "",
+                   portrait,
+                   "".join("<li><span>%s</span><b>%s</b></li>" % kv_ for kv_ in kv),
+                   "".join(blocks),
+                   mention_block("founder", f["id"], "../", f["name"].split()[-1]),
+                   nav))
+        write("founders/%s.html" % f["id"],
+              shell("../", "%s — %s" % (f["name"], SITE_NAME),
+                    "%s, a founder of Psi Upsilon, class of %d." % (f["name"], f["class_year"]),
+                    body, page_js=["mentions.js"],
+                    page_url="founders/%s.html" % f["id"],
+                    og_image=(f["portrait"] if f.get("portrait") else SOCIAL_IMAGE)))
+
+# ---------------------------------------------------------- the timeline
+def build_timeline():
+    if not TIMELINE:
+        return
+    decades = sorted({(e["year"] // 10) * 10 for e in TIMELINE})
+    rail = "".join('<a href="#d%d" data-decade="%d">%ds</a>' % (d, d, d) for d in decades)
+    chips = "".join('<button class="facet" data-cat="%s" aria-pressed="false">%s</button>'
+                    % (cid, label) for cid, label in TL_CATS
+                    if any(e["category"] == cid for e in TIMELINE))
+    rows, last_decade = [], None
+    for e in TIMELINE:
+        dec = (e["year"] // 10) * 10
+        if dec != last_decade:
+            rows.append('<h2 class="tl-decade" id="d%d">%ds</h2>' % (dec, dec))
+            last_decade = dec
+        thumb = ('<img class="tl-thumb" src="%s" alt="" loading="lazy">' % E(e["thumb"])) \
+                if e.get("thumb") else ""
+        link = ('<a class="tl-link" href="%s">%s &rarr;</a>'
+                % (E(e["link"]), E(e.get("link_label") or "Open"))) if e.get("link") else ""
+        src = ""
+        if e.get("source"):
+            sc = e["source"]
+            src = ('<a class="tl-src" href="documents/%s.html#page-%d">%s, page %d &#8599;</a>'
+                   % (E(sc["doc"]), sc["page"], E(sc.get("label") or "Source"), sc["page"]))
+        rows.append(
+            '<article class="tl-item%s%s" data-cat="%s" data-year="%d">'
+            '<div class="tl-when"><b>%s</b>%s</div>'
+            '<div class="tl-what">%s<h3>%s</h3><p>%s</p><div class="tl-foot">%s%s</div></div>'
+            '</article>'
+            % (" feature" if e.get("feature") else "", " quiet" if e.get("quiet") else "",
+               e["category"], e["year"],
+               e["year"], ('<span>%s</span>' % E(e["date"])) if e.get("date") else "",
+               thumb, E(e["title"]), E(e.get("text") or ""), link, src))
+    body = ('<div class="wrap"><div class="crumb"><a href="index.html">Museum</a> / Timeline</div>'
+            '<div class="doc-head"><p class="eyebrow">1833 to today</p><h1>Timeline</h1>'
+            '<p class="muted" style="max-width:64ch">The founding, the chapters as they were '
+            'chartered and closed, the publications, and the moments worth stopping at. Filter it, '
+            'or jump to a decade.</p></div>'
+            '<div class="tl-controls">'
+            '<div class="facets" data-cats>'
+            '<button class="facet" data-cat="" aria-pressed="true">Everything</button>%s</div>'
+            '<label class="sans tl-toggle"><input type="checkbox" data-quiet> '
+            'Include chapter closures</label>'
+            '<span class="tl-count sans" data-count></span></div>'
+            '<nav class="tl-rail" aria-label="Jump to a decade">%s</nav></div>'
+            '<section class="band" style="padding-top:18px"><div class="wrap">'
+            '<div class="tline" id="tl">%s</div>'
+            '<div class="notice" style="margin-top:40px;max-width:72ch">'
+            '<b>Adding to the timeline.</b> Chapter charterings and closures are generated from the '
+            'roll, so they look after themselves. Everything else is a row in '
+            '<em>data/timeline.xlsx</em>: a year, a category, a title, a sentence or two, and '
+            'optionally a link and the volume and page it came from. Open it in Excel, add a '
+            'row, save, and rebuild.</div>'
+            '</div></section>' % (chips, rail, "".join(rows)))
+    write("timeline.html", shell("", "Timeline — " + SITE_NAME,
+          "The history of Psi Upsilon from 1833: the founding, the chapters, the publications.",
+          body, page_js=["timeline.js"], current="timeline.html",
+          page_url="timeline.html", og_image=SOCIAL_IMAGE))
+
 # ------------------------------------------------------------------- media
 def media_of(kind):
     return sorted([m for m in MEDIA if m.get("type") == kind], key=lambda m: (m.get("year") or 0))
@@ -1143,9 +1401,9 @@ def build_media(skip_audio=False):
 def build_about():
     body = f"""<div class="wrap narrow">
 <div class="crumb"><a href="index.html">Archives</a> / About</div>
-<div class="doc-head"><p class="eyebrow">About</p><h1>About the Digital Archives</h1></div>
+<div class="doc-head"><p class="eyebrow">About</p><h1>About the Digital Museum</h1></div>
 <div class="prose" style="padding:8px 0 40px">
-<p>The Psi Upsilon Digital Archives make a selection of the records and heritage materials of the
+<p>The Psi Upsilon Digital Museum makes a selection of the records and heritage materials of the
 Fraternity archives freely available in support of Psi Upsilon's educational mission. The work is
 carried out by the History &amp; Archives Committee together with the International Office.</p>
 
@@ -1186,7 +1444,7 @@ honest.</div>
 
 <h2>Rights and use</h2>
 <p>Materials are provided for research, teaching and private study. Psi Upsilon retains rights in its own
-publications; please credit the Psi Upsilon Digital Archives when quoting from them, and contact the
+publications; please credit the Psi Upsilon Digital Museum when quoting from them, and contact the
 International Office before reproducing material commercially.</p>
 
 <h2>Corrections and contributions</h2>
@@ -1202,7 +1460,7 @@ entirely through what members send in. Write to the International Office at
 <a href="https://necrology.psiu.org/">Necrology</a></p>
 </div></div>"""
     write("about.html", shell("", f"About — {SITE_NAME}",
-        "How the Psi Upsilon Digital Archives are built, how the search works, and how to contribute.",
+        "How the Psi Upsilon Digital Museum is built, how the search works, and how to contribute.",
         body, current="about.html"))
 
 # ---------------------------------------------------------- pagefind input
@@ -1294,9 +1552,22 @@ def build_index_input():
     for s_ in SONGS:
         idx_page("media/%s.html" % s_["id"], s_["title"], "Song recordings", None, None,
                  "Psi Upsilon song recording. " + s_["title"], extra_dec="Undated")
+    for f_ in FOUNDERS:
+        idx_page("founders/%s.html" % f_["id"], f_["name"], "Founders", 1833,
+                 f_.get("portrait"),
+                 " ".join([str(f_.get("bio") or ""), str(f_.get("annals") or ""),
+                           " ".join(f_.get("achievements") or []),
+                           str(f_.get("profession") or ""), str(f_.get("role") or ""),
+                           "founder of Psi Upsilon, Theta Chapter, Union College, class of %d"
+                           % f_["class_year"]]))
+    if TIMELINE:
+        idx_page("timeline.html", "Timeline of Psi Upsilon", "Timeline", 1833, None,
+                 " ".join("%d %s %s" % (e["year"], e["title"], e.get("text") or "")
+                          for e in TIMELINE))
 
     print(f"  index input: {n} documents + {len(STORIES)} stories + {len(MEDIA)} media"
-          f" + {len(PEOPLE)} people + {len(CHAPTERS)} chapters + {len(SONGS)} songs")
+          f" + {len(PEOPLE)} people + {len(CHAPTERS)} chapters + {len(SONGS)} songs"
+          f" + {len(FOUNDERS)} founders + timeline")
 
 # ------------------------------------------------------------------- misc
 def build_misc():
@@ -1327,7 +1598,12 @@ def build_misc():
         volume may have been renamed. The search will almost certainly find it.</p>
         <a class="btn" style="width:auto;display:inline-flex" href="index.html">Search the archive</a>
         </div></section>'''))
-    urls = ["index.html", "browse.html", "collections.html", "about.html", "stories/index.html"] \
+    urls = ["index.html", "browse.html", "collections.html", "about.html", "stories/index.html",
+            "people.html", "chapters.html", "founders.html", "timeline.html", "heraldry.html",
+            "recordings.html", "objects.html", "video.html"] \
+         + [f"founders/{f['id']}.html" for f in FOUNDERS] \
+         + [f"people/{p['id']}.html" for p in PEOPLE] \
+         + [f"chapters/{c['id']}.html" for c in CHAPTERS] \
          + [f"collections/{c}.html" for c in COLL_ORDER if COLLS.get(c) and COLLS[c]["count"]] \
          + [f"documents/{i['id']}.html" for i in ITEMS] \
          + [f"stories/{s['id']}.html" for s in STORIES]
@@ -1336,7 +1612,8 @@ def build_misc():
         xml = ['<?xml version="1.0" encoding="UTF-8"?>',
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
         for u in urls:
-            xml.append("  <url><loc>%s/%s</loc></url>" % (SITE_URL, u))
+            xml.append("  <url><loc>%s/%s</loc></url>"
+                       % (SITE_URL, "" if u == "index.html" else u))
         xml.append("</urlset>")
         write("sitemap.xml", "\n".join(xml) + "\n")
         write("robots.txt", "User-agent: *\nAllow: /\nSitemap: %s/sitemap.xml\n" % SITE_URL)
@@ -1351,7 +1628,7 @@ def clean_generated():
     only means stale leftovers from items that no longer exist.
     """
     blocked = 0
-    for d in ("documents", "collections", "stories", "media", "text", "pagefind"):
+    for d in ("documents", "collections", "stories", "media", "text", "founders", "pagefind"):
         try:
             shutil.rmtree(os.path.join(SITE, d))
         except FileNotFoundError:
@@ -1359,7 +1636,9 @@ def clean_generated():
         except OSError:
             blocked += 1
     for f in ("index.html", "browse.html", "collections.html", "about.html", "404.html",
-              "recordings.html", "video.html", "objects.html", "sitemap.txt", "sitemap.xml"):
+              "recordings.html", "video.html", "objects.html", "heraldry.html",
+              "people.html", "chapters.html", "founders.html", "timeline.html",
+              "sitemap.txt", "sitemap.xml"):
         try:
             os.remove(os.path.join(SITE, f))
         except FileNotFoundError:
@@ -1375,7 +1654,8 @@ if __name__ == "__main__":
     globals()["SOCIAL_IMAGE"] = _social_image()
     print(f"generating site: {len(ITEMS)} items, {len(TEXTMETA)} with text, {len(STORIES)} stories")
     build_home(); build_collections(); build_browse(); build_documents()
-    build_stories(); build_people(); build_chapter_pages(); build_heraldry_page()
+    build_stories(); build_founders(); build_timeline()
+    build_people(); build_chapter_pages(); build_heraldry_page()
     have_songs = build_recordings()
     build_media(skip_audio=have_songs); build_about(); build_misc(); build_index_input()
     print("  done")

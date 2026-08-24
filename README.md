@@ -1,7 +1,8 @@
-# Psi Upsilon Digital Archives
+# Psi Upsilon Digital Museum
 
 **Full-text search across 460 scanned volumes of Psi Upsilon publications — 21,332 pages,
-1872 to 2022 — plus pages for 93 notable alumni, all 50 chapters, the songs and the heraldry.**
+1872 to 2022 — plus an interactive timeline, pages for the seven founders, 93 notable alumni,
+all 50 chapters, the songs and the heraldry.**
 
 <!-- Once GitHub Pages is switched on, replace the line below with the real address. -->
 Live site: _not published yet — see_ [`GITHUB-SETUP`](#publishing-this-on-github-pages)
@@ -45,6 +46,11 @@ crawl/       ← raw copies of the current psiu.org pages, used to read the doc 
   prefill that volume's own search box so every other mention is one click away.
 - The two History & Archives Convention presentations (PowerPoint) are indexed too, with
   their slide text searchable alongside the scans.
+- An **interactive timeline**, 1833 to today, filterable by category, drawing on
+  hand-written sourced events plus every chapter's chartering and closing.
+- A **page for each of the seven founders**, with birthplace, family, burial and
+  Find a Grave link, profession, achievements and a full biography — each one
+  cross-linked to every page of the archive that names them.
 - Sections for **song recordings**, **objects & artefacts** and **video** that
   are built and wired up, waiting only for content (see below).
 
@@ -141,6 +147,9 @@ sudo apt install poppler-utils nodejs npm python3-pil
 | `build/build_manifest.py` | Parses those pages into `data/items.json` — one record per PDF, with title, collection, year, issue and URL. |
 | `build/build_stories.py` | Pulls the *From the Archives* articles and their images. |
 | `build/extract.py` | For each PDF: downloads it, extracts per-page text with `pdftotext`, saves a cover thumbnail, **deletes the PDF**. Resumable — skips anything already done. |
+| `build/build_timeline.py` | Merges `data/timeline-core.json` with the chapter charterings and closures into `data/timeline.json`. |
+| `build/import_sheets.py` | Reads `data/founders.xlsx` and `data/timeline.xlsx` back into JSON. Runs automatically when a spreadsheet is newer than its JSON. |
+| `build/make_sheets.py` | Re-writes those two spreadsheets from the JSON. Only needed if a spreadsheet is lost. |
 | `build/gen_site.py` | Writes every page in `site/`, plus the indexer's input in `build/index_html/`. |
 | `pagefind` | Builds the chunked search index into `site/pagefind/`. |
 
@@ -196,6 +205,32 @@ then rebuild. Each entry gets its own page, appears on the relevant section
 page, and becomes searchable alongside the documents. `related` accepts any
 document `id` from `items.json` and draws a cross-link both ways.
 
+### The founders' biographies and the timeline — no code required
+
+These two are edited in **Excel**, not in code. Open the spreadsheet, type in the
+yellow cells, save it, and run `./build/build.sh`. The build notices the
+spreadsheet is newer than the site and reads it in before rebuilding.
+
+| Spreadsheet | What it controls |
+|---|---|
+| `data/founders.xlsx` | The seven founders' pages — family, birthplace, where they died and are buried, Find a Grave link, profession, achievements, full biography, portrait, outside links. |
+| `data/timeline.xlsx` | The hand-written events on the timeline. Chapter charterings and closings are added automatically and are not in the sheet. |
+
+Rules that matter:
+
+- **Never change the `id` column** (grey). It is what links a founder to their page
+  and to every mention of them in the scans.
+- **One achievement per line** inside the `achievements` cell (Alt+Enter for a new
+  line inside a cell).
+- **Links** go in as `Label | https://…`, one per line — e.g.
+  `Find a Grave | https://www.findagrave.com/memorial/12345`.
+- **Timeline `category`** must be one of: `founding`, `governance`, `publication`,
+  `chapter`, `song`, `insignia`, `people`, `convention`.
+- Every cell has a comment (the little red corner) explaining what goes in it.
+
+Step-by-step instructions with pictures are in
+**Filling-in-the-Founders-and-the-Timeline.docx**.
+
 ### Stories
 
 `build_stories.py` reads them from psiu.org automatically. To write one that
@@ -233,10 +268,22 @@ Worth fixing there whether or not this replacement goes live:
 
 ## Things worth knowing
 
-- **OCR quality varies.** The text layer came with the scans and is good but not
-  perfect on foxed paper and tight gutters. Searching a surname works better
-  than searching a long phrase. Wrapping a phrase in `"quotes"` requires it
-  exactly.
+- **The OCR itself is fine — re-running it is not worth it.** The garbled search
+  excerpts on the first build were not an OCR problem. They were a *text
+  extraction* problem: `pdftotext -layout` reads a multi-column page — a roster,
+  a chapter letter, an In Memoriam list — straight across, interleaving the
+  columns into nonsense. `build/extract.py` now extracts every volume both ways
+  (`-layout` and `-raw`), scores each against a list of phrases that ought to
+  appear in a Psi Upsilon publication, and keeps the better one. That fixed it,
+  at no cost. Re-OCRing the whole archive was tested and measured against the
+  existing 2020 Kirtas text layer and came out no better; `build/reocr.py`
+  exists, documents the measurements, and should be used only on the handful of
+  volumes with no text layer at all (`python3 build/reocr.py --find-bad`).
+  Note for anyone tempted: `ocrmypdf --redo-ocr` *duplicates* the text layer —
+  19% of the words came out doubled. Use `--force-ocr` if you ever must.
+- **OCR quality still varies** on foxed paper and tight gutters. Searching a
+  surname works better than searching a long phrase. Wrapping a phrase in
+  `"quotes"` requires it exactly.
 - **Some scans are very large.** A few Diamonds are 60–150 MB, and the College
   Tablet 7th edition is 148 MB. The reader hides this by streaming, but
   "Download the PDF" is still a big download. Re-compressing the worst offenders

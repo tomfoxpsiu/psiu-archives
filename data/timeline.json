@@ -1,0 +1,890 @@
+[
+ {
+  "year": 1833,
+  "category": "founding",
+  "title": "Seven students sign the Pledge",
+  "text": "In an attic room of a stone building in downtown Schenectady \u2014 West College, at Union and College streets \u2014 seven Union College undergraduates sign a formal pledge to organise a secret society. The Pledge, long kept as a piece of tawny paper in the archives of the Theta, bears the date 24 November 1833.",
+  "date": "24 November 1833",
+  "feature": true,
+  "link": "founders.html",
+  "link_label": "The seven founders",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
+   "page": 9,
+   "label": "Annals of Psi Upsilon, Part 2"
+  }
+ },
+ {
+  "year": 1833,
+  "category": "expansion",
+  "title": "The Theta is chartered",
+  "text": "Psi Upsilon's 1st chapter, at Union College.",
+  "link": "chapters/theta.html",
+  "link_label": "The Theta",
+  "thumb": "assets/arms/theta.png"
+ },
+ {
+  "year": 1834,
+  "category": "insignia",
+  "title": "The Diamond Badge is first worn in public",
+  "text": "The badge was designed by Luke F. Newland, a noted Albany jeweller, who had been consulted by a committee including the founder Dr. Charles Washington Harvey.",
+  "date": "June 1834",
+  "link": "heraldry.html",
+  "link_label": "The heraldry exhibit",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
+   "page": 12,
+   "label": "Annals of Psi Upsilon, Part 2"
+  }
+ },
+ {
+  "year": 1834,
+  "category": "founding",
+  "title": "The first Constitution is adopted",
+  "text": "The Minute Book of the Theta records the adoption of the Fraternity's first Constitution. The signed document was lost for a century and rediscovered in 1936 in the shop of a dealer in old and rare manuscripts; it is now in the archives of the Executive Council.",
+  "date": "10 January 1834",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
+   "page": 12,
+   "label": "Annals of Psi Upsilon, Part 2"
+  }
+ },
+ {
+  "year": 1834,
+  "category": "founding",
+  "title": "The first initiate",
+  "text": "John H. E. Beach, class of 1838, becomes the first man initiated after the adoption of the Constitution.",
+  "date": "16 January 1834",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
+   "page": 12,
+   "label": "Annals of Psi Upsilon, Part 2"
+  }
+ },
+ {
+  "year": 1837,
+  "category": "expansion",
+  "title": "The Delta is chartered",
+  "text": "Psi Upsilon's 2nd chapter, at New York University.",
+  "link": "chapters/delta.html",
+  "link_label": "The Delta",
+  "thumb": "assets/arms/delta.png"
+ },
+ {
+  "year": 1838,
+  "category": "founding",
+  "title": "The mother chapter takes the name Theta",
+  "text": "The original chapter adopts the name Theta, at the instance of Maunsell Van Rensselaer, class of 1838, later President of Hobart College. The same year Merwin Henry Stewart becomes the first of the seven founders to die.",
+  "source": {
+   "doc": "annals-of-psi-upsilon-pt-02-the-chapters",
+   "page": 12,
+   "label": "Annals of Psi Upsilon, Part 2"
+  }
+ },
+ {
+  "year": 1839,
+  "category": "expansion",
+  "title": "The Beta is chartered",
+  "text": "Psi Upsilon's 3rd chapter, at Yale University.",
+  "link": "chapters/beta.html",
+  "link_label": "The Beta",
+  "thumb": "assets/arms/beta.png"
+ },
+ {
+  "year": 1840,
+  "category": "expansion",
+  "title": "The Sigma is chartered",
+  "text": "Psi Upsilon's 4th chapter, at Brown University.",
+  "link": "chapters/sigma.html",
+  "link_label": "The Sigma",
+  "thumb": "assets/arms/sigma.png"
+ },
+ {
+  "year": 1841,
+  "category": "conventions",
+  "title": "The first Convention",
+  "text": "Psi Upsilon holds the first convention of any American fraternity.",
+  "feature": true,
+  "link": "collections/convention.html",
+  "link_label": "The Convention Records"
+ },
+ {
+  "year": 1841,
+  "category": "expansion",
+  "title": "The Gamma is chartered",
+  "text": "Psi Upsilon's 5th chapter, at Amherst College.",
+  "link": "chapters/gamma.html",
+  "link_label": "The Gamma",
+  "thumb": "assets/arms/gamma.png"
+ },
+ {
+  "year": 1842,
+  "category": "expansion",
+  "title": "The Lambda is chartered",
+  "text": "Psi Upsilon's 7th chapter, at Columbia University.",
+  "link": "chapters/lambda.html",
+  "link_label": "The Lambda",
+  "thumb": "assets/arms/lambda.png"
+ },
+ {
+  "year": 1842,
+  "category": "expansion",
+  "title": "The Zeta is chartered",
+  "text": "Psi Upsilon's 6th chapter, at Dartmouth College.",
+  "link": "chapters/zeta.html",
+  "link_label": "The Zeta",
+  "thumb": "assets/arms/zeta.png"
+ },
+ {
+  "year": 1842,
+  "category": "publications",
+  "title": "The first membership catalogue",
+  "text": "Psi Upsilon issues the first fraternity membership catalogue."
+ },
+ {
+  "year": 1843,
+  "category": "expansion",
+  "title": "The Kappa is chartered",
+  "text": "Psi Upsilon's 8th chapter, at Bowdoin College.",
+  "link": "chapters/kappa.html",
+  "link_label": "The Kappa",
+  "thumb": "assets/arms/kappa.png"
+ },
+ {
+  "year": 1843,
+  "category": "expansion",
+  "title": "The Psi is chartered",
+  "text": "Psi Upsilon's 9th chapter, at Hamilton College.",
+  "link": "chapters/psi.html",
+  "link_label": "The Psi",
+  "thumb": "assets/arms/psi.png"
+ },
+ {
+  "year": 1843,
+  "category": "expansion",
+  "title": "The Xi is chartered",
+  "text": "Psi Upsilon's 10th chapter, at Wesleyan University.",
+  "link": "chapters/xi.html",
+  "link_label": "The Xi",
+  "thumb": "assets/arms/xi.png"
+ },
+ {
+  "year": 1849,
+  "category": "publications",
+  "title": "The first songbook",
+  "text": "The Fraternity prints the first of its songbooks. Every printed songbook since has carried two epigraphs \u2014 one from The Merchant of Venice, and one by Francis M. Finch, Beta 1849, who wrote many of the earliest Psi U songs.",
+  "link": "recordings.html",
+  "link_label": "The song recordings"
+ },
+ {
+  "year": 1850,
+  "category": "expansion",
+  "title": "The Alpha is chartered",
+  "text": "Psi Upsilon's 11th chapter, at Harvard University.",
+  "link": "chapters/alpha.html",
+  "link_label": "The Alpha",
+  "thumb": "assets/arms/alpha.png"
+ },
+ {
+  "year": 1850,
+  "category": "publications",
+  "title": "The first fraternity magazine",
+  "text": "Psi Upsilon founds the first fraternity magazine."
+ },
+ {
+  "year": 1858,
+  "category": "expansion",
+  "title": "The Upsilon is chartered",
+  "text": "Psi Upsilon's 12th chapter, at University of Rochester.",
+  "link": "chapters/upsilon.html",
+  "link_label": "The Upsilon",
+  "thumb": "assets/arms/upsilon.png"
+ },
+ {
+  "year": 1860,
+  "category": "expansion",
+  "title": "The Iota is chartered",
+  "text": "Psi Upsilon's 13th chapter, at Kenyon College.",
+  "link": "chapters/iota.html",
+  "link_label": "The Iota",
+  "thumb": "assets/arms/iota.png"
+ },
+ {
+  "year": 1865,
+  "category": "expansion",
+  "title": "The Phi is chartered",
+  "text": "Psi Upsilon's 14th chapter, at University of Michigan.",
+  "link": "chapters/phi.html",
+  "link_label": "The Phi",
+  "thumb": "assets/arms/phi.png"
+ },
+ {
+  "year": 1869,
+  "category": "expansion",
+  "title": "The Omega is chartered",
+  "text": "Psi Upsilon's 15th chapter, at University of Chicago.",
+  "link": "chapters/omega.html",
+  "link_label": "The Omega",
+  "thumb": "assets/arms/omega.png"
+ },
+ {
+  "year": 1872,
+  "category": "conventions",
+  "title": "The Convention Records begin",
+  "text": "The earliest Convention Records held in this museum are those of the thirty-ninth annual Convention, held with the Gamma at Amherst College.",
+  "link": "documents/1872-convention-records.html",
+  "link_label": "Read the 1872 Records"
+ },
+ {
+  "year": 1873,
+  "category": "expansion",
+  "title": "The Alpha goes inactive",
+  "text": "After 23 years at Harvard University.",
+  "link": "chapters/alpha.html",
+  "link_label": "The Alpha",
+  "thumb": "assets/arms/alpha.png",
+  "quiet": true
+ },
+ {
+  "year": 1875,
+  "category": "expansion",
+  "title": "The Pi is chartered",
+  "text": "Psi Upsilon's 16th chapter, at Syracuse University.",
+  "link": "chapters/pi.html",
+  "link_label": "The Pi",
+  "thumb": "assets/arms/pi.png"
+ },
+ {
+  "year": 1876,
+  "category": "expansion",
+  "title": "The Chi is chartered",
+  "text": "Psi Upsilon's 17th chapter, at Cornell University.",
+  "link": "chapters/chi.html",
+  "link_label": "The Chi",
+  "thumb": "assets/arms/chi.png"
+ },
+ {
+  "year": 1878,
+  "category": "publications",
+  "title": "The Diamond begins",
+  "text": "The first number of The Diamond of Psi Upsilon appears. It runs until 1887, is revived in 1920, and continues in print until 2015.",
+  "feature": true,
+  "link": "collections/diamond.html",
+  "link_label": "The Diamond"
+ },
+ {
+  "year": 1878,
+  "category": "insignia",
+  "title": "Garnet and gold",
+  "text": "The Fraternity colours are chosen at the Convention of 1878.",
+  "link": "heraldry.html",
+  "link_label": "The heraldry exhibit"
+ },
+ {
+  "year": 1880,
+  "category": "expansion",
+  "title": "The Beta Beta is chartered",
+  "text": "Psi Upsilon's 18th chapter, at Trinity College.",
+  "link": "chapters/beta-beta.html",
+  "link_label": "The Beta Beta",
+  "thumb": "assets/arms/beta-beta.png"
+ },
+ {
+  "year": 1881,
+  "category": "members",
+  "title": "A brother becomes President of the United States",
+  "text": "Chester A. Arthur, Theta 1848, elected Vice President in 1880, becomes President on the assassination of James Garfield. He serves until 1885.",
+  "feature": true,
+  "link": "people/chester-a-arthur.html",
+  "link_label": "Chester A. Arthur"
+ },
+ {
+  "year": 1884,
+  "category": "expansion",
+  "title": "The Eta is chartered",
+  "text": "Psi Upsilon's 19th chapter, at Lehigh University.",
+  "link": "chapters/eta.html",
+  "link_label": "The Eta",
+  "thumb": "assets/arms/eta.png"
+ },
+ {
+  "year": 1891,
+  "category": "expansion",
+  "title": "The Mu is chartered",
+  "text": "Psi Upsilon's 21st chapter, at University of Minnesota.",
+  "link": "chapters/mu.html",
+  "link_label": "The Mu",
+  "thumb": "assets/arms/mu.png"
+ },
+ {
+  "year": 1891,
+  "category": "expansion",
+  "title": "The Tau is chartered",
+  "text": "Psi Upsilon's 20th chapter, at University of Pennsylvania.",
+  "link": "chapters/tau.html",
+  "link_label": "The Tau",
+  "thumb": "assets/arms/tau.png"
+ },
+ {
+  "year": 1894,
+  "category": "insignia",
+  "title": "The system of heraldry is adopted",
+  "text": "A committee of Albert P. Jacobs, Phi 1873; Karl P. Harrington, Xi 1882; and George B. Penny, Chi 1885, reported in 1892 on a system of arms for the Fraternity and its chapters. It is adopted at the Convention of 1894. Before this the badge and the colours were the only uniform symbolism Psi Upsilon had.",
+  "link": "heraldry.html",
+  "link_label": "All fifty chapter shields"
+ },
+ {
+  "year": 1896,
+  "category": "expansion",
+  "title": "The Rho is chartered",
+  "text": "Psi Upsilon's 22nd chapter, at University of Wisconsin.",
+  "link": "chapters/rho.html",
+  "link_label": "The Rho",
+  "thumb": "assets/arms/rho.png"
+ },
+ {
+  "year": 1902,
+  "category": "expansion",
+  "title": "The Epsilon is chartered",
+  "text": "Psi Upsilon's 23rd chapter, at University of California, Berkeley.",
+  "link": "chapters/epsilon.html",
+  "link_label": "The Epsilon",
+  "thumb": "assets/arms/epsilon.png"
+ },
+ {
+  "year": 1909,
+  "category": "members",
+  "title": "A second brother in the White House",
+  "text": "William Howard Taft, Beta 1878, becomes President of the United States. He is later Chief Justice of the Supreme Court \u2014 the only man to hold both offices \u2014 and it was largely at his urging that Psi Upsilon chartered its first chapter outside the United States.",
+  "feature": true,
+  "link": "people/william-howard-taft.html",
+  "link_label": "William Howard Taft"
+ },
+ {
+  "year": 1910,
+  "category": "expansion",
+  "title": "The Omicron is chartered",
+  "text": "Psi Upsilon's 24th chapter, at University of Illinois.",
+  "link": "chapters/omicron.html",
+  "link_label": "The Omicron",
+  "thumb": "assets/arms/omicron.png"
+ },
+ {
+  "year": 1913,
+  "category": "expansion",
+  "title": "The Delta Delta is chartered",
+  "text": "Psi Upsilon's 25th chapter, at Williams College.",
+  "link": "chapters/delta-delta.html",
+  "link_label": "The Delta Delta",
+  "thumb": "assets/arms/delta-delta.png"
+ },
+ {
+  "year": 1916,
+  "category": "expansion",
+  "title": "The Theta Theta is chartered",
+  "text": "Psi Upsilon's 26th chapter, at University of Washington.",
+  "link": "chapters/theta-theta.html",
+  "link_label": "The Theta Theta",
+  "thumb": "assets/arms/theta-theta.png"
+ },
+ {
+  "year": 1920,
+  "category": "expansion",
+  "title": "The Nu is chartered",
+  "text": "Psi Upsilon's 27th chapter, at University of Toronto.",
+  "link": "chapters/nu.html",
+  "link_label": "The Nu",
+  "thumb": "assets/arms/nu.png"
+ },
+ {
+  "year": 1928,
+  "category": "expansion",
+  "title": "The Epsilon Phi is chartered",
+  "text": "Psi Upsilon's 28th chapter, at McGill University.",
+  "link": "chapters/epsilon-phi.html",
+  "link_label": "The Epsilon Phi",
+  "thumb": "assets/arms/epsilon-phi.png"
+ },
+ {
+  "year": 1934,
+  "category": "expansion",
+  "title": "The Beta goes inactive",
+  "text": "After 95 years at Yale University.",
+  "link": "chapters/beta.html",
+  "link_label": "The Beta",
+  "thumb": "assets/arms/beta.png",
+  "quiet": true
+ },
+ {
+  "year": 1935,
+  "category": "expansion",
+  "title": "The Zeta Zeta is chartered",
+  "text": "Psi Upsilon's 29th chapter, at University of British Columbia.",
+  "link": "chapters/zeta-zeta.html",
+  "link_label": "The Zeta Zeta",
+  "thumb": "assets/arms/zeta-zeta.png"
+ },
+ {
+  "year": 1936,
+  "category": "members",
+  "title": "The first Heisman Trophy",
+  "text": "Jay Berwanger, Omega 1936, wins the first Heisman Trophy and becomes the first player selected in the first NFL draft.",
+  "link": "people/john-jay-berwanger.html",
+  "link_label": "Jay Berwanger"
+ },
+ {
+  "year": 1941,
+  "category": "publications",
+  "title": "The Annals of Psi Upsilon",
+  "text": "The Fraternity's centennial history is published in twelve parts. Much of what is known about the founders comes from it.",
+  "link": "collections/annals.html",
+  "link_label": "The Annals"
+ },
+ {
+  "year": 1943,
+  "category": "expansion",
+  "title": "The Epsilon Nu is chartered",
+  "text": "Psi Upsilon's 30th chapter, at Michigan State University.",
+  "link": "chapters/epsilon-nu.html",
+  "link_label": "The Epsilon Nu",
+  "thumb": "assets/arms/epsilon-nu.png"
+ },
+ {
+  "year": 1949,
+  "category": "expansion",
+  "title": "The Epsilon Omega is chartered",
+  "text": "Psi Upsilon's 31st chapter, at Northwestern University.",
+  "link": "chapters/epsilon-omega.html",
+  "link_label": "The Epsilon Omega",
+  "thumb": "assets/arms/epsilon-omega.png"
+ },
+ {
+  "year": 1950,
+  "category": "expansion",
+  "title": "The Theta Epsilon is chartered",
+  "text": "Psi Upsilon's 32nd chapter, at University of Southern California.",
+  "link": "chapters/theta-epsilon.html",
+  "link_label": "The Theta Epsilon",
+  "thumb": "assets/arms/theta-epsilon.png"
+ },
+ {
+  "year": 1962,
+  "category": "expansion",
+  "title": "The Theta Epsilon goes inactive",
+  "text": "After 12 years at University of Southern California.",
+  "link": "chapters/theta-epsilon.html",
+  "link_label": "The Theta Epsilon",
+  "thumb": "assets/arms/theta-epsilon.png",
+  "quiet": true
+ },
+ {
+  "year": 1968,
+  "category": "expansion",
+  "title": "The Delta Delta goes inactive",
+  "text": "After 55 years at Williams College.",
+  "link": "chapters/delta-delta.html",
+  "link_label": "The Delta Delta",
+  "thumb": "assets/arms/delta-delta.png",
+  "quiet": true
+ },
+ {
+  "year": 1970,
+  "category": "expansion",
+  "title": "The Gamma Tau is chartered",
+  "text": "Psi Upsilon's 34th chapter, at Georgia Institute of Technology.",
+  "link": "chapters/gamma-tau.html",
+  "link_label": "The Gamma Tau",
+  "thumb": "assets/arms/gamma-tau.png"
+ },
+ {
+  "year": 1970,
+  "category": "expansion",
+  "title": "The Nu Alpha is chartered",
+  "text": "Psi Upsilon's 33rd chapter, at Washington and Lee University.",
+  "link": "chapters/nu-alpha.html",
+  "link_label": "The Nu Alpha",
+  "thumb": "assets/arms/nu-alpha.png"
+ },
+ {
+  "year": 1973,
+  "category": "expansion",
+  "title": "The Chi Delta is chartered",
+  "text": "Psi Upsilon's 35th chapter, at Duke University.",
+  "link": "chapters/chi-delta.html",
+  "link_label": "The Chi Delta",
+  "thumb": "assets/arms/chi-delta.png"
+ },
+ {
+  "year": 1974,
+  "category": "expansion",
+  "title": "The Nu Alpha goes inactive",
+  "text": "After 4 years at Washington and Lee University.",
+  "link": "chapters/nu-alpha.html",
+  "link_label": "The Nu Alpha",
+  "thumb": "assets/arms/nu-alpha.png",
+  "quiet": true
+ },
+ {
+  "year": 1981,
+  "category": "expansion",
+  "title": "The Zeta Tau is chartered",
+  "text": "Psi Upsilon's 36th chapter, at Tufts University.",
+  "link": "chapters/zeta-tau.html",
+  "link_label": "The Zeta Tau",
+  "thumb": "assets/arms/zeta-tau.png"
+ },
+ {
+  "year": 1982,
+  "category": "expansion",
+  "title": "The Epsilon Iota is chartered",
+  "text": "Psi Upsilon's 37th chapter, at Rensselaer Polytechnic Institute.",
+  "link": "chapters/epsilon-iota.html",
+  "link_label": "The Epsilon Iota",
+  "thumb": "assets/arms/epsilon-iota.png"
+ },
+ {
+  "year": 1984,
+  "category": "expansion",
+  "title": "The Phi Beta is chartered",
+  "text": "Psi Upsilon's 38th chapter, at College of William and Mary.",
+  "link": "chapters/phi-beta.html",
+  "link_label": "The Phi Beta",
+  "thumb": "assets/arms/phi-beta.png"
+ },
+ {
+  "year": 1989,
+  "category": "expansion",
+  "title": "The Kappa Phi is chartered",
+  "text": "Psi Upsilon's 39th chapter, at Pennsylvania State University.",
+  "link": "chapters/kappa-phi.html",
+  "link_label": "The Kappa Phi",
+  "thumb": "assets/arms/kappa-phi.png"
+ },
+ {
+  "year": 1991,
+  "category": "expansion",
+  "title": "The Beta Kappa is chartered",
+  "text": "Psi Upsilon's 40th chapter, at Washington State University.",
+  "link": "chapters/beta-kappa.html",
+  "link_label": "The Beta Kappa",
+  "thumb": "assets/arms/beta-kappa.png"
+ },
+ {
+  "year": 1992,
+  "category": "expansion",
+  "title": "The Beta Alpha is chartered",
+  "text": "Psi Upsilon's 41st chapter, at Miami University of Ohio.",
+  "link": "chapters/beta-alpha.html",
+  "link_label": "The Beta Alpha",
+  "thumb": "assets/arms/beta-alpha.png"
+ },
+ {
+  "year": 1992,
+  "category": "expansion",
+  "title": "The Zeta Tau goes inactive",
+  "text": "After 11 years at Tufts University.",
+  "link": "chapters/zeta-tau.html",
+  "link_label": "The Zeta Tau",
+  "thumb": "assets/arms/zeta-tau.png",
+  "quiet": true
+ },
+ {
+  "year": 1993,
+  "category": "expansion",
+  "title": "The Mu goes inactive",
+  "text": "After 102 years at University of Minnesota.",
+  "link": "chapters/mu.html",
+  "link_label": "The Mu",
+  "thumb": "assets/arms/mu.png",
+  "quiet": true
+ },
+ {
+  "year": 1993,
+  "category": "expansion",
+  "title": "The Sigma goes inactive",
+  "text": "After 153 years at Brown University.",
+  "link": "chapters/sigma.html",
+  "link_label": "The Sigma",
+  "thumb": "assets/arms/sigma.png",
+  "quiet": true
+ },
+ {
+  "year": 1996,
+  "category": "expansion",
+  "title": "The Beta Alpha goes inactive",
+  "text": "After 4 years at Miami University of Ohio.",
+  "link": "chapters/beta-alpha.html",
+  "link_label": "The Beta Alpha",
+  "thumb": "assets/arms/beta-alpha.png",
+  "quiet": true
+ },
+ {
+  "year": 1996,
+  "category": "expansion",
+  "title": "The Phi Delta is chartered",
+  "text": "Psi Upsilon's 42nd chapter, at University of Mary Washington.",
+  "link": "chapters/phi-delta.html",
+  "link_label": "The Phi Delta",
+  "thumb": "assets/arms/phi-delta.png"
+ },
+ {
+  "year": 1997,
+  "category": "expansion",
+  "title": "The Epsilon Phi goes inactive",
+  "text": "After 69 years at McGill University.",
+  "link": "chapters/epsilon-phi.html",
+  "link_label": "The Epsilon Phi",
+  "thumb": "assets/arms/epsilon-phi.png",
+  "quiet": true
+ },
+ {
+  "year": 1997,
+  "category": "expansion",
+  "title": "The Nu goes inactive",
+  "text": "After 77 years at University of Toronto.",
+  "link": "chapters/nu.html",
+  "link_label": "The Nu",
+  "thumb": "assets/arms/nu.png",
+  "quiet": true
+ },
+ {
+  "year": 1998,
+  "category": "expansion",
+  "title": "The Epsilon goes inactive",
+  "text": "After 96 years at University of California, Berkeley.",
+  "link": "chapters/epsilon.html",
+  "link_label": "The Epsilon",
+  "thumb": "assets/arms/epsilon.png",
+  "quiet": true
+ },
+ {
+  "year": 1998,
+  "category": "expansion",
+  "title": "The Kappa Phi goes inactive",
+  "text": "After 9 years at Pennsylvania State University.",
+  "link": "chapters/kappa-phi.html",
+  "link_label": "The Kappa Phi",
+  "thumb": "assets/arms/kappa-phi.png",
+  "quiet": true
+ },
+ {
+  "year": 1998,
+  "category": "expansion",
+  "title": "The Kappa goes inactive",
+  "text": "After 155 years at Bowdoin College.",
+  "link": "chapters/kappa.html",
+  "link_label": "The Kappa",
+  "thumb": "assets/arms/kappa.png",
+  "quiet": true
+ },
+ {
+  "year": 1998,
+  "category": "expansion",
+  "title": "The Lambda Sigma is chartered",
+  "text": "Psi Upsilon's 43rd chapter, at Pepperdine University.",
+  "link": "chapters/lambda-sigma.html",
+  "link_label": "The Lambda Sigma",
+  "thumb": "assets/arms/lambda-sigma.png"
+ },
+ {
+  "year": 1999,
+  "category": "expansion",
+  "title": "The Alpha Omicron is chartered",
+  "text": "Psi Upsilon's 44th chapter, at New Jersey Inst. of Technology.",
+  "link": "chapters/alpha-omicron.html",
+  "link_label": "The Alpha Omicron",
+  "thumb": "assets/arms/alpha-omicron.png"
+ },
+ {
+  "year": 1999,
+  "category": "expansion",
+  "title": "The Epsilon Omega goes inactive",
+  "text": "After 50 years at Northwestern University.",
+  "link": "chapters/epsilon-omega.html",
+  "link_label": "The Epsilon Omega",
+  "thumb": "assets/arms/epsilon-omega.png",
+  "quiet": true
+ },
+ {
+  "year": 2003,
+  "category": "expansion",
+  "title": "The Beta Kappa goes inactive",
+  "text": "After 12 years at Washington State University.",
+  "link": "chapters/beta-kappa.html",
+  "link_label": "The Beta Kappa",
+  "thumb": "assets/arms/beta-kappa.png",
+  "quiet": true
+ },
+ {
+  "year": 2007,
+  "category": "expansion",
+  "title": "The Sigma Phi is chartered",
+  "text": "Psi Upsilon's 45th chapter, at St. Francis University.",
+  "link": "chapters/sigma-phi.html",
+  "link_label": "The Sigma Phi",
+  "thumb": "assets/arms/sigma-phi.png"
+ },
+ {
+  "year": 2009,
+  "category": "expansion",
+  "title": "The Delta Nu is chartered",
+  "text": "Psi Upsilon's 46th chapter, at Keene State College.",
+  "link": "chapters/delta-nu.html",
+  "link_label": "The Delta Nu",
+  "thumb": "assets/arms/delta-nu.png"
+ },
+ {
+  "year": 2010,
+  "category": "expansion",
+  "title": "The Gamma goes inactive",
+  "text": "After 169 years at Amherst College.",
+  "link": "chapters/gamma.html",
+  "link_label": "The Gamma",
+  "thumb": "assets/arms/gamma.png",
+  "quiet": true
+ },
+ {
+  "year": 2010,
+  "category": "expansion",
+  "title": "The Iota goes inactive",
+  "text": "After 150 years at Kenyon College.",
+  "link": "chapters/iota.html",
+  "link_label": "The Iota",
+  "thumb": "assets/arms/iota.png",
+  "quiet": true
+ },
+ {
+  "year": 2010,
+  "category": "expansion",
+  "title": "The Phi Nu is chartered",
+  "text": "Psi Upsilon's 47th chapter, at Christopher Newport University.",
+  "link": "chapters/phi-nu.html",
+  "link_label": "The Phi Nu",
+  "thumb": "assets/arms/phi-nu.png"
+ },
+ {
+  "year": 2014,
+  "category": "expansion",
+  "title": "The Lambda goes inactive",
+  "text": "After 172 years at Columbia University.",
+  "link": "chapters/lambda.html",
+  "link_label": "The Lambda",
+  "thumb": "assets/arms/lambda.png",
+  "quiet": true
+ },
+ {
+  "year": 2014,
+  "category": "expansion",
+  "title": "The Theta Pi is chartered",
+  "text": "Psi Upsilon's 48th chapter, at Georgia State University.",
+  "link": "chapters/theta-pi.html",
+  "link_label": "The Theta Pi",
+  "thumb": "assets/arms/theta-pi.jpg"
+ },
+ {
+  "year": 2014,
+  "category": "expansion",
+  "title": "The Theta goes inactive",
+  "text": "After 181 years at Union College.",
+  "link": "chapters/theta.html",
+  "link_label": "The Theta",
+  "thumb": "assets/arms/theta.png",
+  "quiet": true
+ },
+ {
+  "year": 2015,
+  "category": "expansion",
+  "title": "The Theta Pi goes inactive",
+  "text": "After 1 years at Georgia State University.",
+  "link": "chapters/theta-pi.html",
+  "link_label": "The Theta Pi",
+  "thumb": "assets/arms/theta-pi.jpg",
+  "quiet": true
+ },
+ {
+  "year": 2015,
+  "category": "publications",
+  "title": "The last printed Diamond",
+  "text": "The final printed issue of The Diamond appears, closing a run that began in 1878.",
+  "link": "documents/diamond-of-psi-upsilon-2015-1-vol096-num1-4-spr-1.html",
+  "link_label": "The last issue"
+ },
+ {
+  "year": 2016,
+  "category": "expansion",
+  "title": "The Chi goes inactive",
+  "text": "After 140 years at Cornell University.",
+  "link": "chapters/chi.html",
+  "link_label": "The Chi",
+  "thumb": "assets/arms/chi.png",
+  "quiet": true
+ },
+ {
+  "year": 2018,
+  "category": "expansion",
+  "title": "The Tau Epsilon is chartered",
+  "text": "Psi Upsilon's 49th chapter, at Clemson University.",
+  "link": "chapters/tau-epsilon.html",
+  "link_label": "The Tau Epsilon",
+  "thumb": "assets/arms/tau-epsilon.png"
+ },
+ {
+  "year": 2020,
+  "category": "expansion",
+  "title": "The Delta Nu goes inactive",
+  "text": "After 11 years at Keene State College.",
+  "link": "chapters/delta-nu.html",
+  "link_label": "The Delta Nu",
+  "thumb": "assets/arms/delta-nu.png",
+  "quiet": true
+ },
+ {
+  "year": 2020,
+  "category": "expansion",
+  "title": "The Phi Beta becomes an Owl Club",
+  "text": "After 36 years at College of William and Mary.",
+  "link": "chapters/phi-beta.html",
+  "link_label": "The Phi Beta",
+  "thumb": "assets/arms/phi-beta.png",
+  "quiet": true
+ },
+ {
+  "year": 2021,
+  "category": "expansion",
+  "title": "The Rho goes inactive",
+  "text": "After 125 years at University of Wisconsin.",
+  "link": "chapters/rho.html",
+  "link_label": "The Rho",
+  "thumb": "assets/arms/rho.png",
+  "quiet": true
+ },
+ {
+  "year": 2025,
+  "category": "expansion",
+  "title": "The Chi Delta goes inactive",
+  "text": "After 52 years at Duke University.",
+  "link": "chapters/chi-delta.html",
+  "link_label": "The Chi Delta",
+  "thumb": "assets/arms/chi-delta.png",
+  "quiet": true
+ },
+ {
+  "year": 2025,
+  "category": "expansion",
+  "title": "The Delta Omicron is chartered",
+  "text": "Psi Upsilon's 50th chapter, at Purdue University.",
+  "link": "chapters/delta-omicron.html",
+  "link_label": "The Delta Omicron",
+  "thumb": "assets/arms/delta-omicron.jpg"
+ },
+ {
+  "year": 2026,
+  "category": "expansion",
+  "title": "The Omicron goes inactive",
+  "text": "After 116 years at University of Illinois.",
+  "link": "chapters/omicron.html",
+  "link_label": "The Omicron",
+  "thumb": "assets/arms/omicron.png",
+  "quiet": true
+ }
+]

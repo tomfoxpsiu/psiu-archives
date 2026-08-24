@@ -30,6 +30,21 @@ python3 build/optimize_images.py
 echo "== extracting text for anything new (downloads, reads, discards) =="
 python3 build/extract.py
 
+# If either spreadsheet has been edited since the JSON was last written, read it
+# back in first. This is what lets the founders and the timeline be maintained in
+# Excel rather than in a text file.
+for pair in "founders.xlsx:founders.json" "timeline.xlsx:timeline-core.json"; do
+  sheet="data/${pair%%:*}"; jsonf="data/${pair##*:}"
+  if [ -f "$sheet" ] && { [ ! -f "$jsonf" ] || [ "$sheet" -nt "$jsonf" ]; }; then
+    echo "== $sheet has been edited — reading it in =="
+    python3 build/import_sheets.py
+    break
+  fi
+done
+
+echo "== assembling the timeline =="
+python3 build/build_timeline.py
+
 echo "== working out who and what is mentioned where =="
 python3 build/build_mentions.py
 

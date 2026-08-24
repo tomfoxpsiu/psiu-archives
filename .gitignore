@@ -14,3 +14,9 @@ _update*.tar.gz
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Excel lock files, left behind while a spreadsheet is open
+~$*.xlsx
+
+# Backups the spreadsheet importer keeps
+*.json.bak

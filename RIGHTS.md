@@ -5,12 +5,14 @@ This repository contains two different kinds of thing, with different terms.
 ## The archival material
 
 Everything under `site/assets/`, `site/text/`, `data/text/`, `data/people.json`,
-`data/chapters.json`, `data/stories.json` and `data/heraldry.json` is drawn from the
+`data/chapters.json`, `data/stories.json`, `data/founders.json`,
+`data/founders.xlsx`, `data/timeline-core.json`, `data/timeline.xlsx` and
+`data/heraldry.json` is drawn from the
 publications, photographs and records of **Psi Upsilon Fraternity**, and from
 psiu.org. It is reproduced here for research, teaching and private study.
 
 © Psi Upsilon Fraternity. All rights reserved. Please credit the Psi Upsilon
-Digital Archives when quoting from it, and contact the International Office at
+Digital Museum when quoting from it, and contact the International Office at
 psiu@psiu.org before reproducing material commercially.
 
 The scanned PDFs themselves are **not** in this repository. They remain on

@@ -1,47 +1,72 @@
-PSI UPSILON DIGITAL ARCHIVES - replacement site
-================================================
+PSI UPSILON DIGITAL MUSEUM
+==========================
+Everything in this folder is the museum. Read this page and you will know
+what to open.
 
-Everything is in this folder. The part you publish is the "site" sub-folder.
 
-READ FIRST
-----------
-  Publishing-the-Archive-on-GitHub.docx
-        Step by step, no programming: how to put this online at an address you
-        can share. About an hour, most of it waiting for the upload.
+THE THREE DOCUMENTS TO READ, IN THIS ORDER
+------------------------------------------
 
-  Psi-Upsilon-Digital-Archives-Recommendations-and-Instructions.docx
-        The bigger document: what has been built, what to do next in what
-        order, and instructions for every job - adding a scan, a person, a
-        recording, an exhibit; fixing the broken links on psiu.org; re-reading
-        the scans with better OCR; starting the oral histories.
+1.  Psi Upsilon Digital Museum - Recommendations and Instructions.docx
+    What has been built, what to do next in what order, and step-by-step
+    instructions for every job. Start with section 2, "What to do next".
 
-WHY IT HAS TO BE PUBLISHED SOMEWHERE
-------------------------------------
-The search index is loaded over the network like any other file, so the site
-has to be served over the web. Double-clicking site\index.html in Explorer
-shows the design but the search box will not return anything.
+2.  Filling in the Founders and the Timeline.docx
+    The two jobs at the top of that list, both done in Excel, no code.
+    This is the one to hand to whoever is writing the founders' biographies.
 
-Two ways, either is fine:
-  * GitHub  - see the document above. Keeps the history, free, public.
-  * Netlify - make a free account, choose "Add new site" then "Deploy
-              manually", and drag the "site" folder onto the drop area. An
-              address in about a minute. Can be password-protected.
+3.  Publishing the Archive on GitHub.docx
+    How to put the museum online at an address you can share.
 
-WHAT'S IN HERE
---------------
-  site\         The website. 647 pages: 460 scanned volumes, 93 people,
-                50 chapters, 10 song recordings, the heraldry exhibit.
-  data\         The metadata and the extracted text of every volume.
-  build\        The scripts that regenerate the site.
-  .github\      The instruction that tells GitHub to publish the site folder.
-  RIGHTS.md     Who owns what in here.
 
-The PDFs themselves were NOT moved. They stay on psiu.org at their existing
-addresses; this site links to them and streams them a page at a time.
+TO LOOK AT THE MUSEUM ON THIS COMPUTER
+--------------------------------------
 
-WHAT TO DELETE
---------------
-  ..\_to_delete\        transfer files and stale indexes, no longer needed
-  build\index_html\     ~40 MB of input for the search indexer. Rebuilt
-                        whenever content changes; safe to delete. Already
-                        excluded from GitHub.
+Double-click        build\preview.bat
+Your browser opens it at http://localhost:8000
+Close the black window when you are finished.
+
+
+TO CHANGE SOMETHING
+-------------------
+
+The founders' pages     ->  open  data\founders.xlsx   in Excel
+The timeline            ->  open  data\timeline.xlsx   in Excel
+
+Type into the pale yellow cells. Leave the grey ones alone.
+Save the file and CLOSE it.
+Then double-click       build\build.bat
+That reads your changes and rebuilds the whole museum. Two or three minutes.
+
+Then look at it with preview.bat, and when you are happy, publish it in
+GitHub Desktop: write a sentence in the summary box, click "Commit to main",
+then "Push origin".
+
+
+WHAT IS IN EACH FOLDER
+----------------------
+
+site\      The website itself. This is the only folder that gets published.
+data\      The two spreadsheets, and the text pulled out of all 460 scans.
+build\     The scripts that turn data\ into site\. You do not need to read them.
+crawl\     Saved copies of the psiu.org pages the document list came from.
+
+
+THE ONE THING NOT TO DO
+-----------------------
+
+Do not edit the .json files in data\ by hand. founders.json and
+timeline-core.json are written FROM the spreadsheets every time you build.
+Anything you type into them will be overwritten. Use the spreadsheets.
+
+
+IF YOU GET STUCK
+----------------
+
+build.bat prints the reason on the screen and waits for you to press a key.
+The commonest two are: Excel is still open (close it), or the "category"
+column in the timeline has a word that is not one of the six allowed
+(founding, expansion, publications, members, conventions, insignia).
+
+Nothing you do on this computer can break the live site. It only changes when
+you press "Push origin" in GitHub Desktop.

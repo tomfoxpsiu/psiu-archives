@@ -39,6 +39,19 @@ def clean(page: str) -> str:
         out.append(s)
     return re.sub(r"\n{3,}", "\n\n", "\n".join(out)).strip()
 
+# Multi-column pages — rosters, chapter letters, In Memoriam lists, directories —
+# are where names live, and `pdftotext -layout` interleaves the columns into
+# unreadable rows there. `-raw` follows the page's own content order and usually
+# reads them correctly. Neither wins everywhere, so extract both and keep
+# whichever puts more real phrases next to each other.
+PHRASES = ("psi upsilon", "chapter house", "executive council", "new york",
+           "phi beta kappa", "the diamond", "university of", "class of", "brother")
+
+def phrase_score(text):
+    t = re.sub(r"\s+", " ", text).lower()
+    return sum(t.count(p) for p in PHRASES)
+
+
 def run(cmd, **kw):
     return subprocess.run(cmd, capture_output=True, timeout=kw.pop("timeout", 900), **kw)
 
@@ -110,10 +123,18 @@ def process(item, force=False):
         except Exception:
             pass
         # text, page-separated by form feed
-        try:
-            raw = run(["pdftotext", "-layout", "-enc", "UTF-8", pdf, "-"]).stdout.decode("utf8", "replace")
-        except subprocess.TimeoutExpired:
+        best, mode = None, None
+        for m in ("-raw", "-layout"):
+            try:
+                out = run(["pdftotext", m, "-enc", "UTF-8", pdf, "-"]).stdout.decode("utf8", "replace")
+            except subprocess.TimeoutExpired:
+                continue
+            sc = phrase_score(out)
+            if best is None or sc > best[0]:
+                best, mode = (sc, out), m
+        if best is None:
             return "text-timeout", 0
+        raw = best[1]
         pages = [clean(p) for p in raw.split("\f")]
         while pages and not pages[-1]:
             pages.pop()
@@ -130,6 +151,7 @@ def process(item, force=False):
         json.dump({
             "id": tid, "pdf": item["pdf"], "pdf_bytes": size,
             "pages": len(pages), "chars": chars,
+            "extract_mode": mode,
             "pdf_title": meta.get("Title") or None,
             "creator": meta.get("Creator") or None,
             "text": pages,
